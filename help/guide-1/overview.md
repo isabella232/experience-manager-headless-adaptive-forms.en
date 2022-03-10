@@ -15,7 +15,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 
 A typical headless adaptive form architetcure constitutes JSON representation, Web SDK, and UI Layer.
 
-![Architectire](/help/assets/architecture.png)
+![Architecture](/help/assets/architecture.png)
 
 **JSON representation**: A headless adaptive form is represented as a .json file. JSON representation defines components, constraints, and structure of a form.
 

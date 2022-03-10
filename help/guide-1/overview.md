@@ -29,9 +29,3 @@ A typical headless adaptive form architetcure constitutes JSON representation, W
 **Adaptive forms super component**: It enables use to create an adaptive form using JSON representation. It helps you declaratively create a form. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/).  
 
 **JSON Formula**: It is an implementation of form expression grammar. The grammar is a mashup of spreadsheet-like functions and operators and [JMESPath](https://jmespath.org/) a JSON query language.  It helps you query JSON representation and create rules for headless adaptive forms.  You can also use the [playground](https://opensource.adobe.com/json-formula/dist/index.html) to explore JSON formula syntax and capabilities.  
-
-<!--
-This is the landing page of the user guide. It should be the first list item in the TOC.md file.
-
-See other user landing pages to get ideas.
--->

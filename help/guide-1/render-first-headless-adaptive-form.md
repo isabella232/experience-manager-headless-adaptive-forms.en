@@ -17,7 +17,6 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 ## Prerequisites
 
 * Setup the [development environment](setup-development-environment.md)
-
 * [JSON representation](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) of the headless adaptive form.
 
 ## Render a headless adaptive form

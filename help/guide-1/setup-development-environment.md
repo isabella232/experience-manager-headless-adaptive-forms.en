@@ -161,7 +161,7 @@ Adaptive forms super component is a react based component. It requires a react a
         always-auth=true
         ```
 
-        It defines the antifactory repositories to use for AEM forms, react, and quarry related scope.
+        It defines the antifactory repositories to use for Headless Adaptive Forms, react, and quarry related scope.
     1. Run the following command to install adaptive forms super component related dependencies:
 
     ```shell

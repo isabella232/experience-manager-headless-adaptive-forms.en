@@ -5,7 +5,7 @@ description: Overview for AEM Headless Adaptive Forms.
 
 # Headless Adaptive Forms Overview
 
-You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, BootStrap, and more and use Forms Web SDK for capabilities like state management, validation, pre-filling form fields, and integrations with various other touchpoints.
+You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, BootStrap, and more and use Headless Adaptive Forms Web SDK for capabilities like state management, validation and integrations with various other touchpoints.
 
 For example, an organization We.Org is looking to digitize their customer enrollment journey. Their developers are well versed at using Angular to build frontend solutions. They are looking to build a custom front-end while offloading form validation and electronic signatures to specialized solutions.
 

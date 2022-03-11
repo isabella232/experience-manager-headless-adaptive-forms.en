@@ -12,7 +12,7 @@ For example, an organization We.Org is looking to digitize their customer enroll
 
 Adobe Experience Manager Headless Adaptive Forms provides such organizations freedom to build forms using their existing expertise in frontend languages while providing support to use back-end capabilities to create enterprise class forms experience.
 
->[!VIDEO](https://adobe-my.sharepoint.com/personal/macman_adobe_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmacman%5Fadobe%5Fcom%2FDocuments%2FRecordings%2FDemo%20recording%20for%20Headless%20AF%2D20220309%5F150858%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fmacman%5Fadobe%5Fcom%2FDocuments%2FRecordings)
+>[!VIDEO](https://video.tv.adobe.com/v/341011/)
 
 ## Prerequisites
 

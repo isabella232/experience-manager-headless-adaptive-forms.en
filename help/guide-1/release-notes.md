@@ -29,4 +29,13 @@ Forms Web SDK provides the APIs to validate constrains applied to various fields
 
 ### Storybook
 
-[API playground](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
+[API playground](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
+
+## What's next
+
+The following features would be available in upcoming releases:
+
+* HTTP APIs to invoke the business logic
+* Server-side capabilities
+* Authoring UI
+* Forms business logic (prefill, submit, server side validation, DoR and more)

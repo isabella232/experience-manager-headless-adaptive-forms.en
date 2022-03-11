@@ -20,6 +20,7 @@ API specifications provides a detailed information on all the components, constr
 ### Web SDK
 
 Forms Web SDK provides the APIs to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The following components of Forms Web SDK are available:
+
 • @aemforms/forms-super-component - 0.10.0
 • @aemforms/forms-react-components - 0.10.0
 • @aemforms/forms-core - 0.10.0

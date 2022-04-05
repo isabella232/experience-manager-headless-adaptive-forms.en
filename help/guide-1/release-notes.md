@@ -14,7 +14,7 @@ The alpha release provides you access to Headless Adaptive Forms specifications,
 ## March 2022 Release 
 
 * User interface of the File Attachment features is now spectrum-compliant.
-* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill]( https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) .
+* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) .
 * Added support for transparent panels.
 
 ## Artifacts available in alpha release

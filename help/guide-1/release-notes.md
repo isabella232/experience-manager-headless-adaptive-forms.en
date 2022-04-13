@@ -11,10 +11,10 @@ You can use Adobe Experience Manager Headless Adaptive Forms to build forms appl
 
 The alpha release provides you access to Headless Adaptive Forms specifications, Web SDK, and documentation and other tools required to help you create and author forms.
 
-## March 2022 Release 
+## March 2022 Release
 
 * User interface of the File Attachment features is now spectrum-compliant.
-* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) .
+* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page)
 * Added support for transparent panels.
 
 ## Artifacts available in alpha release
@@ -29,9 +29,9 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 Forms Web SDK provides the APIs to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The following components of Web SDK are available:
 
-• @aemforms/forms-super-component - 0.10.0
-• @aemforms/forms-react-components - 0.10.0
-• @aemforms/forms-core - 0.10.0
+* @aemforms/forms-super-component - 0.10.1-alpha.3
+* @aemforms/forms-react-components - 0.10.2-alpha.3
+* @aemforms/forms-core - 0.10.1-alpha.3
 
 ### Storybook
 

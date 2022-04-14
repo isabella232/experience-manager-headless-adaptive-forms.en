@@ -41,8 +41,8 @@ Forms Web SDK provides the APIs to validate constrains applied to various fields
 
 The following features would be available in upcoming releases:
 
-* HTTP APIs to invoke the business logic
+* HTTP APIs to invoke a business logic
 * Server-side capabilities
-* Authoring UI
-* Forms business logic (prefill, submit, server-side validation, DoR and more)
-
+* Editor (Authoring UI) for Headless adaptive forms
+* Forms business logic (prefill, submit, server-side validation, Document of Record (DoR) and more)
+* Continuous improvements to specifications and headless adaptive form runtime

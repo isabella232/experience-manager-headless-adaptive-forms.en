@@ -13,9 +13,11 @@ The alpha release provides you access to Headless Adaptive Forms specifications,
 
 ## April 2022 Release
 
+Fixed the following issues:
+
 * When a form field is of type String and has no data constraints, the validation state of such field is always set to true. Improved validation state styling of such fields to always show a green tick mark.
 
-* When data for an adaptive form is set dynamically (using the dataref property), it causes the form to re-render. Improved the adaptive forms super component to use the onFocus property on to retain the original focus.
+* When data for an adaptive form is set dynamically (using the `dataref` property), it causes the form to re-render and focus of the current field is lost. Improved the adaptive forms super component to retain the original focus on using the `dataref` property to set data dynamically.
 
 ## March 2022 Release
 

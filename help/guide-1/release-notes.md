@@ -22,7 +22,7 @@ Fixed the following issues:
 ## March 2022 Release
 
 * User interface of the File Attachment features is now spectrum-compliant.
-* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page).
+* Added [data bindings](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--data-bindings) and [data prefill](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/reference-examples--prefill-form-with-personalised-data) examples to [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page)
 * Added support for transparent panels.
 
 ## Artifacts available in alpha release
@@ -49,7 +49,8 @@ Forms Web SDK provides the APIs to validate constrains applied to various fields
 
 The following features would be available in upcoming releases:
 
-* HTTP APIs to invoke the business logic
+* HTTP APIs to invoke a business logic
 * Server-side capabilities
-* Authoring UI
-* Forms business logic (prefill, submit, server-side validation, DoR and more)
+* Editor (Authoring UI) for Headless adaptive forms
+* Forms business logic (prefill, submit, server-side validation, Document of Record (DoR) and more)
+* Continuous improvements to specifications and headless adaptive form runtime

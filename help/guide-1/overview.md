@@ -32,11 +32,15 @@ Our headless forms are based on an open-specification (JSON representation of fo
 
 ## How Headless Adaptive Form work?
 
-A Headless Adaptive Form is essentially a JSON representaion (Schema) complete with fields (Text box, choices, and many more) and corresponding rules (Conditional logic) to add dynamism to the form. You can use the schema in your application or website to natively render your forms. A single schema can serve multiple webpages and applications without making any alterations to it.    
+A Headless Adaptive Form is essentially a JSON representaion (Schema) complete with fields (Text box, choices, and many more) and corresponding rules (Conditional logic) to add dynamism to the form. You can use the schema in your application or website to natively render your forms. A single schema can serve multiple webpages and applications without making any app or website specfic changes to it.
 
 ![How Headless Adaptive Form works](/help/assets/how-headless-adaprive-forms-work.png)
 
 You can use React component shipped with Headless Adaptive Forms to render an Adaptive Form or build your own custom component to natively render a Headless Form in a Website or an application or use any UI framework or programming language to build your own components to render your forms.
+
+## How to join the beta program?
+
+You can send an email to [headless-af-beta@adobe.com](headless-af-beta@adobe.com) from your official email ID to join the beta program.
 
 ## Artifacts available in beta release
 

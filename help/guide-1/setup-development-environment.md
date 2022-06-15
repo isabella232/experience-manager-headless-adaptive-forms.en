@@ -5,7 +5,7 @@ description: Setup development environment for AEM Headless Adaptive Forms
 
 # Setup development environment
 
-You can use the local development environment to create, test, and deploy headless forms. After a headless adaptive form or related assets are ready on the local development environment, you can deploy the headless adaptive form application to your publishing environment.
+You can setup development environment to create, test, and deploy headless forms. After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment.
 
 ## Prerequisites
 
@@ -103,12 +103,12 @@ The extension adds adaptive forms related IntelliSense capabilities to provide s
 
 ## Create and setup a react app
 
-Adaptive forms super component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:
+Adaptive forms renderer component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:
 
 1. Open terminal in Visual Studio code and run the following command to create a react app and installs all related dependencies:
 
     ```shell
-    npx create-react-app [react-app-name] --scripts-version 4.0.3 --template typescript*
+    npx create-react-app [react-app-name] --scripts-version 4.0.3 --template typescript
     ```
 
     Where [react-app-name] represents name of the project, script version is 4.0.3, and template of type typescript. For example, the following command creates a react app named *headless-forms-demo*.
@@ -117,18 +117,24 @@ Adaptive forms super component is a react based component. It requires a react a
     npx create-react-app headless-forms-demo --scripts-version 4.0.3 --template typescript
     ```
 
-    It may take some time to create the react app and install all the dependencies. The command creates an empty react app with latest version of react and react-dom dependencies. It does not have any artifacts related to adaptive forms super component.
+    It may take some time to create the react app and install all the dependencies. The command creates an empty react app with latest version of react and react-dom dependencies. It does not have any artifacts related to adaptive forms renderer component.
 
-1. Adaptive forms super component is based on react spectrum and requires react 16.0.0 and react-dom 16.0.0. To install react 16.0.0 and related dependencies:
+1. Adaptive forms renderer component is based on react spectrum and requires react 16.0.0 and react-dom 16.0.0. To install react 16.0.0 and related dependencies:
     1. Open the Visual Studio code terminal Window or command prompt.
     1. Navigate to the directory of react project.  
     1. Run the following command:
 
         ```shell
-        npm install --save react@16.0.0 react-dom@16.0.0*
+        npm install --save react@16.0.0 react-dom@16.14.0 -force
         ```
+1. Run the following command to install adaptive forms renderer component related dependencies:
 
-1. Install dependencies for adaptive forms super component. Packages for these dependencies are available in Adobe Artifactory. To authenticate with Adobe Artifactory and install dependencies for adaptive forms super component:
+    ```shell
+    npm i --save @aemforms/forms-super-component @aemforms/forms-react-components  @adobe/react-spectrum @react/react-spectrum
+    ```
+
+
+<!-- 1. Install dependencies for adaptive forms renderer component. Packages for these dependencies are available in Adobe Artifactory. To authenticate with Adobe Artifactory and install dependencies for adaptive forms renderer component:
 
     1. Create environment variables ARTIFACTORY_USER and ARTIFACTORY_API_TOKEN. The ARTIFACTORY_USER stores Adobe LDAP username and ARTIFACTORY_API_TOKEN stores your [Adobe Artifactory token](https://wiki.corp.adobe.com/display/Artifactory/API+Keys)
 
@@ -162,7 +168,7 @@ Adaptive forms super component is a react based component. It requires a react a
         ```
 
         It defines the antifactory repositories to use for Headless Adaptive Forms, react, and quarry related scope.
-    1. Run the following command to install adaptive forms super component related dependencies:
+    1. Run the following command to install adaptive forms renderer component related dependencies:
 
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum

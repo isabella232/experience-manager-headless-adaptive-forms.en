@@ -29,6 +29,8 @@ Our headless forms are based on an open-specification (JSON representation of fo
 * Forms Data Model to receive or send data to disparate data sources.
 * Pre-filling a form based on user-profile or available data.
 
+![JSON Form Model And Rendition](/help/assets/rendered-headless-form.png)
+
 ## How Headless Adaptive Form work?
 
 A Headless Adaptive Form is essentially a JSON representation (Schema) complete with fields (Text box, choices, and many more fields) and corresponding rules (Conditional logic) to add dynamism to the form. You can use REST APIs in your application or website to request the hosted schema and natively render the schema as a form in your app or website. A schema can serve multiple webpages and applications without making any app or website specific changes to it.
@@ -41,31 +43,7 @@ You can use React component shipped with Headless Adaptive Forms to render an Ad
 
 You can send an email to headless-af-beta@adobe.com from your official email ID to join the beta program.
 
-## Artifacts available in beta release
 
-In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you, the following artifacts are available in the beta release:
-
-<!-- ### React Renderer component -->
-
-
-### API Specifications
-
-Headless Adaptive Forms specification provides a detailed information on all the components, constraints, and methods available for Headless Adaptive Forms. The specification is available in [HTML](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/0.10.0/index.html) and [PDF](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/0.10.0/index.pdf) formats.
-
-### Forms Web SDK
-
-Forms Web SDK provides the APIs to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The following components of Web SDK are available:
-
-* @aemforms/forms-super-component - 0.11.0
-* @aemforms/forms-react-components - 0.11.0
-* @aemforms/forms-core - 0.11.0
-
-<!-- ### Forms Core Components  -->
-
-
-#### Storybook
-
-[API playground](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
 
 ## Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 

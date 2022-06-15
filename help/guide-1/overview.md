@@ -5,7 +5,7 @@ description: Overview for AEM Headless Adaptive Forms.
 
 # Headless Adaptive Forms Overview
 
-Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website, an application, or email. You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. This helps improve the enrollment experience for customers  leading to better conversion. Headless adaptive forms includes:
+Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website, an application, or email. You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. This helps improve the enrollment experience for customers leading to better conversion. Headless adaptive forms includes:
 
 * Multi-channel forms with a single source of truth to easily manage and update forms.
 * Channel agnostic JSON representation of forms for easy consumption in any application.
@@ -61,29 +61,11 @@ Forms Web SDK provides the APIs to validate constrains applied to various fields
 * @aemforms/forms-core - 0.11.0
 
 ### Forms Core Components  
+
+
 #### Storybook
 
 [API playground](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
-
-<!-- ## Architecture
-
-A typical headless adaptive form architetcure constitutes JSON representation, Web SDK, and UI Layer.
-
-![Architecture](/help/assets/architecture.png)
-
-**JSON representation**: A headless adaptive form is represented as a .json file. JSON representation defines components, constraints, and structure of a form.
-
-**Forms Web SDK**: Forms Web SDK is a client-side JavaScript library. It allows you apply server-side validations on form fields, maintain state of the form, and provides hooks to connect form with UI layer or adaptive forms super component. Forms Web SDK is a client-side JavaScript library that allows customers to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework.  The Forms Web SDK has the following components:
-• **Business rule processor**: The business rule processor accepts the forms JSON representation as input, manages the state of the form fields, executes rules, and event handlers present in the JSON.
-• **React binder**: Provides hooks over controller to add state to Form Components. It is also helpful in pre-filling a form.
-• **Components library**: It provides react Spectrum Components and uses hooks in React Binder module to add state to those components.
-
-**View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form.
-
-**Adaptive forms renderer**: It enables use to redner an Adaptive Form using JSON representation. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/).  
-
-**JSON Formula**: It is an implementation of form expression grammar. The grammar is a mashup of spreadsheet-like functions and operators and [JMESPath](https://jmespath.org/) a JSON query language.  It helps you query JSON representation and create rules for headless adaptive forms.  You can also use the [playground](https://opensource.adobe.com/json-formula/dist/index.html) to explore JSON formula syntax and capabilities.  -->
-
 
 ## Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 

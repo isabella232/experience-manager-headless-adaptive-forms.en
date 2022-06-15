@@ -39,13 +39,13 @@ You can use React component shipped with Headless Adaptive Forms to render an Ad
 
 ## How to join the beta program?
 
-You can send an email to [headless-af-beta@adobe.com](headless-af-beta@adobe.com) from your official email ID to join the beta program.
+You can send an email to headless-af-beta@adobe.com from your official email ID to join the beta program.
 
 ## Artifacts available in beta release
 
 In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you, the following artifacts are available in the beta release:
 
-### React Renderer component
+<!-- ### React Renderer component -->
 
 
 ### API Specifications
@@ -60,7 +60,7 @@ Forms Web SDK provides the APIs to validate constrains applied to various fields
 * @aemforms/forms-react-components - 0.11.0
 * @aemforms/forms-core - 0.11.0
 
-### Forms Core Components  
+<!-- ### Forms Core Components  -->
 
 
 #### Storybook

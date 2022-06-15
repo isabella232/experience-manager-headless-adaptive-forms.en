@@ -26,7 +26,9 @@ A typical Headless Adaptive Form architecture  constitutes an Adobe Experience M
 • **React binder**: Provides hooks over controller to add state to Form Components. It is also helpful in pre-filling a form.
 • **Components library**: It provides react Spectrum Components and uses hooks in React Binder module to add state to those components.
 
-<!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. -->
+<!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
+
+Core-Components: It enables use to render an Adaptive Form using JSON representation. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/). You can develop your own renderer or embed the React based Adaptive Forms renderer, provided OOTB, in your front-end app to render the form. -->
 
 **JSON Formula**: It is an implementation of form expression grammar. The grammar is a mashup of spreadsheet-like functions and operators and [JMESPath](https://jmespath.org/) a JSON query language.  It helps you query JSON representation and create rules for headless adaptive forms.  You can also use the [playground](https://opensource.adobe.com/json-formula/dist/index.html) to explore JSON formula syntax and capabilities.
 
@@ -43,12 +45,10 @@ In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you,
 
 Forms Web SDK provides the APIs to validate constraints applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The following components of Web SDK are available:
 
-* **@aemforms/forms-super-component - 0.11.0**: It enables use to render an Adaptive Form using JSON representation. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/). You can develop your own renderer or embed the React based Adaptive Forms renderer, provided OOTB, in your front-end app to render the form.
-* **@aemforms/forms-react-components - 0.11.0**
-* **@aemforms/forms-core - 0.11.0**: It is a set of core components included in the Web
+* **[@aemforms/forms-super-component](https://www.npmjs.com/package/@aemforms/forms-super-component)** 
+* **[@aemforms/forms-react-core-components](https://www.npmjs.com/package/@aemforms/forms-react-core-components)**
+* **[@aemforms/forms-core](https://www.npmjs.com/package/@aemforms/forms-core)**
 
-
-#### JavaScript Libraries
 
 #### Storybook
 

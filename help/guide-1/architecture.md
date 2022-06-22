@@ -21,10 +21,10 @@ A typical Headless Adaptive Form architecture  constitutes an Adobe Experience M
 
 **Front-end Apps**: Front-end apps like, SPA (Single Page Applications), Mobile Apps, JavaScript Apps, to consume the JSON Form Representation and render the form on a client. 
 
-**Forms Web SDK (Client-Side Runtime)**: Forms Web SDK is a client-side JavaScript library. It allows you to apply server-side validations on form fields, maintain state of the form, and provides hooks to connect form with UI layer or adaptive forms rendered component. It allows customers to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The Forms Web SDK has the following components:
+**Forms Web SDK (Client-Side Runtime)**: Forms Web SDK is a client-side JavaScript library. It allows you to apply client-side validations on form fields, maintain state of the form, and provides hooks to connect form with UI layer or adaptive forms rendered component. It allows customers to validate constrains applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. The Forms Web SDK has the following components:
 • **Business rule processor**: The business rule processor accepts the forms JSON representation as input, manages the state of the form fields, executes rules, and event handlers present in the JSON.
 • **React binder**: Provides hooks over controller to add state to Form Components. It is also helpful in pre-filling a form.
-• **Components library**: It provides react Spectrum Components and uses hooks in React Binder module to add state to those components.
+• **Components library**: It provides React Spectrum Components and uses hooks in React Binder module to add state to those components.
 
 <!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
 
@@ -52,7 +52,7 @@ Forms Web SDK provides the APIs to validate constraints applied to various field
 
 #### Storybook
 
-[API playground](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/adaptive-form-introduction--page) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
+[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) provides an overview of different components of Headless Adaptive Forms. It also provides a list of all the supported components, their corresponding properties, and constraints.
 
 ### Forms Core Components  
 
@@ -62,14 +62,16 @@ Core Components are a set of standardized Web Content Management (WCM) component
 
 ### Specifications
 
-Headless Adaptive Forms specification provides a detailed information on all the components, constraints, and methods available for Headless Adaptive Forms. The specification is available in [HTML](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/0.10.0/index.html) and [PDF](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/0.10.0/index.pdf) formats.
+Headless Adaptive Forms specification provides a detailed information on all the components, constraints, and methods available for Headless Adaptive Forms. The specification is available in [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) formats.
 
-### HTTP API
+### HTTP and JS API
 
-HTTP APIs allow you to list, fetch, validate, submit, track submission status of headless forms.
+[HTTP APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/) allow you to list, fetch, validate, submit, track submission status of headless forms.
+
+[JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless Adaptive Forms with any JavaScript based UI framework. 
 
 ### Visual Studio Code Plugin
 
-Visual Studio Code extension to help create a valid JSON representation. It provides intellisese support and validation for JSON representation of forms.  
+[Visual Studio Code extension](/help/assets/adaptive-form-builder-0.10.0.vsix) to help create a valid JSON representation. It provides IntelliSense support and validation for JSON representation of forms.  
 
 ![JSON Form Model And Rendition](/help/assets/rendered-headless-form.png)

@@ -19,9 +19,69 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 * Setup the [development environment](setup-development-environment.md)
 * [JSON representation](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) of the headless adaptive form.
 
-## Render a headless adaptive form
+## Use the archtype project to create a headless adaptive form
 
-To create a headless adaptive form:
+1. Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archtype version 37 or later.
+
+    ```
+
+    mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
+    -D archetypeGroupId=com.adobe.aem \
+    -D archetypeArtifactId=aem-project-archetype \
+    -D archetypeVersion=37 \
+    -D appTitle=myheadlessform \
+    -D appId=myheadlessform \
+    -D groupId=com.myheadlessform \
+    -D includeFormsheadless="y"  
+
+    ```
+
+    Change the `appTitle`, `appId`, and `groupId` in the above command to reflect your environment.
+
+   * Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms. If you use Forms Portal, set the `includeExamples=y` option. It adds Forms Portal core components to the project.
+
+   * Use the `includeFormsheadless=y` option includes Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
+        * A template type Adaptive Form V2.
+        * A blank template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
+        * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
+
+1. Deploy the project to your local development environment. You can use the following command to deploy to your local development environment
+
+    `mvn -PautoInstallPackage clean install`
+
+    For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
+
+    It deploys the blank template and other resources included in the project to your development environment. 
+
+1. To create a Headless Adapitve Form:
+
+    1. Login to your local Forms as a Cloud Service environment. The default URL is http://localhost:4502/
+
+    1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
+
+    1. Create a folder and upload JSON representation of your headless adaptive form to it.
+
+    1. Tap Create and select Adaptive Form. Select the Bank template and tap Next.
+
+    1. An option to Add Properties appears. Specify the values for following property fields. The Title and Name fields are mandatory:
+
+        * Title: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
+        * Name: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
+        * Description: Specifies the detailed information about the form.
+        * Tags: Specifies tags to uniquely identify the Adaptive Form. Tags help in searching the form. To create tags, type new tag names in the Tags box.
+
+    1. Tap Create. An Adaptive Form is created and a dialog to open the form for editing appears.
+
+    1. Tap Open to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
+
+    1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
+    
+    1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON representation uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendetion of the form.
+
+    1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
+
+
+## Render a headless adaptive form with a react app
 
 1. Open the react project in your IDE. This procedure assumes you are using Visual Studio code.
 

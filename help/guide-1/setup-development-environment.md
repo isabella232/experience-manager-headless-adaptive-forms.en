@@ -80,7 +80,7 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>1.62.0 or later</p>
             </td>
             <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://git.corp.adobe.com/dxforms/VSCODE_FormBuilder/blob/master/INSTALLATION.md">Adaptive forms builder extension</a></p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.10.0.vsix">Adaptive forms builder extension</a></p>
             </td>
         </tr>
     </tbody>

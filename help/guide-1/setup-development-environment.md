@@ -83,10 +83,24 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.10.0.vsix">Adaptive forms builder extension</a></p>
             </td>
         </tr>
+                <tr>
+            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Local Developement environment for AEM Forms as a Cloud Service</p>
+            </td>
+            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>&nbsp;</p>
+            </td>
+            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
+            </td>
+            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-environment/setup-local-development-environment.html?lang=en">Set up a local development environment and initial development project</a></p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
-## Install Visual Studio Code extension for headless adaptive forms
+## Install Visual Studio Code extension for headless adaptive forms {Install-Visual-Studio-Code-extension-for-headless-adaptive forms}
 
 The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
 

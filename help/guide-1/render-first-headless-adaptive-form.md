@@ -21,7 +21,11 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 
 ## Use the archtype project to create a headless adaptive form
 
-1. Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archtype version 37 or later.
+The archeype project is a maven based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for headless adaptive forms to Forms as a Cloud Service and local development environments.
+
+It is mandatory to create and deploy the archetype 37 based project during the beta phase. Post-beta the project would be required only for customizations. To create and deploy the project:  
+
+1. Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archtype version 37 or later. If you are on Windows, run the following command with Administrative priviliages (Run command prompt or bash shell as an administrator):   
 
     ```
 
@@ -91,7 +95,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 
 1. Remove the `<header>` tag and code in it.
 
-1. Add the `<Spectrum3Provider>` and adaptive form mappings to the App.tsx file. For the [contact us](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) form example in storybook, the code look like the following:
+1. Add the `<Spectrum3Provider>` and adaptive form mappings to the App.tsx file. For the [contact us](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) form example in [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) , the code look like the following:
 
     ```JavaScript  
 

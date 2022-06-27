@@ -80,7 +80,7 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>1.62.0 or later</p>
             </td>
             <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.10.0.vsix">Adaptive forms builder extension</a></p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.11.0.vsix">Adaptive forms builder extension</a></p>
             </td>
         </tr>
                 <tr>
@@ -100,11 +100,11 @@ You require knowledge to build application using react and the following softwar
     </tbody>
 </table>
 
-## Install Visual Studio Code extension for headless adaptive forms {Install-Visual-Studio-Code-extension-for-headless-adaptive forms}
+## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive forms}
 
 The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
 
-1. Download the [Adaptive forms builder extension](https://git.corp.adobe.com/dxforms/VSCODE_FormBuilder/blob/master/INSTALLATION.md).
+1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.11.0.vsix).
 
 1. Navigate the directory containing the *adaptive-form-builder-[version].vsix* file.
 
@@ -141,6 +141,7 @@ Adaptive forms renderer component is a react based component. It requires a reac
         ```shell
         npm install --save react@16.0.0 react-dom@16.14.0 -force
         ```
+
 1. Run the following command to install adaptive forms renderer component related dependencies:
 
     ```shell

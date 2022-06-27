@@ -49,17 +49,21 @@ It is mandatory to create and deploy the archetype 37 based project during the b
         * A blank template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
         * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-1. Deploy the project to your local development environment. You can use the following command to deploy to your local development environment
+1. Deploy the project. You can deploy the project to your local development environment to locally create headless adaptive forms or deploy directly to your Forms as a Cloud Service environment. 
 
-    `mvn -PautoInstallPackage clean install`
+    * To deploy to your local development environment, use the following command:
 
-    For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
+        `mvn -PautoInstallPackage clean install`
 
-    It deploys the blank template and other resources included in the project to your development environment. 
+        For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
+    
+    *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article :
+
+    It deploys the blank template and other resources included in the project to your development environment.
 
 1. To create a Headless Adapitve Form:
 
-    1. Login to your local Forms as a Cloud Service environment. The default URL is http://localhost:4502/
+    1. Login to your [local](http://localhost:4502/) or Forms as a Cloud Service environment. The default URL is 
 
     1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
@@ -69,17 +73,17 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
     1. An option to Add Properties appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
-        * Title: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
-        * Name: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
-        * Description: Specifies the detailed information about the form.
-        * Tags: Specifies tags to uniquely identify the Adaptive Form. Tags help in searching the form. To create tags, type new tag names in the Tags box.
+        * **Title**: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
+        * **Name**: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
+        * **Description**: Specifies the detailed information about the form.
+        * **Tags**: Specifies tags to uniquely identify the Adaptive Form. Tags help in searching the form. To create tags, type new tag names in the Tags box.
 
     1. Tap Create. An Adaptive Form is created and a dialog to open the form for editing appears.
 
     1. Tap Open to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
 
     1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
-    
+
     1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON representation uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendetion of the form.
 
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.

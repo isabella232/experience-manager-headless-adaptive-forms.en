@@ -49,7 +49,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
         * A blank template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
         * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-1. Deploy the project. You can deploy the project to your local development environment to locally create headless adaptive forms or deploy directly to your Forms as a Cloud Service environment. 
+1. Deploy the project. You can deploy the project to your local development environment to locally create headless adaptive forms or deploy directly to your Forms as a Cloud Service environment. If you are on Windows, run the following command with Administrative priviliages (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/))
 
     * To deploy to your local development environment, use the following command:
 
@@ -89,17 +89,22 @@ It is mandatory to create and deploy the archetype 37 based project during the b
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 
 
-    1. To render the form, on your local development machine:
+    1. To render the form, 
+    
+       * Hosted on your local development machine:
+    
+          1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
 
-       1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
-
-        open the command prompt and navigate to the ui.frontend.react.forms.af project and run the following command:
+          1. Open the command prompt and navigate to the ui.frontend.react.forms.af project and run the following command:
 
             `npm run start`
 
             It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
+    
+       * Hosted on your Forms as a Cloud Service environment:
 
-## Render a headless adaptive form with a react app on the local machine
+
+<!-- ## Render a headless adaptive form with a react app on the local machine
 
 1. Open project in your IDE. This procedure assumes you are using Visual Studio code.
 
@@ -146,4 +151,4 @@ The adaptive form opens in a new browser window. For examples of headless adapti
 
 * [Storybook](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page).
 
-* [API Specifications](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/latest/internal/#_appendix_b_implementation_and_examples)
+* [API Specifications](https://git.corp.adobe.com/pages/livecycle/af2-docs/spec/latest/internal/#_appendix_b_implementation_and_examples) --> 

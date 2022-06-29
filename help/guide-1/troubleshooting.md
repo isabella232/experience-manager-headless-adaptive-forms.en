@@ -4,6 +4,8 @@ description: Headless adaptive forms architecture
 keywords: headless, adaptive form, architecture
 ---
 
+# Troubleshooting 
+
 ## Unable to deploy the Archetype project on local development environment 
 
 ### Issue

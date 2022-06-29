@@ -4,7 +4,7 @@ description: Create first headless adaptive form
 keywords: headless, adaptive form
 ---
 
-# Render your first headless adaptive form
+# Create your first headless adaptive form
 
 You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, BootStrap, and more and use  Forms Web SDK for capabilities like state management, validation and integrations with various other touchpoints.
 
@@ -63,7 +63,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
 1. To create a Headless Adapitve Form:
 
-    1. Login to your [local](http://localhost:4502/) or Forms as a Cloud Service environment. The default URL is 
+    1. Login to your [local](http://localhost:4502/) or Forms as a Cloud Service environment.
 
     1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
@@ -89,9 +89,19 @@ It is mandatory to create and deploy the archetype 37 based project during the b
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 
 
-## Render a headless adaptive form with a react app
+    1. To render the form, on your local development machine:
 
-1. Open the react project in your IDE. This procedure assumes you are using Visual Studio code.
+       1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
+
+        open the command prompt and navigate to the ui.frontend.react.forms.af project and run the following command:
+
+            `npm run start`
+
+            It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
+
+## Render a headless adaptive form with a react app on the local machine
+
+1. Open project in your IDE. This procedure assumes you are using Visual Studio code.
 
 1. Create a file with .form.json extension and add the JSON representation code to it. For example, demo.form.json
 

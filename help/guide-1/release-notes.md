@@ -5,7 +5,7 @@ description: Overview for AEM Headless Adaptive Forms.
 
 # Release notes
 
-Welcome to Experience Manager Headless Adaptive Forms alpha release. Read on for resources and instructions to get started and make the best of the release.
+Welcome to Experience Manager Headless Adaptive Forms Beta release. Read on for resources and instructions to get started and make the best of the release.
 
 You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI frameworks like React, Angular, and more and use Adaptive Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 

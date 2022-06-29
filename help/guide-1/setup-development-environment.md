@@ -115,7 +115,7 @@ The extension adds adaptive forms related IntelliSense capabilities to provide s
 
     ![Installing extension](/help/assets/install-extension.png)
 
-## Create and setup a react app
+<!-- ## Create and setup a react app
 
 Adaptive forms renderer component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:
 
@@ -187,6 +187,6 @@ Adaptive forms renderer component is a react based component. It requires a reac
 
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
-    ``` -->
+    ``` 
 
- Your environment is ready. You can use the react app to embed and render an adaptive form.
+ Your environment is ready. --> You can use the react app to embed and render an adaptive form.

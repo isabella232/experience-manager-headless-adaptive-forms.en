@@ -77,4 +77,3 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 [Visual Studio Code extension](/help/assets/adaptive-form-builder-0.11.0.vsix) to help create a valid JSON representation. It provides IntelliSense support and validation for JSON representation of forms.  
 
-![JSON Form Model And Rendition](/help/assets/rendered-headless-form.png)

@@ -17,7 +17,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 ## Prerequisites
 
 * Setup the [development environment](setup-development-environment.md)
-* [JSON representation](https://git.corp.adobe.com/pages/livecycle/af2-web-runtime/story/?path=/story/crispr-introduction--page) of the headless adaptive form.
+* [JSON representation](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) of the headless adaptive form.
 
 ## Use the archtype project to create a headless adaptive form
 
@@ -57,7 +57,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
         For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
     
-    *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article :
+    <!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
 
     It deploys the blank template and other resources included in the project to your development environment.
 
@@ -89,9 +89,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 
 
-    1. To render the form, 
-    
-       * Hosted on your local development machine:
+    1. To render the form, hosted on your local development machine:
     
           1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
 
@@ -101,7 +99,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
             It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
     
-       * Hosted on your Forms as a Cloud Service environment:
+       <!-- * Hosted on your Forms as a Cloud Service environment: -->
 
 
 <!-- ## Render a headless adaptive form with a react app on the local machine

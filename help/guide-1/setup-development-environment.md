@@ -5,7 +5,7 @@ description: Setup development environment for AEM Headless Adaptive Forms
 
 # Setup development environment
 
-You can setup development environment to create, test, and deploy headless forms. After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment.
+You can setup development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -->
 
 ## Prerequisites
 
@@ -83,22 +83,92 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.11.0.vsix">Adaptive forms builder extension</a></p>
             </td>
         </tr>
-                <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Local Developement environment for AEM Forms as a Cloud Service</p>
-            </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>&nbsp;</p>
-            </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
-            </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-environment/setup-local-development-environment.html?lang=en">Set up a local development environment and initial development project</a></p>
-            </td>
-        </tr>
     </tbody>
 </table>
+
+## Set up a local development environment and initial development project {#local-development-environment}
+
+To set up a new local development environment and use it to develop Headless Adaptive Forms, perform the following actions in listed order:
+
+* [Set up development tools](#setup-development-tools-for-AEM-projects)
+
+* [Setup local Author and Publish instances](#set-up-local-experience-manager-environment-for-development)
+
+### Prerequisites
+
+You require the following software to set up a local development environment. Download these before starting to set up the local development environment:
+
+|Software   | Description |Download links|
+|---|---|---|
+| Adobe Experience Manager as a Cloud Service Pre-release SDK | SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools| Download the latest SDK from [Software Distribution](#software-distribution)||
+| Adobe Experience Manager Forms Pre-release feature archive (AEM Forms add-on)  | Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Forms features| Download from [Software Distribution](#software-distribution) |
+
+#### Download the latest version of software from Software Distribution {#software-distribution}
+
+To download latest version of Adobe Experience Manager as a Cloud Service SDK, Experience Manager Forms feature archive (AEM Forms add-on), forms reference assets, or Forms Designer from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html):
+
+1. Log in to <https://experience.adobe.com/#/downloads> with your Adobe ID
+
+    >[!NOTE]
+    >
+    > Your Adobe Organization must be provisioned for AEM as a Cloud Service to download the AEM as a Cloud Service SDK.
+
+1. Navigate to the **[!UICONTROL AEM as a Cloud Service]** tab.
+1. Sort by published date in descending order.
+1. Click on the latest Adobe Experience Manager as a Cloud Service SDK, Experience Manager Forms feature archive (AEM Forms add-on), forms reference assets, or Forms Designer.
+1. Review and accept the EULA. Tap the **[!UICONTROL Download]** button.
+
+### Set up development tools for AEM Projects {#setup-development-tools-for-AEM-projects}
+
+The Adobe Experience Manager Forms project is a custom code base. It contains code, configurations, and content that is deployed via Cloud Manager to [!DNL Adobe Experience Manager] as a Cloud Service. The [AEM Project Maven Archetype](https://github.com/adobe/aem-project-archetype) provides the baseline structure for the project.
+
+Set up the following development tools to use for your [!DNL Adobe Experience Manager] project for development:
+
+* [Java™](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#local-development-environment-set-up)
+* [Git](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-git)
+* [Node.js (npm)](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#node-js)
+* [Maven](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven)
+
+For detailed instructions to set up previously mentioned development tools, see [Set up development tools](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html).
+
+
+### Set up local Experience Manager environment for development
+
+The Cloud Service SDK provides a QuickStart file. It runs a local version of Experience Manager. You can run both the Author and Publish instances locally.
+
+<!-- While the QuickStart provides a local development experience, it does not have all features available in [!DNL Adobe Experience Manager] as a Cloud Service. So, always test your features and code with [!DNL Adobe Experience Manager] as a Cloud Service development environment before moving the features to stage or production. -->
+
+To install and configure local Experience Manager environment, perform the following steps:
+
+* [Download and extract](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the [!DNL Adobe Experience Manager] as a Cloud Service SDK
+* [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service)
+* [Set up a Publish instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-publish-service)
+
+### Add Forms archive to local Author and Publish instances and configure Forms-specific users {#add-forms-archive-configure-users}
+
+Perform the following steps in the listed order to add Forms archive to Experience Manager instances and configure forms-specific users:
+
+#### Install the latest Forms add-on feature archive {#add-forms-archive}
+
+Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create, style, and optimize Adaptive Forms on the local development environment. Install the package to create an Adaptive Form and use various other features of [!DNL AEM Forms]. To install the package:
+
+1. Download and extract the latest [!DNL AEM Forms] archive for your operating system from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html).
+
+1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
+
+1. Stop your  AEM instance, place the [!DNL AEM Forms] add-on feature archive, `aem-forms-addon-<version>.far`,  in the install folder, and restart the instance.
+
+#### Configure users and permissions {#configure-users-and-permissions}
+
+Create users like Form Developer and Form Practitioner and [add these users to pre-defined forms groups](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=en#accessing) to provide them required permissions. The table below lists all types of users and pre-defined groups for each type of forms users:
+  
+| User Type | AEM Group |
+|---|---|
+| Form practitioner / | [!DNL forms-users] (AEM Forms Users), [!DNL template-authors], [!DNL workflow-users], [!DNL workflow-editors], and [!DNL fdm-authors]  |
+| Form developer | [!DNL forms-users] (AEM Forms Users), [!DNL template-authors], [!DNL workflow-users], [!DNL workflow-editors], and [!DNL fdm-authors]  |
+| Customer Experience Lead or UX Designer| [!DNL forms-users], [!DNL template-authors]|
+| AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
+| End user| When a user must login to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
 ## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
 
@@ -114,7 +184,6 @@ The extension adds adaptive forms related IntelliSense capabilities to provide s
     Replace the [version] with actual version of the extension. For example, adaptive-form-builder-1.0.0.vsix
 
     ![Installing extension](/help/assets/install-extension.png)
-
 <!-- ## Create and setup a react app
 
 Adaptive forms renderer component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:
@@ -188,5 +257,5 @@ Adaptive forms renderer component is a react based component. It requires a reac
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
     ``` 
-
- Your environment is ready. --> You can use the react app to embed and render an adaptive form.
+--> 
+ Your environment is ready. You can proceed to create a Headless Adaptive Form.

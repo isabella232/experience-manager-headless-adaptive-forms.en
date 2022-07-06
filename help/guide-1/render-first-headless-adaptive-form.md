@@ -12,12 +12,12 @@ For example, an organization We.Org is looking to digitize their customer enroll
 
 Adobe Experience Manager Headless Adaptive Forms provides such organizations freedom to build forms using their existing expertise in frontend languages while providing support to use back-end capabilities to create enterprise class forms experience.
 
->[!VIDEO](https://video.tv.adobe.com/v/341011/)
+<!-- >>[!VIDEO](https://video.tv.adobe.com/v/341011/) -->
 
 ## Prerequisites
 
 * Setup the [development environment](setup-development-environment.md)
-* [JSON representation](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) of the headless adaptive form.
+* [JSON representation](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) of your headless adaptive forms.
 
 ## Use the archtype project to create a headless adaptive form
 
@@ -49,21 +49,19 @@ It is mandatory to create and deploy the archetype 37 based project during the b
         * A blank template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
         * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-1. Deploy the project. You can deploy the project to your local development environment to locally create headless adaptive forms or deploy directly to your Forms as a Cloud Service environment. If you are on Windows, run the following command with Administrative priviliages (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/))
-
-    * To deploy to your local development environment, use the following command:
+1. Deploy the project to your local development environment to locally create headless adaptive forms. <!-- or deploy directly to your Forms as a Cloud Service environment. !--> To deploy to your local development environment, use the following command: 
 
         `mvn -PautoInstallPackage clean install`
 
-        For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing)
+    If you are on Windows, run the following command with Administrative priviliages (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
     
     <!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
 
-    It deploys the blank template and other resources included in the project to your development environment.
+    <br>It deploys the blank template and other resources included in the project to your development environment.
 
 1. To create a Headless Adapitve Form:
 
-    1. Login to your [local](http://localhost:4502/) or Forms as a Cloud Service environment.
+    1. Login to your [local](http://localhost:4502/) <!-- or Forms as a Cloud Service --> development environment.
 
     1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
@@ -88,7 +86,6 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 
-
     1. To render the form, hosted on your local development machine:
     
           1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
@@ -96,8 +93,12 @@ It is mandatory to create and deploy the archetype 37 based project during the b
           1. Open the command prompt and navigate to the ui.frontend.react.forms.af project and run the following command:
 
             `npm run start`
+        
+        It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
 
-            It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
+        You can take a look at [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) to learn about the various components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also take a look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.
+
+
     
        <!-- * Hosted on your Forms as a Cloud Service environment: -->
 

@@ -11,6 +11,8 @@ user-guide-description: Documentation for Adobe Experience Manager Headless Adap
 + [Architecture](architecture.md)
 + [Setup Development environment](setup-development-environment.md)
 + [Render a headless adaptive form](render-first-headless-adaptive-form.md)
++ [Frequently asked question](faq.md)
+
 
 <!--
 

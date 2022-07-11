@@ -13,6 +13,7 @@ hide: yes
 + [Setup Development environment](setup-development-environment.md)
 + [Render a headless adaptive form](render-first-headless-adaptive-form.md)
 + [Frequently asked question](faq.md)
++ [Troubleshooting](troubleshooting.md)
 
 
 <!--

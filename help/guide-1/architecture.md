@@ -6,7 +6,7 @@ keywords: headless, adaptive form, architecture
 
 # Headless Adaptive Forms Architecture {#architecture}
 
-A typical Headless Adaptive Form architecture  constitutes an Adobe Experience Manager Server, JSON representation of Forms, various frontend apps for channel-specific form renditions.
+A typical Headless Adaptive Form architecture constitutes an Adobe Experience Manager Server, JSON representation of forms, various frontend apps for channel-specific form renditions.
 
 ![Architecture](/help/assets/headless-af-architecture.png)
 

@@ -5,7 +5,7 @@ description: Overview for AEM Headless Adaptive Forms.
 
 # Headless Adaptive Forms Overview
 
-Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website, application, or email. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. This helps improve the enrolment experience for customers leading to better conversion. Headless adaptive forms includes:
+Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. This helps improve the enrolment experience for customers leading to better conversion. Headless adaptive forms includes:
 
 * Omni-channel forms with a single source of truth to easily manage and update forms.
 * Channel agnostic JSON representation of forms for easy consumption in any application.
@@ -16,11 +16,11 @@ Adobe Experience Manager Headless Adaptive Forms is an API-first form builder pl
 
 ![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.jpg)
 
-Headless Adaptive Forms are for everyone. However, at the beta stage, we expect front end developers familiar with modern JavaScript frameworks to use the Headless Adaptive Forms. Developers can leverage their existing expertise in frontend languages like React to build beautiful enterprise class form experiences.
+At the beta stage, we expect front end developers familiar with modern JavaScript frameworks to use the Headless Adaptive Forms. Developers can leverage their existing expertise in frontend languages like React to create build beautiful enterprise class data capture experiences.
 
 ## Why use Adobe Experience Manager Headless Adaptive Forms?
 
-Our headless forms are based on an open-specification (JSON representation of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks on Adobe. You have freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
+Headless Adaptive Forms are based on an [Adaptive Forms V2 specification]((/help/assets/Headless-Adaptive-Form-Specification.pdf)) (JSON representation of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks to Adobe. You have the freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
 
 * Visual editor to easily develop a Headless Adaptive Forms.
 * Workflow engine to automate complex tasks.
@@ -37,7 +37,7 @@ A Headless Adaptive Form is essentially a JSON representation (Schema) complete 
 
 ![How Headless Adaptive Form works](/help/assets/how-headless-adaprive-forms-work.png)
 
-You can use forms react renderer component shipped with Headless Adaptive Forms to render an Adaptive Form or build your own custom component to natively render a Headless Form in a Website or an application or use any UI framework or programming language to build your own components to render your forms.
+You can use forms react renderer component shipped with Headless Adaptive Forms to render an Adaptive Form or build your own custom component to natively render a Headless Form in a website or an application or use any UI framework or programming language to build your own components to render your forms.
 
 The following diagram describes the typical workflow of creating, deploying, and using Headless Adaptive Form components in your application or website:
 

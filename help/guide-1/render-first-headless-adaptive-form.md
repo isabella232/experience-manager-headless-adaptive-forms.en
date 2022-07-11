@@ -20,7 +20,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 * Setup the [development environment](setup-development-environment.md)
 * [JSON representation](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) of your headless adaptive forms.
 
-## Use the archtype project to create a headless adaptive form
+## Use the archetype project to create a headless adaptive form
 
 The archeype project is a maven based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for headless adaptive forms to Forms as a Cloud Service and local development environments.
 
@@ -95,13 +95,14 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
             `npm run start`
         
-        It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
+    It opens the rendered headless adaptive form in your browser Window. The default URL is http://localhost:3000.
 
-        You can take a look at [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) to learn about the various components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also take a look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.
+    </br>
+    You can take a look at [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) to learn about the various components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also take a look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.
 
 
     
-       <!-- * Hosted on your Forms as a Cloud Service environment: -->
+<!-- * Hosted on your Forms as a Cloud Service environment: 
 
 
 <!-- ## Render a headless adaptive form with a react app on the local machine

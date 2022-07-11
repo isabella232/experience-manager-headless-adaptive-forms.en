@@ -2,6 +2,7 @@
 user-guide-title: Adobe Experience Manager Headless Adaptive Forms
 breadcrumb-title: AEM Headless Adaptive Forms
 user-guide-description: Documentation for Adobe Experience Manager Headless Adaptive Forms
+hide: yes
 ---
 
 # Adobe Experience Manager Headless Adaptive Forms {#using}

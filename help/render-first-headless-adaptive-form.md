@@ -2,6 +2,7 @@
 title: Create first headless adaptive form
 description: Create first headless adaptive form
 keywords: headless, adaptive form
+hide: yes
 ---
 
 # Create your first headless adaptive form

@@ -2,6 +2,7 @@
 title: Create first headless adaptive form
 description: Create first headless adaptive form
 keywords: headless, adaptive form
+hide: yes
 ---
 
 # Create your first headless adaptive form
@@ -15,6 +16,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 <!-- >>[!VIDEO](https://video.tv.adobe.com/v/341011/) -->
 
 ![Create a Headless Adaptive Form](/help/assets/headless-forms.png)
+
 ## Prerequisites
 
 * Setup the [development environment](setup-development-environment.md)

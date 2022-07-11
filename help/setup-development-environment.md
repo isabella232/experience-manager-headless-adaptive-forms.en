@@ -1,6 +1,7 @@
 ---
 title: Setup development environment for AEM Headless Adaptive Forms
 description: Setup development environment for AEM Headless Adaptive Forms
+hide: yes
 ---
 
 # Setup development environment

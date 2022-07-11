@@ -1,6 +1,7 @@
 ---
 title: AEM Headless Adaptive Forms Overview
 description: Overview for AEM Headless Adaptive Forms.
+hide: yes
 ---
 
 # Release notes

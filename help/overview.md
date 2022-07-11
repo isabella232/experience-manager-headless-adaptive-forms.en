@@ -21,7 +21,7 @@ At the beta stage, we expect front end developers familiar with modern JavaScrip
 
 ## Why use Adobe Experience Manager Headless Adaptive Forms?
 
-Headless Adaptive Forms are based on an [Adaptive Forms V2 specification]((/help/assets/Headless-Adaptive-Form-Specification.pdf)) (JSON representation of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks to Adobe. You have the freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
+Headless Adaptive Forms are based on an [Adaptive Forms V2 specification](/help/assets/Headless-Adaptive-Form-Specification.pdf) (JSON representation of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks to Adobe. You have the freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
 
 * Visual editor to easily develop a Headless Adaptive Forms.
 * Workflow engine to automate complex tasks.

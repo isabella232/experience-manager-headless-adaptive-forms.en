@@ -94,8 +94,7 @@ You require knowledge to build application using react and the following softwar
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="#software-distribution">Download the SDK from Software Distribution</a></p>
+            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> Download the SDK version 2022.6.7904.20220629T070041Z-220600 from <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-sdk-2022.6.7904.20220629T070041Z-220600.zip">Software Distribution</a></p>
             </td>
         </tr>
         <tr>
@@ -117,7 +116,7 @@ You require knowledge to build application using react and the following softwar
 
 #### Download the latest version of software from Software Distribution {#software-distribution}
 
-To download the supported version of Adobe Experience Manager as a Cloud Service SDK, Experience Manager Forms feature archive (AEM Forms add-on):
+To download the supported version of [Adobe Experience Manager as a Cloud Service SDK](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-sdk-2022.6.7904.20220629T070041Z-220600.zip), Experience Manager Forms feature archive (AEM Forms add-on):
 
 1. Log in to <https://experience.adobe.com/#/downloads> with your Adobe ID.
 

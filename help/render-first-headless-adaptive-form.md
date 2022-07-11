@@ -68,20 +68,18 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
     1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
-    1. Create a folder and upload JSON representation of your headless adaptive form to it.
+    1. Create a folder and upload JSON representation(schema.json) of your headless adaptive form to it.
 
-    1. Tap Create and select Adaptive Form. Select the Bank template and tap Next.
+    1. Tap Create and select Adaptive Form. Select the Blank template and tap Create.
 
     1. An option to Add Properties appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
         * **Title**: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
         * **Name**: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
-        * **Description**: Specifies the detailed information about the form.
-        * **Tags**: Specifies tags to uniquely identify the Adaptive Form. Tags help in searching the form. To create tags, type new tag names in the Tags box.
 
-    1. Tap Create. An Adaptive Form is created and a dialog to open the form for editing appears.
+    1. Tap Create. An Adaptive Form is created.
 
-    1. Tap Open to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
+    1. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
 
     1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
 
@@ -111,7 +109,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
 1. Open project in your IDE. This procedure assumes you are using Visual Studio code.
 
-1. Create a file with .form.json extension and add the JSON representation code to it. For example, demo.form.json
+1. Create a file with schema.json extension and add the JSON representation code to it. For example, demo.schema.json
 
 1. Open the boilerplate, the App.tsx file, in the react app.
 

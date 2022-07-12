@@ -2,8 +2,8 @@
 title: Setup development environment for AEM Headless Adaptive Forms
 description: Setup development environment for AEM Headless Adaptive Forms
 hide: yes
+exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
-
 # Setup development environment
 
 You can setup development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -->

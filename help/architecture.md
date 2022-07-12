@@ -3,8 +3,8 @@ title: Headless adaptive forms architecture
 description: Headless adaptive forms architecture
 keywords: headless, adaptive form, architecture
 hide: yes
+exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
 ---
-
 # Headless Adaptive Forms Architecture {#architecture}
 
 A typical Headless Adaptive Form architecture constitutes an Adobe Experience Manager Server, JSON representation of forms, various frontend apps for channel-specific form renditions.
@@ -32,7 +32,3 @@ A typical Headless Adaptive Form architecture constitutes an Adobe Experience Ma
 Core-Components: It enables use to render an Adaptive Form using JSON representation. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/). You can develop your own renderer or embed the React based Adaptive Forms renderer, provided OOTB, in your front-end app to render the form. -->
 
 **JSON Formula**: It is an implementation of form expression grammar. The grammar is a mashup of spreadsheet-like functions and operators and [JMESPath](https://jmespath.org/) a JSON query language.  It helps you query JSON representation and create rules for headless adaptive forms.  You can also use the [playground](https://opensource.adobe.com/json-formula/dist/index.html) to explore JSON formula syntax and capabilities.
-
-
-
-

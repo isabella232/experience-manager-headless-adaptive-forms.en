@@ -3,8 +3,8 @@ title: Frequently asked questions
 description: Frequently asked questions
 keywords: headless, adaptive form, FAQ
 hide: yes
+exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 ---
-
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 
 **Should I know React.js to use Headless Adaptive Forms?**

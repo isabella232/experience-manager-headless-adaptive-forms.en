@@ -3,8 +3,8 @@ title: Create first headless adaptive form
 description: Create first headless adaptive form
 keywords: headless, adaptive form
 hide: yes
+exl-id: 99985fed-4a34-47d6-bb6f-79f81e1cd71b
 ---
-
 # Create your first headless adaptive form
 
 You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, Bootstrap, and more and use  Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.

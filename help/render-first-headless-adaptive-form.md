@@ -7,9 +7,9 @@ hide: yes
 
 # Create your first headless adaptive form
 
-You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, BootStrap, and more and use  Forms Web SDK for capabilities like state management, validation and integrations with various other touchpoints.
+You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, Bootstrap, and more and use  Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 
-For example, an organization We.Org is looking to digitize their customer enrollment journey. Their developers are well versed at using Angular to build frontend solutions. They are looking to build a custom front-end while offloading form validation and electronic signatures to specialized solutions.
+For example, an organization We.Org is looking to digitize their customer enrollment journey. Their developers are well versed at using Angular to build frontend solutions. They are looking to build a custom front end while offloading form validation and electronic signatures to specialized solutions.
 
 Adobe Experience Manager Headless Adaptive Forms provides such organizations freedom to build forms using their existing expertise in frontend languages while providing support to use back-end capabilities to create enterprise class forms experience.
 
@@ -19,16 +19,16 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 
 ## Prerequisites
 
-* Setup the [development environment](setup-development-environment.md)
+* Set up the [development environment](setup-development-environment.md)
 * [JSON representation](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) of your headless adaptive forms.
 
 ## Use the archetype project to create a headless adaptive form
 
-The archeype project is a maven based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for headless adaptive forms to Forms as a Cloud Service and local development environments.
+The archetype project is a maven-based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for headless adaptive forms to Forms as a Cloud Service and local development environments.
 
 It is mandatory to create and deploy the archetype 37 based project during the beta phase. Post-beta the project would be required only for customizations. To create and deploy the project:  
 
-1. Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archtype version 37 or later. If you are on Windows, run the following command with Administrative priviliages (Run command prompt or bash shell as an administrator):   
+1. Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. If you are on Windows, run the following command with Administrative privileges (Run command prompt or bash shell as an administrator):   
 
     ```
 
@@ -56,15 +56,15 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
         `mvn -PautoInstallPackage clean install`
 
-    If you are on Windows, run the following command with Administrative priviliages (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
+    If you are on Windows, run the following command with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
     
     <!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
 
     <br>It deploys the blank template and other resources included in the project to your development environment.
 
-1. To create a Headless Adapitve Form:
+1. To create a Headless Adaptive Form:
 
-    1. Login to your [local](http://localhost:4502/) <!-- or Forms as a Cloud Service --> development environment.
+    1. Log in to your [local](http://localhost:4502/) <!-- or Forms as a Cloud Service --> development environment.
 
     1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
@@ -83,7 +83,7 @@ It is mandatory to create and deploy the archetype 37 based project during the b
 
     1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
 
-    1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON representation uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendetion of the form.
+    1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON representation uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendition of the form.
 
     1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 

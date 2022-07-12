@@ -6,16 +6,16 @@ hide: yes
 
 # Headless Adaptive Forms Overview
 
-Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. This helps improve the enrolment experience for customers leading to better conversion. Headless adaptive forms includes:
+Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. It helps improve the enrolment experience for customers leading to better conversion. Headless adaptive forms includes:
 
-* Omni-channel forms with a single source of truth to easily manage and update forms.
-* Channel agnostic JSON representation of forms for easy consumption in any application.
-* RESTful APIs to list, fetch, validate, submit, track submission status of headless forms.
-* Web SDK to natively render a headless adaptive form in a website or web application.
-* Rule grammar to build dynamic forms and validations.
-* Adaptive Forms Visual Studio Code extension to help create a valid JSON representation.  
+* Omni-channel forms with a single source of truth to easily manage and update forms
+* Channel agnostic JSON representation of forms for easy consumption in any application
+* RESTful APIs to list, fetch, validate, submit, track submission status of headless forms
+* Web SDK to natively render a headless adaptive form in a website or web application
+* Rule grammar to build dynamic forms and validations
+* Adaptive Forms Visual Studio Code extension to help create a valid JSON representation
 
-![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.jpg)
+<!-- ![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.jpg) -->
 
 At the beta stage, we expect front end developers familiar with modern JavaScript frameworks to use the Headless Adaptive Forms. Developers can leverage their existing expertise in frontend languages like React to create build beautiful enterprise class data capture experiences.
 

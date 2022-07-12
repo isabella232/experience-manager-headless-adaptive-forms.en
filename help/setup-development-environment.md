@@ -115,11 +115,7 @@ You require knowledge to build application using react and the following softwar
 
 ### Download the latest version of software from Software Distribution {#software-distribution}
 
-<<<<<<< Updated upstream
-To download the supported version of [Adobe Experience Manager as a Cloud Service SDK](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-sdk-2022.6.7904.20220629T070041Z-220600.zip), Experience Manager Forms feature archive (AEM Forms add-on):
-=======
 To download the supported version of Adobe Experience Manager as a Cloud Service SDK:
->>>>>>> Stashed changes
 
 1. Log in to <https://experience.adobe.com/#/downloads> with your Adobe ID.
 

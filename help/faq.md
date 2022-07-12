@@ -12,7 +12,7 @@ You can use any framework, library, or language to render Headless Adaptive Form
 
 **Did Adobe release a new AEM Archetype for Headless Adaptive forms?**
 
-You can use Archetype 37 or later to include Headless Adaptive forms functionality in your Forms as a Cloud Service environment.
+You can use Archetype 37 with flag `includeFormsheadless` or later flag to create an AEM project with Headless Adaptive Forms functionality.
 
 **Do I require Forms as a Cloud Service sandbox to use Headless Adaptive forms?**
 
@@ -24,7 +24,7 @@ Archetype project makes it easier to create, store, and deploy a headless adapti
 
 **Where can I get a preview or playground to Headless forms?** 
 
-You can use [container component in Forms as a Cloud service environment](render-first-headless-adaptive-form.md) or you can modify an [API Playground](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) (playbook) example to preview a Headless Adaptive Form.
+You can use [container component in Forms as a Cloud service environment](render-first-headless-adaptive-form.md) or you can modify an [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) example to preview a Headless Adaptive Form.
 
 ![](/help/assets/storybook-eample.png)
 
@@ -32,13 +32,13 @@ You can use [container component in Forms as a Cloud service environment](render
 
 Headless Adaptive Forms are based on [standard specification](/help/assets/Headless-Adaptive-Form-Specification.pdf). Headless Adaptive Forms include react components OOTB. You can extend the specification ot use it to build custom components. For example, components for Chakra UI, Flutter, Vue.js, and more.
 
-**Do Headless Adaptive Forms support lookup for fields?**
+<!-- **Do Headless Adaptive Forms support cascading fields?**
 
-Headless Adaptive Forms look up for fields/Cascading fields. What you see in the second field depends on what you chose in the first field.  
+Headless Adaptive Forms look up for fields/Cascading fields. What you see in the second field depends on what you chose in the first field.  -->
 
 **Do Headless Adaptive Forms allow prefilling forms with personalized data?**
 
-Headless Adaptive Forms allows prefilling forms with personalized data. [API Playground](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) (playbook) provides an example of how to prefill a Headless Adaptive Form.
+Headless Adaptive Forms allows prefilling forms with personalized data. [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless Adaptive Form.
 
 **Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?**
 

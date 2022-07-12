@@ -24,7 +24,7 @@ Archetype project makes it easier to create, store, and deploy a headless adapti
 
 **Where can I get a preview or playground to Headless forms?** 
 
-You can use [container component in Forms as a Cloud service environment](render-first-headless-adaptive-form.md) or you can modify an [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) example to preview a Headless Adaptive Form.
+You can use [container component in Forms as a Cloud service environment](render-first-headless-adaptive-form.md) or you can modify a [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) example to preview a Headless Adaptive Form.
 
 ![](/help/assets/storybook-eample.png)
 
@@ -38,7 +38,7 @@ Headless Adaptive Forms look up for fields/Cascading fields. What you see in the
 
 **Do Headless Adaptive Forms allow prefilling forms with personalized data?**
 
-Headless Adaptive Forms allows prefilling forms with personalized data. [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless Adaptive Form.
+Headless Adaptive Forms allows prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless Adaptive Form.
 
 **Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?**
 

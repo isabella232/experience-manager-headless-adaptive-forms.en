@@ -1,6 +1,6 @@
 ---
-title: Headless adaptive forms architecture
-description: Headless adaptive forms architecture
+title: Headless Adaptive Forms architecture
+description: Headless Adaptive Forms architecture
 keywords: headless, adaptive form, architecture
 hide: yes
 ---

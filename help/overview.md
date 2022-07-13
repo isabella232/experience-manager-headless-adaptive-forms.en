@@ -6,7 +6,7 @@ hide: yes
 
 # Headless Adaptive Forms Overview
 
-Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. It helps improve the enrolment experience for customers leading to better conversion. Headless adaptive forms includes:
+Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. It helps improve the enrolment experience for customers leading to better conversion. Headless Adaptive Forms includes:
 
 * Omni-channel forms with a single source of truth to easily manage and update forms
 * Channel agnostic JSON representation of forms for easy consumption in any application

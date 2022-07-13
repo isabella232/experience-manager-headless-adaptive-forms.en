@@ -1,6 +1,6 @@
 ---
-title: Headless adaptive forms architecture
-description: Headless adaptive forms architecture
+title: Headless Adaptive Forms architecture
+description: Headless Adaptive Forms architecture
 keywords: headless, adaptive form, architecture
 hide: yes
 ---
@@ -27,7 +27,7 @@ A typical Headless Adaptive Form architecture constitutes an Adobe Experience Ma
 * **React binder**: Provides hooks over controller to add state to Form Components. It is also helpful in pre-filling a form.
 * **Components library**: It provides React Spectrum Components and uses hooks in React Binder module to add state to those components.
 
-<!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
+<!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless Adaptive Forms Super Component, provided out-of-the-box, inside a react application to render a headless adaptive form. Headless Adaptive Forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
 
 Core-Components: It enables use to render an Adaptive Form using JSON representation. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/). You can develop your own renderer or embed the React based Adaptive Forms renderer, provided OOTB, in your front-end app to render the form. -->
 

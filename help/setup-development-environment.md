@@ -170,9 +170,9 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
 | End user| When a user must login to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
+## Install Visual Studio Code extension for Headless Adaptive Forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
 
-The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
+The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete Headless Adaptive Forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
 
 1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.11.0.vsix).
 

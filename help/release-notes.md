@@ -2,8 +2,8 @@
 title: AEM Headless Adaptive Forms Overview
 description: Overview for AEM Headless Adaptive Forms.
 hide: yes
+exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
-
 # Release notes
 
 Welcome to Experience Manager Headless Adaptive Forms Beta release. Read on for resources and instructions to get started and make the best of the release.

@@ -8,7 +8,7 @@ hide: yes
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 
 **Should I know React.js to use Headless Adaptive Forms?**
-You can use any framework, library, or language to render Headless Adaptive Forms and use our REST APIs to validate and submit the forms. Web SDK and React component provided out of the box are for your convenience. You can develop your own components and are not limited to use these.
+You can use any framework, library, or language to render Headless Adaptive Forms and use our REST APIs to validate and submit the forms. Web SDK and React components provided out of the box are for your convenience. You can develop your own components and are not limited to use these.
 
 **Did Adobe release a new AEM Archetype for Headless Adaptive forms?**
 
@@ -54,4 +54,20 @@ You can use the Web SDK to integrate Headless Adaptive Forms with Anugular SPA. 
 
 <!-- The data is handed to the configured REST endpoint. You can also configure a Form Data Model (FDM) to receive or send data to disparate data sources (FDM feature would be available in a subsequent beta release.) 
 
-**Is Headless Adaptive Forms HIPPA complaint?** -->
+**Is Headless Adaptive Forms HIPPA complaint?** 
+
+**Where is captured data stored?**
+
+The data is stored at a customer defined endpoint. The available options are:
+
+* Submission to a Rest Endpoint
+* Submission to Form Data Model
+* Submission to an AEM Worklow
+
+Keep a watch on release notes for availibiliy of the following options:
+
+* Submission to a Microsoft Power Automate Flow
+
+
+following submission options are available 
+We should clarify what all submission options are supported now and at GA like FDM, REST, workflow, Power Automate etc. -->

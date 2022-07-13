@@ -1,6 +1,6 @@
 ---
-title: Headless adaptive forms known issues
-description: Headless adaptive forms known issues
+title: Headless Adaptive Forms known issues
+description: Headless Adaptive Forms known issues
 keywords: headless, adaptive form, known issues
 hide: yes
 ---

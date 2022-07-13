@@ -16,7 +16,7 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 **Do I require Forms as a Cloud Service sandbox to use Headless Adaptive forms?**
 
-Headless Adaptive forms are available only for Forms as a Cloud Service at this moment. You can set up a local development environment to create and test forms with an application or website on your machine before deploying or uploading the form to Cloud Service sandbox.
+Headless Adaptive Forms are available only for Forms as a Cloud Service at this moment. You can set up a local development environment to create and test forms with an application or website on your machine before deploying or uploading the form to Cloud Service sandbox.
 
 **Do I need an archetype project to develop Headless Adaptive forms?** 
 

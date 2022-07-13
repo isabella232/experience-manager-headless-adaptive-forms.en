@@ -24,7 +24,7 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 
 ## Use the archetype project to create a headless adaptive form
 
-The archetype project is a maven-based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for headless adaptive forms to Forms as a Cloud Service and local development environments.
+The archetype project is a maven-based template. It creates a miminal, best-practice based project to get started with headless adaptive forms. It includes Adaptive Form template, a sample headless adaptive form JSON, Adaptive Forms Container core component, react components (Client library), Web SDK (Client library) for Headless Adaptive Forms to Forms as a Cloud Service and local development environments.
 
 It is mandatory to create and deploy the archetype 37 based project during the beta phase. Post-beta the project would be required only for customizations. To create and deploy the project:  
 

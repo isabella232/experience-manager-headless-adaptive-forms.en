@@ -2,8 +2,8 @@
 title: Setup development environment for AEM Headless Adaptive Forms
 description: Setup development environment for AEM Headless Adaptive Forms
 hide: yes
+exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
-
 # Setup development environment
 
 You can setup development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -->
@@ -107,7 +107,7 @@ You require knowledge to build application using react and the following softwar
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://moonlightpipelinestorage.blob.core.windows.net/moonlight-pipeline-blob/featurearchive/2022.07.05.02/aem-forms-cloud-ready-feature-archive.far?se=2023-07-05&sp=r&sv=2018-11-09&sr=b&sig=LBekJduncDQfoP8JLZx1O%2BPWypN8wWPIML2I9EXpS3w%3D">Click here</a> to download</p>
+            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d8838501-0993-4926-be4f-e25a75987d83">Click  here</a> to download</p>
             </td>
         </tr>
     </tbody>
@@ -144,7 +144,6 @@ To install and configure local Experience Manager environment, perform the follo
 * [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service).  When launching the SDK Quickstart, include the argument -r prerelease.
 * [Set up a Publish instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-publish-service). When launching the SDK Quickstart, include the argument -r prerelease.
 
-
 ### Add Forms archive to local Author and Publish instances and configure Forms-specific users {#add-forms-archive-configure-users}
 
 Perform the following steps in the listed order to add Forms archive to Experience Manager instances and configure forms-specific users:
@@ -170,9 +169,9 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
 | End user| When a user must login to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-## Install Visual Studio Code extension for Headless Adaptive Forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
+## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
 
-The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete Headless Adaptive Forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
+The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
 
 1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.11.0.vsix).
 

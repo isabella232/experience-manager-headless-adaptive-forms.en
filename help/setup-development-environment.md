@@ -152,7 +152,7 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive:
 
-1. Download and extract the latest [!DNL AEM Forms] archive from [Software Distribution](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d8838501-0993-4926-be4f-e25a75987d83).
+1. Download and extract the latest [!DNL AEM Forms] archive from [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d8838501-0993-4926-be4f-e25a75987d83).
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 

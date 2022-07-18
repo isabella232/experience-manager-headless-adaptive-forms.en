@@ -113,7 +113,7 @@ You require knowledge to build application using react and the following softwar
     </tbody>
 </table>
 
-### Download the latest version of software from Software Distribution {#software-distribution}
+### Download the latest version of AEM as a Cloud Service SDK from Software Distribution {#software-distribution}
 
 To download the supported version of Adobe Experience Manager as a Cloud Service SDK:
 

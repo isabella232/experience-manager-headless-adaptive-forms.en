@@ -32,9 +32,9 @@ You can use [container component in Forms as a Cloud service environment](render
 
 Headless Adaptive Forms are based on [standard specification](/help/assets/Headless-Adaptive-Form-Specification.pdf). Headless Adaptive Forms include react components OOTB. You can extend the specification ot use it to build custom components. For example, components for Chakra UI, Flutter, Vue.js, and more.
 
-<!-- **Do Headless Adaptive Forms support cascading fields?**
+**Do Headless Adaptive Forms support cascading fields?**
 
-Headless Adaptive Forms look up for fields/Cascading fields. What you see in the second field depends on what you chose in the first field.  -->
+In cascading fields, content of second field depends on content chosen in the first field.  The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJson.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) provides an example of cascading fields.
 
 **Do Headless Adaptive Forms allow prefilling forms with personalized data?**
 

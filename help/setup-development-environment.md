@@ -1,12 +1,12 @@
 ---
-title: Setup development environment for AEM Headless Adaptive Forms
-description: Setup development environment for AEM Headless Adaptive Forms
+title: Set up development environment for AEM Headless Adaptive Forms
+description: Set up development environment for AEM Headless Adaptive Forms
 hide: yes
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
 # Setup development environment
 
-You can setup development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -->
+You can set up development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -->
 
 ## Pre-requisites
 
@@ -44,7 +44,7 @@ You require knowledge to build application using react and the following softwar
         </tr>
         <tr>
             <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NPM (Node package manager)</p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NPM (Node Package Manager)</p>
             </td>
             <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NPM is required to install Forms Web SDK packages</p>
@@ -61,7 +61,7 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>IDE (Integrated Development environment)</p>
             </td>
             <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>You can use any IDE. Microsoft Visual Studio Code was used for examples in this document.</p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>You can use any IDE. Microsoft® Visual Studio Code was used for examples in this document.</p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NA</p>
@@ -167,7 +167,7 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 | Form developer | [!DNL forms-users] (AEM Forms Users), [!DNL template-authors], [!DNL workflow-users], [!DNL workflow-editors], and [!DNL fdm-authors]  |
 | Customer Experience Lead or UX Designer| [!DNL forms-users], [!DNL template-authors]|
 | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
-| End user| When a user must login to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
+| End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
 ## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
 

@@ -15,99 +15,99 @@ You require knowledge to build application using react and the following softwar
 <table>
     <tbody>
         <tr>
-            <td style="width: 99.3pt;border: 1pt solid windowtext;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;text-align:center;'><strong>Software</strong></p>
+            <td>
+                <p><strong>Software</strong></p>
             </td>
-            <td style="width: 156.05pt;border-color: windowtext windowtext windowtext currentcolor;border-style: solid solid solid none;border-width: 1pt 1pt 1pt medium;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;text-align:center;'><strong>Description</strong></p>
+            <td>
+                <p><strong>Description</strong></p>
             </td>
-            <td style="width: 131.35pt;border-color: windowtext windowtext windowtext currentcolor;border-style: solid solid solid none;border-width: 1pt 1pt 1pt medium;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;text-align:center;'><strong>Supported Version</strong></p>
+            <td>
+                <p><strong>Supported Version</strong></p>
             </td>
-            <td style="width: 152.8pt;border-color: windowtext windowtext windowtext currentcolor;border-style: solid solid solid none;border-width: 1pt 1pt 1pt medium;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;text-align:center;'><strong>Download links</strong></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Node.js</p>
-            </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Forms Web SDK required node.js to run</p>
-            </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><span style="color:#24292F;background:white;">16.13.0 or later</span></p>
-            </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Download from <a href="https://nodejs.org/en/">Node.js (nodejs.org)</a></p>
+            <td>
+                <p><strong>Download links</strong></p>
             </td>
         </tr>
         <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NPM (Node Package Manager)</p>
+            <td>
+                <p>Node.js</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NPM is required to install Forms Web SDK packages</p>
+            <td>
+                <p>Forms Web SDK required node.js to run</p>
             </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><span style="color:#24292F;background:white;">8.x.x or later</span></p>
+            <td>
+                <p><span>16.13.0 or later</span></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Installed along Node.js. No separate installation is required<span style="color:blue;text-decoration:underline;">.</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>IDE (Integrated Development environment)</p>
-            </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>You can use any IDE. Microsoft® Visual Studio Code was used for examples in this document.</p>
-            </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Visual Studio Code 1.62.0 or later</p>
-            </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Download and configure for your operating system: <a href="https://code.visualstudio.com/docs/setup/linux"> Linux</a> , <a href="https://code.visualstudio.com/docs/setup/mac"> macOS </a>, or <a href="https://code.visualstudio.com/docs/setup/windows"> Windows.</a> </br>Note: To use Visual Studio from command line on macOS, see <a href="https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"> Launching from the command line </a></p>
+            <td>
+                <p>Download from <a>Node.js (nodejs.org)</a></p>
             </td>
         </tr>
         <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Adaptive forms builder extension for Visual Studio Code</p>
+            <td>
+                <p>NPM (Node Package Manager)</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON representation of a Headless Adaptive Form.
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> </p>
+            <td>
+                <p>NPM is required to install Forms Web SDK packages</p>
             </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
+            <td>
+                <p>8.x.x or later</span></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.11.0.vsix">Adaptive forms builder extension</a></p>
+            <td>
+                <p>Installed along Node.js. No separate installation is required<span>.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>IDE (Integrated Development environment)</p>
+            </td>
+            <td>
+                <p>You can use any IDE. Microsoft® Visual Studio Code was used for examples in this document.</p>
+            </td>
+            <td>
+                <p>Visual Studio Code 1.62.0 or later</p>
+            </td>
+            <td>
+                <p>Download and configure for your operating system: <a href="https://code.visualstudio.com/docs/setup/linux"> Linux</a>, <a href="https://code.visualstudio.com/docs/setup/mac"> macOS </a>, or <a href="https://code.visualstudio.com/docs/setup/windows"> Windows.</a> </br></br>Note: To use Visual Studio from command line on macOS, see <a> Launching from the command line </a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Adaptive forms builder extension for Visual Studio Code</p>
+            </td>
+            <td>  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON representation of a Headless Adaptive Form.
+                <p> </p>
+            </td>
+            <td>
+                <p></p>
+            </td>
+            <td>
+                <p><a href="/help/assets/adaptive-form-builder-0.11.0.vsix">Adaptive forms builder extension</a></p>
             </td>
         </tr>
                 <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Adobe Experience Manager as a Cloud Service SDK</p>
+            <td>
+                <p>Adobe Experience Manager as a Cloud Service SDK</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools</p>
+            <td>
+                <p>SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools</p>
             </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> 2022.7.8005.20220711T194049Z-220600  or later
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
+            <td> 2022.7.8005.20220711T194049Z-220600  or later
+                <p></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> Download the SDK from <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-sdk-2022.7.8005.20220711T194049Z-220600.zip">Software Distribution</a></p>
+            <td> Download the SDK from <p><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-sdk-2022.7.8005.20220711T194049Z-220600.zip">Software Distribution</a></p>
             </td>
         </tr>
         <tr>
-            <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Adobe Experience Manager Forms feature archive (AEM Forms add-on)</p>
+            <td>
+                <p>Adobe Experience Manager Forms feature archive (AEM Forms add-on)</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Forms features</p>
+            <td >
+                <p >Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Forms features</p>
             </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> aem-forms-addon-2022.07.06.02-220600 or later</p>
+            <td >
+                <p> aem-forms-addon-2022.07.06.02-220600 or later</p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
+            <td> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
             </td>
         </tr>
     </tbody>

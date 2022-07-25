@@ -74,7 +74,7 @@ You require knowledge to build application using react and the following softwar
             <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Adaptive forms builder extension for Visual Studio Code</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON Representation of Headless Adaptive Forms.
+            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON representation of a Headless Adaptive Form.
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> </p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">

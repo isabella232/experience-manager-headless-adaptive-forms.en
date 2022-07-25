@@ -64,10 +64,10 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>You can use any IDE. Microsoft® Visual Studio Code was used for examples in this document.</p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>NA</p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Visual Studio Code 1.62.0 or later</p>
             </td>
             <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Download from <a href="https://code.visualstudio.com/">Visual Studio Code</a> website</p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Download and configure for your operating system: <a href="https://code.visualstudio.com/docs/setup/linux"> Linux</a> , <a href="https://code.visualstudio.com/docs/setup/mac"> macOS </a>, or <a href="https://code.visualstudio.com/docs/setup/windows"> Windows.</a> </br>Note: To use Visual Studio from command line on macOS, see <a href="https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"> Launching from the command line </a></p>
             </td>
         </tr>
         <tr>
@@ -78,7 +78,7 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>&nbsp;</p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>1.62.0 or later</p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
             </td>
             <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="/help/assets/adaptive-form-builder-0.11.0.vsix">Adaptive forms builder extension</a></p>
@@ -177,12 +177,17 @@ The extension adds adaptive forms related IntelliSense capabilities to provide s
 
 1. Navigate the directory containing the *adaptive-form-builder-[version].vsix* file.
 
-1. Run the following command:
-*code –install-extension adaptive-form-builder-[version].vsix*
+1. Run the following command or see [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) for detailed instructions to install a Visual Studio Code extension from a VSIX file:
 
-    Replace the [version] with actual version of the extension. For example, adaptive-form-builder-1.0.0.vsix
+    *code –install-extension adaptive-form-builder-[version].vsix*
+
+    </br> Replace the [version] with actual version of the extension. For example, adaptive-form-builder-1.0.0.vsix 
+
+    </br> 
 
     ![Installing extension](/help/assets/install-extension.png)
+
+, 
 <!-- ## Create and setup a react app
 
 Adaptive forms renderer component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:

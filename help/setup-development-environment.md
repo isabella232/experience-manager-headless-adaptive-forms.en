@@ -74,8 +74,8 @@ You require knowledge to build application using react and the following softwar
             <td style="width: 99.3pt;border-color: currentcolor windowtext windowtext;border-style: none solid solid;border-width: medium 1pt 1pt;border-image: none 100% / 1 / 0 stretch;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Adaptive forms builder extension for Visual Studio Code</p>
             </td>
-            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>&nbsp;</p>
+            <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON Representation of Headless Adaptive Forms.
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> </p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
@@ -91,10 +91,10 @@ You require knowledge to build application using react and the following softwar
             <td style="width: 156.05pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools</p>
             </td>
-            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> 2022.6.7904.20220629T070041Z-220600   or later
+            <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> 2022.7.8005.20220711T194049Z-220600  or later
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> Download the SDK version 2022.6.7904.20220629T070041Z-220600 from <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-sdk-2022.6.7904.20220629T070041Z-220600.zip">Software Distribution</a></p>
+            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;"> Download the SDK from <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-sdk-2022.7.8005.20220711T194049Z-220600.zip">Software Distribution</a></p>
             </td>
         </tr>
         <tr>
@@ -105,9 +105,9 @@ You require knowledge to build application using react and the following softwar
                 <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'>Tools to create, style, and optimize Adaptive Forms and other Adobe Experience Manager Forms features</p>
             </td>
             <td style="width: 131.35pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'></p>
+                <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> aem-forms-addon-2022.07.06.02-220600 or later</p>
             </td>
-            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d8838501-0993-4926-be4f-e25a75987d83">Click  here</a> to download</p>
+            <td style="width: 152.8pt;border-color: currentcolor windowtext windowtext currentcolor;border-style: none solid solid none;border-width: medium 1pt 1pt medium;padding: 0in 5.4pt;vertical-align: top;">  <p style='margin:0in;font-size:16px;font-family:"Adobe Clean",sans-serif;'> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
             </td>
         </tr>
     </tbody>
@@ -115,9 +115,9 @@ You require knowledge to build application using react and the following softwar
 
 ### Download the latest version of AEM as a Cloud Service SDK from Software Distribution {#software-distribution}
 
-To download the supported version of Adobe Experience Manager as a Cloud Service SDK:
+To download the supported version of Adobe Experience Manager as a Cloud Service SDK or Forms feature archive (AEM Forms add-on):
 
-1. Log in to <https://experience.adobe.com/#/downloads> with your Adobe ID.
+1. Log in to [Software Distribution](https://experience.adobe.com/#/downloads) portal with your Adobe ID.
 
     >[!NOTE]
     >
@@ -125,7 +125,7 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 
 1. Navigate to the **[!UICONTROL AEM as a Cloud Service]** tab.
 1. Sort by published date in descending order.
-1. Click on the latest Adobe Experience Manager as a Cloud Service SDK.
+1. Click on the latest Adobe Experience Manager as a Cloud Service SDK or Forms feature archive (AEM Forms add-on).
 1. Review and accept the EULA. Tap the **[!UICONTROL Download]** button.
 
 ## Set up a local development environment and initial development project {#local-development-environment}
@@ -152,7 +152,7 @@ Perform the following steps in the listed order to add Forms archive to Experien
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive:
 
-1. Download and extract the latest [!DNL AEM Forms] archive from [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d8838501-0993-4926-be4f-e25a75987d83).
+1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20).
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 

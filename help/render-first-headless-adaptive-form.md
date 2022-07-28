@@ -32,7 +32,7 @@ Perform the following steps to create and render your first Headless Adaptive Fo
 1. [Add JSON representation to your AEM Archetype based project](#create-add-json-representation-of-headless-adaptive-forms)  
 1. [Deploy the project to a local development environment](#deploy-the-project-to-a-local-development-environment)
 1. [Use the Blank with core components template to create the Adaptive Form](#create-adaptive-form-with-blank-with-core-components-template)
-1. [Configure the Adaptive Form to use the JSON representation](configure-adaptive-form-to-use-the-JSON-representation)
+1. [Configure the Adaptive Form to use the JSON representation](#configure-adaptive-form-to-use-the-JSON-representation)
 
 ### Create an AEM Archetype based project {#create-an-archetype-based-project}  
 

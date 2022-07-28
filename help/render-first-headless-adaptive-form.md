@@ -118,4 +118,4 @@ Open the form created in the previous section for editing. When you open the for
     1. After the completion, open the localhost:3000 in your browser window to view rendered Headless Adaptive Form. 
     1. To test the submission functionality, login to your AEM Forms Server, and use the **Preview the form in HTML** option to open the form in preview mode. 
 
-The [Storybook provides  a list of components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.
+The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) provides a list of components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.

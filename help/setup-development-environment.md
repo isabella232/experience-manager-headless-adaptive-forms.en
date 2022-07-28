@@ -107,7 +107,7 @@ You require knowledge to build application using react and the following softwar
             <td >
                 <p> aem-forms-addon-2022.07.06.02-220600 or later</p>
             </td>
-            <td+> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
+            <td> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
             </td>
         </tr>
     </tbody>

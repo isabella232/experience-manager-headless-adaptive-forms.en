@@ -39,7 +39,7 @@ You require knowledge to build application using react and the following softwar
                 <p><span>16.13.0 or later</span></p>
             </td>
             <td>
-                <p>Download from <a>Node.js (nodejs.org)</a></p>
+                <p>Download from <a href="https://nodejs.org/">Node.js (nodejs.org)</a></p>
             </td>
         </tr>
         <tr>
@@ -67,14 +67,14 @@ You require knowledge to build application using react and the following softwar
                 <p>Visual Studio Code 1.62.0 or later</p>
             </td>
             <td>
-                <p>Download and configure for your operating system: <a href="https://code.visualstudio.com/docs/setup/linux"> Linux</a>, <a href="https://code.visualstudio.com/docs/setup/mac"> macOS </a>, or <a href="https://code.visualstudio.com/docs/setup/windows"> Windows.</a> </br></br>Note: To use Visual Studio from command line on macOS, see <a> Launching from the command line </a></p>
+                <p>Download and configure for your operating system: <a href="https://code.visualstudio.com/docs/setup/linux"> Linux®</a>, <a href="https://code.visualstudio.com/docs/setup/mac"> macOS </a>, or <a href="https://code.visualstudio.com/docs/setup/windows"> Windows.</a> </br></br>Note: To use Visual Studio from command line on macOS, see <a href="https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"> Launching from the command line </a></p>
             </td>
         </tr>
         <tr>
             <td>
                 <p>Adaptive forms builder extension for Visual Studio Code</p>
             </td>
-            <td>  Provides IntelliSense capabilities and navigtion structure to easily build and navigate JSON representation of a Headless Adaptive Form.
+            <td>  Provides IntelliSense and forms structure navigation capabilities to easily build and navigate JSON representation of a Headless Adaptive Form.
                 <p> </p>
             </td>
             <td>
@@ -91,7 +91,7 @@ You require knowledge to build application using react and the following softwar
             <td>
                 <p>SDK includes [!DNL Adobe Experience Manager] QuickStart and Dispatcher tools</p>
             </td>
-            <td> 2022.7.8005.20220711T194049Z-220600  or later
+            <td> 2022.7.8005.20220711T194049Z-220600 or later
                 <p></p>
             </td>
             <td> Download the SDK from <p><a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-sdk-2022.7.8005.20220711T194049Z-220600.zip">Software Distribution</a></p>
@@ -113,7 +113,7 @@ You require knowledge to build application using react and the following softwar
     </tbody>
 </table>
 
-### Download the latest version of AEM as a Cloud Service SDK from Software Distribution {#software-distribution}
+### Download the latest version of AEM as a Cloud Service SDK or Forms feature archive (AEM Forms add-on) from Software Distribution {#software-distribution}
 
 To download the supported version of Adobe Experience Manager as a Cloud Service SDK or Forms feature archive (AEM Forms add-on):
 
@@ -179,7 +179,7 @@ The extension adds adaptive forms related IntelliSense capabilities to provide s
 
 1. Run the following command or see [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) for detailed instructions to install a Visual Studio Code extension from a VSIX file:
 
-    *code –install-extension adaptive-form-builder-[version].vsix*
+    *code -–install-extension adaptive-form-builder-[version].vsix*
 
     </br> Replace the [version] with actual version of the extension. For example, adaptive-form-builder-1.0.0.vsix 
 

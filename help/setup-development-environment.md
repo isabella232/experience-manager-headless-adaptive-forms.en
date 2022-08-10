@@ -120,7 +120,7 @@ You require knowledge to build application using react and the following softwar
             <td >
                 <p>3.6 or later </p>
             </td>
-            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven">Set up development tools article</a> for instructions to downlod and install Maven</p>
+            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven">Set up development tools article</a> for instructions to download and install Maven</p>
             </td>
         </tr>
         <tr>
@@ -133,7 +133,7 @@ You require knowledge to build application using react and the following softwar
             <td >
                 <p></p>
             </td>
-            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven">Set up development tools article</a> for instructions to downlod and install Git</p>
+            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-git">Set up development tools article</a> for instructions to download and install Git</p>
             </td>
         </tr>
     </tbody>

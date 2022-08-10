@@ -110,6 +110,32 @@ You require knowledge to build application using react and the following softwar
             <td> Download from  <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-addon-2022.07.06.02-220600.zip">Software Distribution</a> </p>
             </td>
         </tr>
+        <tr>
+            <td>
+                <p>Apache Maven</p>
+            </td>
+            <td >
+                <p >Open-source Java command-line tool used to build AEM Projects generated from the AEM Project Maven Archetype</p>
+            </td>
+            <td >
+                <p> </p>
+            </td>
+            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven">Set up development tools article</a> for instructions to downlod and install Maven</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Git Maven</p>
+            </td>
+            <td >
+                <p >Git is the source control management system used by Adobe Cloud Manager</p>
+            </td>
+            <td >
+                <p> </p>
+            </td>
+            <td> See <a href="https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/development-tools.html?lang=en#install-maven">Set up development tools article</a> for instructions to downlod and install Git</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 

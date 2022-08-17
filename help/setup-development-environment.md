@@ -74,7 +74,7 @@ You require knowledge to build application using react and the following softwar
             <td>
                 <p>Adaptive forms builder extension for Visual Studio Code</p>
             </td>
-            <td>  Provides IntelliSense and forms structure navigation capabilities to easily build and navigate JSON representation of a Headless Adaptive Form.
+            <td>  Provides IntelliSense and forms structure navigation capabilities to easily build and navigate JSON Structure of a Headless Adaptive Form.
                 <p> </p>
             </td>
             <td>
@@ -197,7 +197,7 @@ Create users like Form Developer and Form Practitioner and [add these users to p
 
 ## Install Visual Studio Code extension for headless adaptive forms {#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms}
 
-The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON representation of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON representations. To install the extension:
+The extension adds adaptive forms related IntelliSense capabilities to provide suggestions and auto-complete headless adaptive forms JSON syntax and also adds a panel to help navigate JSON Structure of form. The navigation panel, titled Forms Tree, is helpful in navigating large JSON Structures. To install the extension:
 
 1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.11.0.vsix).
 

@@ -25,7 +25,7 @@ AEM Forms as a Cloud Service SDK to help you create, store, and fetch Headless A
 
 ### Forms Web SDK
 
-Forms Web SDK provides the APIs to validate constraints applied to various fields of a form and hooks to connect JSON representation of form to the UI framework. It also provides     React Renderer​ for Headless Adaptive Forms to help integrate a Headless Adaptive Form to your application. The following components of Web SDK are available:
+Forms Web SDK provides the APIs to validate constraints applied to various fields of a form and hooks to connect JSON Structure of form to the UI framework. It also provides     React Renderer​ for Headless Adaptive Forms to help integrate a Headless Adaptive Form to your application. The following components of Web SDK are available:
 
 * **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)** 
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
@@ -40,7 +40,7 @@ Forms Web SDK provides the APIs to validate constraints applied to various field
 
 <!-- Forms components are the structural elements that constitute the content of the form being authored. These components provide various form fields and ability to customize those fields. -->
 
-Core Components are a set of standardized Web Content Management (WCM) components to help you speed up development time and reduce maintenance cost of your forms. The Forms Container component is a core component. It helps you embed and render a JSON Representation of Headless Adaptive Form in Adaptive Forms editor of Forms as a Cloud Service SDK.  
+Core Components are a set of standardized Web Content Management (WCM) components to help you speed up development time and reduce maintenance cost of your forms. The Forms Container component is a core component. It helps you embed and render a JSON Structure of Headless Adaptive Form in Adaptive Forms editor of Forms as a Cloud Service SDK.  
 
 ### Adaptive Forms V2 Specifications
 
@@ -52,7 +52,7 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 ### Visual Studio Code Plugin
 
-[Visual Studio Code extension](/help/assets/adaptive-form-builder-0.11.0.vsix) to help create a valid JSON representation. It provides IntelliSense support and validation for JSON representation of forms along with common funcions like add, delete, or rename components of a JSON representation.  
+[Visual Studio Code extension](/help/assets/adaptive-form-builder-0.11.0.vsix) to help create a valid JSON Structure. It provides IntelliSense support and validation for JSON Structure of forms along with common funcions like add, delete, or rename components of a JSON Structure.  
 
 ## What's next
 

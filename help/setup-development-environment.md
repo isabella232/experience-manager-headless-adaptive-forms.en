@@ -40,12 +40,12 @@ To install and run AEM SDK, your development environment must meet these minimum
 
 To set up a new local development environment and use it to develop Headless Adaptive Forms:
 
-1. [Set up an Author instance](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#set-up-local-aem-author-service).
-1. [Add Forms archive to local AEM Author instance](#add-forms-archive).
-1. (Optional)[Add Forms-specific users to your local Author instance](configure-users-and-permissions).
-1. Install [Adaptive forms builder extension for Microsoft Visual Studio Code](#Install-Visual-Studio-Code-extension-for-headless-adaptive-forms).
+1. [Set up a local AEM Author instance](#setup-author-instance).
+1. [Add AEM Forms archive to local AEM Author instance](#add-forms-archive).
+1. (Optional) [Add Forms-specific users to your local Author instance](#configure-users-and-permissions).
+1. Install [Adaptive forms builder extension for Microsoft Visual Studio Code](#microsoft-visual-studio-code-extension-for-headless-adaptive-forms).
 
-### 1. Set up a local author instance {#setup-author-instance}
+### 1. Set up a local AEM Author instance {#setup-author-instance}
 
 The local AEM Author instance provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the local AEM Author instance to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally, making it a vital element of development process. To setup a local author instance:
 
@@ -73,7 +73,7 @@ It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.z
 
 If you do not see the PRERELEASE postfix, stop the server and restart it with '-r prerelease' switch. For more options, see [Troubleshooting](/help/troubleshooting.md)
 
-### 2. Add Forms archive to local AEM Author instance {#add-forms-archive}
+### 2. Add AEM Forms archive to local AEM Author instance {#add-forms-archive}
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive:
 
@@ -102,7 +102,7 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
     | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
     | End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-### 4. Install Visual Studio Code extension for headless adaptive forms {#microsot-visual-studio-code-extension-for-headless-adaptive-forms}
+### 4. Install Visual Studio Code extension for headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
 
 You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
 

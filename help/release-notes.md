@@ -12,6 +12,23 @@ You can use Adobe Experience Manager Headless Adaptive Forms to build forms appl
 
 The beta release provides you access to use Headless Adaptive Forms in a [local development environment](setup-development-environment.md). You can use the local development environment to build and test headless adaptive forms.
 
+Headless Adaptive Forms receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about early access, latest releases, new features, improvements, bug fixes, deprecated functionality, special instructions, and future plans for changes. 
+
+## July 2022 (v0.22.1)
+
+### New features
+
+* Introduced the `validateFormData` API. It validates all the components against the rules and constraints an returns the list of errors. The validation takes place on the server.
+* Introduced the `FormLoad` event.
+* Introduced the `importData` and `exportData`.
+* You can now dynamically add or remove items, that expect unqiue values, from a repeatable panel. You can use the `minItems` and `maxitems` constraint to set limit of item.
+* You can now use constraint to set maximum file upload size, accepted file types, minimum files, and maximum files to upload.
+
+### Improvements and bug fixes
+
+* The service was executing some event handlers twice. The issue is fixed.
+* Fixing Data Generation with different values of dataRef, name and type.
+
 ## Artifacts available in beta release
 
 In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you, the following artifacts are available in the beta release:
@@ -58,7 +75,7 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 The following features would be available in upcoming releases:
 
-* HTTP APIs to invoke a business logic (Submit a Headless Adaptive Form).
+* HTTP APIs to invoke a business logic.
 * Server-side capabilities (Prefill, server-side validation, generating Document of Record (DoR), Submitting to a Form Data Model or using Form Data Models for creating rules, and more).
 * Continuous improvements to specifications and headless adaptive form runtime.
 * Use  Adaptive Forms editor for easier management and authoring Headless Adaptive Forms.

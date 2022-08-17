@@ -20,6 +20,14 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
 ## Prerequisites
 
 * Set up the [development environment](setup-development-environment.md) to enable you to create and test a Headless Adaptive Form.
+* Set up the following development tools to use for your Adobe Experience Manager project for development:
+    * Java™
+    * Git
+    * Node.js (npm)
+    * Maven
+
+
+
 
 ## Use the archetype project to create a headless adaptive form
 
@@ -28,17 +36,34 @@ The archetype project is a maven-based template. It creates a minimal, best-prac
 Perform the following steps to create and render your first Headless Adaptive Form: 
 
 1. [Create an AEM Archetype based project](#create-an-archetype-based-project)
-1. [Create JSON representation of Headless Adaptive Form](#create-add-json-representation-of-headless-adaptive-forms)
-1. [Add JSON representation to your AEM Archetype based project](#create-add-json-representation-of-headless-adaptive-forms)  
+1. [Create JSON structure for Headless Adaptive Form](#create-add-json-representation-of-headless-adaptive-forms)
+1. [Add JSON structure of your Headless Adaptive Form to your AEM Archetype based project](#create-add-json-representation-of-headless-adaptive-forms)  
 1. [Deploy the project to a local development environment](#deploy-the-project-to-a-local-development-environment)
 1. [Use the Blank with core components template to create the Adaptive Form](#create-adaptive-form-with-blank-with-core-components-template)
 1. [Configure the Adaptive Form to use the JSON representation](#configure-adaptive-form-to-use-the-JSON-representation)
 
-### Create an AEM Archetype based project {#create-an-archetype-based-project}  
+### 1. Create an AEM Archetype based project {#create-an-archetype-based-project}  
 
-Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. If you are on Windows, run the following command with Administrative privileges (Run command prompt or bash shell as an administrator):   
+Open the command prompt and run the below command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. 
 
+* **Microsoft Windows**: If you are on Windows, open the command promt with Administrative privileges (Run command prompt or bash shell as an administrator) and run the following command:
+
+    ``` shell
+
+    mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate ^
+    -D archetypeGroupId=com.adobe.aem ^
+    -D archetypeArtifactId=aem-project-archetype ^
+    -D archetypeVersion=37 ^
+    -D appTitle=myheadlessform ^
+    -D appId=myheadlessform ^
+    -D groupId=com.myheadlessform ^
+    -D includeFormsheadless="y" 
+    
     ```
+
+* **Apple macOS or Linux**: If you are on Apple macOS or Linux, open terminal as a root user or use `sudo root` command after opening the terminal window, and run the following command:
+
+    ``` shell
 
     mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
     -D archetypeGroupId=com.adobe.aem \
@@ -51,22 +76,22 @@ Open the command prompt and run the below command to create an Experience Manage
 
     ```
 
-Change the `appTitle`, `appId`, and `groupId` in the above command to reflect your environment.
+    Change the `appTitle`, `appId`, and `groupId` in the above command to reflect your environment.
 
-* Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms. If you use Forms Portal, set the `includeExamples=y` option. It adds Forms Portal core components to the project.
+    * Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms. If you use Forms Portal, set the `includeExamples=y` option. It adds Forms Portal core components to the project.
 
-* Use the `includeFormsheadless=y` option includes Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
-    * A template type Adaptive Form V2.
-    * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
-    * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
+    * Use the `includeFormsheadless=y` option includes Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
+        * A template type Adaptive Form V2.
+        * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
+        * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-### Create or add JSON representation of Headless Adaptive Form to your AEM Archetype based project {#create-add-json-representation-of-headless-adaptive-forms}
+### 2. Create or add JSON representation of Headless Adaptive Form to your AEM Archetype based project {#create-add-json-representation-of-headless-adaptive-forms}
 
 You can use **[Adaptive Forms builder extension for Visual Studio Code]** to build a JSON representation of your headless adaptive forms. You can see [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) for sample JSON representations and list of components, attributes, and properties. You can also see the [specifications document](/help/assets/Headless-Adaptive-Form-Specification.pdf) for detailed information on all the components, constraints, and methods available to define Headless Adaptive Forms.
 
 File extension of a JSON representation of Headless Adaptive Forms is schema.json. For example, formname.schema.json. Create or add the file to your AEM Archetype based project. For example, `\myheadlessform\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\home-loan.schema.json`
 
-### Deploy the project to a local development environment {#deploy-the-project-to-a-local-development-environment}
+### 3. Deploy the project to a local development environment {#deploy-the-project-to-a-local-development-environment}
 
 You can deploy the project to local development environment. It adds headless adaptive forms functionality, the **Blank with core components** template, JSON representation of form, and other resources included in the project to your development environment. <!-- Deploy the project to your local development environment to locally create headless adaptive forms. or deploy directly to your Forms as a Cloud Service environment. !--> To deploy to your local development environment, use the following command: 
 
@@ -76,7 +101,7 @@ If you are on Windows, run the above with Administrative privileges (Run command
     
 <!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
 
-### Create an Adaptive Form based on the Blank with core components template {#create-adaptive-form-with-blank-with-core-components-template}
+### 4. Create an Adaptive Form based on the Blank with core components template {#create-adaptive-form-with-blank-with-core-components-template}
 
 1. Log in to your [local](http://localhost:4502/) <!-- or Forms as a Cloud Service --> development environment.
 
@@ -97,7 +122,7 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. Tap Create. An Adaptive Form is created.
 
-### Configure the Adaptive Form to use the JSON representation {#configure-adaptive-form-to-use-the-JSON-representation}
+### 5. Configure the Adaptive Form to use the JSON Structure {#configure-adaptive-form-to-use-the-JSON-representation}
 
 Open the form created in the previous section for editing. When you open the form for editing, it  displays the sidebar to customize the newly created form. To configure the Adaptive Form to use the JSON representation:
 

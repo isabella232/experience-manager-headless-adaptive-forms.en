@@ -40,7 +40,7 @@ Perform the following steps to create and render your first Headless Adaptive Fo
 1. [Add JSON structure of your Headless Adaptive Form to your AEM Archetype based project](#create-add-json-representation-of-headless-adaptive-forms)  
 1. [Deploy the project to a local development environment](#deploy-the-project-to-a-local-development-environment)
 1. [Use the Blank with core components template to create the Adaptive Form](#create-adaptive-form-with-blank-with-core-components-template)
-1. [Configure the Adaptive Form to use the JSON representation](#configure-adaptive-form-to-use-the-JSON-representation)
+1. [Configure the Adaptive Form to use the JSON structure](#configure-adaptive-form-to-use-the-JSON-representation)
 
 ### 1. Create an AEM Archetype based project {#create-an-archetype-based-project}  
 
@@ -85,15 +85,15 @@ Open the command prompt and run the below command to create an Experience Manage
         * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en). It is based on template type Adaptive Form V2.
         * A frontend react module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-### 2. Create or add JSON representation of Headless Adaptive Form to your AEM Archetype based project {#create-add-json-representation-of-headless-adaptive-forms}
+### 2. Create or add JSON structure of Headless Adaptive Form to your AEM Archetype based project {#create-add-json-representation-of-headless-adaptive-forms}
 
-You can use **[Adaptive Forms builder extension for Visual Studio Code]** to build a JSON representation of your headless adaptive forms. You can see [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) for sample JSON representations and list of components, attributes, and properties. You can also see the [specifications document](/help/assets/Headless-Adaptive-Form-Specification.pdf) for detailed information on all the components, constraints, and methods available to define Headless Adaptive Forms.
+You can use **[Adaptive Forms builder extension for Visual Studio Code]** to build a JSON structure of your headless adaptive forms. You can see [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) for sample JSON structures and list of components, attributes, and properties. You can also see the [specifications document](/help/assets/Headless-Adaptive-Form-Specification.pdf) for detailed information on all the components, constraints, and methods available to define Headless Adaptive Forms.
 
-File extension of a JSON representation of Headless Adaptive Forms is schema.json. For example, formname.schema.json. Create or add the file to your AEM Archetype based project. For example, `\myheadlessform\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\home-loan.schema.json`
+File extension of a JSON structure of Headless Adaptive Forms is schema.json. For example, formname.schema.json. Create or add the file to your AEM Archetype based project. For example, `\myheadlessform\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\home-loan.schema.json`
 
 ### 3. Deploy the project to a local development environment {#deploy-the-project-to-a-local-development-environment}
 
-You can deploy the project to local development environment. It adds headless adaptive forms functionality, the **Blank with core components** template, JSON representation of form, and other resources included in the project to your development environment. <!-- Deploy the project to your local development environment to locally create headless adaptive forms. or deploy directly to your Forms as a Cloud Service environment. !--> To deploy to your local development environment, use the following command: 
+You can deploy the project to local development environment. It adds headless adaptive forms functionality, the **Blank with core components** template, JSON structure of form, and other resources included in the project to your development environment. <!-- Deploy the project to your local development environment to locally create headless adaptive forms. or deploy directly to your Forms as a Cloud Service environment. !--> To deploy to your local development environment, use the following command: 
 
     `mvn -PautoInstallPackage clean install`
 
@@ -107,11 +107,11 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. After you are logged in, in the upper-left corner, tap Adobe Experience Manager > Forms > Forms & Documents.  
 
-1. Create a folder and upload JSON representation of your headless adaptive form to it.
+1. Create a folder and upload JSON structure of your headless adaptive form to it.
 
     >[!NOTE]
     >
-    >File extension of a JSON representation of Headless Adaptive Forms is schema.json. For example, formname.schema.json
+    >File extension of a JSON structure of Headless Adaptive Forms is schema.json. For example, formname.schema.json
 
 1. Tap Create and select Adaptive Form. Select the **Blank with core components** template and tap Create.
 
@@ -122,13 +122,13 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. Tap Create. An Adaptive Form is created.
 
-### 5. Configure the Adaptive Form to use the JSON Structure {#configure-adaptive-form-to-use-the-JSON-representation}
+### 5. Configure the Adaptive Form to use the JSON structure {#configure-adaptive-form-to-use-the-JSON-representation}
 
-Open the form created in the previous section for editing. When you open the form for editing, it  displays the sidebar to customize the newly created form. To configure the Adaptive Form to use the JSON representation:
+Open the form created in the previous section for editing. When you open the form for editing, it  displays the sidebar to customize the newly created form. To configure the Adaptive Form to use the JSON structure:
 
 1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
 
-1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON representation uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendition of the form.
+1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON structure uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendition of the form.
 
 1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
 
@@ -143,4 +143,4 @@ Open the form created in the previous section for editing. When you open the for
     1. After the completion, open the localhost:3000 in your browser window to view rendered Headless Adaptive Form. 
     1. To test the submission functionality, login to your AEM Forms Server, and use the **Preview the form in HTML** option to open the form in preview mode. 
 
-The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) provides a list of components and rules that can be set on various Headless Adaptive Forms along with some example of JSON representation of Headless Adaptive Forms. You can also look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.
+The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) provides a list of components and rules that can be set on various Headless Adaptive Forms along with some example of JSON structure of Headless Adaptive Forms. You can also look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.

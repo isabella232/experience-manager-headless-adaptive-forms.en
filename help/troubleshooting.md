@@ -26,13 +26,14 @@ It can happen due to an unsupported version or corrupt installtion of node.js or
 1. Reboot your machine.
 
 
-## The `mvn clean install` fails to run
+## The `mvn clean install` command fails to run
 
 ### Issue
 
 When you use the `mvn clean install` or similar commands to deploy an AEM Archeype project, the command fails to run.
 
 ### Reason
+
 It can happen if Git is not installed.
 
 ### Solution

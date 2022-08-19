@@ -7,62 +7,61 @@ exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 ---
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 
-**Should I know React.js to use Headless Adaptive Forms?**
+## Should I know React.js to use Headless Adaptive Forms?
 You can use any framework, library, or language to render Headless Adaptive Forms and use our REST APIs to validate and submit the forms. Web SDK and React components provided out of the box are for your convenience. You can develop your own components and are not limited to use these.
 
-**Did Adobe release a new AEM Archetype for Headless Adaptive forms?**
+## Did Adobe release a new AEM Archetype for Headless Adaptive forms?
 
 You can use Archetype 37 with flag `includeFormsheadless` or later flag to create an AEM project with Headless Adaptive Forms functionality.
 
-**Do I require Forms as a Cloud Service sandbox to use Headless Adaptive forms?**
+## Do I require Forms as a Cloud Service sandbox to use Headless Adaptive forms?
 
 Headless Adaptive Forms are available only for Forms as a Cloud Service at this moment. You can set up a local development environment to create and test forms with an application or website on your machine before deploying or uploading the form to Cloud Service sandbox.
 
-**Do I need an archetype project to develop Headless Adaptive forms?** 
+## Do I need an archetype project to develop Headless Adaptive forms?
 
 Archetype project makes it easier to create, store, and deploy a headless adaptive form on a Forms Cloud service environment. During the beta phase, it is required to deploy an Archetype 37 based project to get stared with creating a Headless Adaptive Forms on a Cloud Service environment.
 
-**Where can I get a preview or playground to Headless forms?** 
+## Where can I get a preview or playground to Headless forms? {#storybook-example}
 
 You can use [container component in Forms as a Cloud service environment](render-first-headless-adaptive-form.md) or you can modify a [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) example to preview a Headless Adaptive Form.
 
-![](/help/assets/storybook-eample.png)
+![](/help/assets/storybook-example.png)
 
-**Is it possible to build custom components for headless adaptive forms?**
+## Is it possible to build custom components for headless adaptive forms?
 
 Headless Adaptive Forms are based on [standard specification](/help/assets/Headless-Adaptive-Form-Specification.pdf). Headless Adaptive Forms include react components OOTB. You can extend the specification of use it to build custom components. For example, components for Chakra UI, Flutter, Vue.js, and more.
 
-**Do Headless Adaptive Forms support cascading fields?**
+## Do Headless Adaptive Forms support cascading fields?
 
 In cascading fields, content of second field depends on content chosen in the first field. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJson.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) provides an example of cascading fields.
 
-**Do Headless Adaptive Forms allow prefilling forms with personalized data?**
+## Do Headless Adaptive Forms allow prefilling forms with personalized data?
 
 Headless Adaptive Forms allows prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless Adaptive Form.
 
-**Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?**
+## Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?
 
-At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
+At this moment, you use the Adaptive Form Editor to specify the JSON schema and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
 
-**Can I use Headless Adaptive Forms with Angular SPA?**
+## Can I use Headless Adaptive Forms with Angular SPA?
 
 You can use the Web SDK to integrate Headless Adaptive Forms with Angular SPA. It is independent of any framework. You can use React SDK as a reference. 
 
-**Should the `-r prerelease` switch be used everytime to start the AEM Author instance or only for the first time?**
+## Should the `-r prerelease` switch be used everytime to start the AEM SDK instance or only for the first time?
 
-During the beta program, use the `-r prerelease` switch everytime you start the AEM Author instance.
+During the beta program, use the `-r prerelease` switch everytime you start the AEM SDk instance.
 
-**What is AEM Forms add-on (.far file) and how to install it?**
+## What is AEM Forms add-on (.far file) and how to install it?
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive, see [Setup development environment](setup-development-environment.md).
 
-**Where do one get the license.properties file from?**
+## Where do one get the license.properties file from?
 You do not require a license.properties file to run AEM Cloud Service SDK. 
 
-**Is there a Adaptive Forms Extension for Intellij also?**
+## Is there a Adaptive Forms Extension for Intellij also?
 For now the extension is available only for Microsoft Visual Studio Code. It provides a convenient way to author the Headless Adaptive Forms JSON manually. Eventually, you would be able to use Adaptive Forms Editor to author a Headless Adaptive Form.
 
-**Can a Headless Adaptive Form connect to any CRM source to read or write data?**
+## Can a Headless Adaptive Form connect to any CRM to read or write data?
 
 You can use Microsoft Dynamics and Salesforce to submit or prefill a Headless Adaptive Form. Apart from CRMs, Headless Adaptive Forms support submit or prefill using REST endpoints, email, and custom submit actions.
-

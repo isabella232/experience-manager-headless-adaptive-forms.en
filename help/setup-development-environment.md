@@ -40,14 +40,14 @@ To install and run AEM SDK, your development environment must meet these minimum
 
 To set up a new local development environment and use it to develop Headless Adaptive Forms:
 
-1. [Set up a local AEM Author instance](#setup-author-instance).
-1. [Add AEM Forms archive to local AEM Author instance](#add-forms-archive).
+1. [Set up AEM as a Cloud Service SDK](#setup-author-instance).
+1. [Add AEM Forms archive to AEM SDK](#add-forms-archive).
 1. (Optional) [Add Forms-specific users to your local Author instance](#configure-users-and-permissions).
 1. (Optional) Install [Adaptive forms builder extension for Microsoft Visual Studio Code](#microsoft-visual-studio-code-extension-for-headless-adaptive-forms).
 
-### 1. Set up a local AEM Author instance {#setup-author-instance}
+### 1. Set up AEM as a Cloud Service SDK {#setup-author-instance}
 
-The local AEM Author instance provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the local AEM Author instance to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
+AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the AEM as a Cloud Service SDK to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
 It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
@@ -65,24 +65,24 @@ It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.z
     * Do not double-click the .jar file to start it. It results in an [error](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click). 
     * You can use `admin` as username and password for local development to reduce the cognitive load.
 
-    After AEM starts, the login page opens in web browser. You can also open the login page for AEM Author instance at address `http://localhost:<port>` in your web browser. For example, [http://localhost:4502](http://localhost:4502).
+    After AEM starts, the login page opens in web browser. You can also open the login page for AEM SDK instance at address `http://localhost:<port>` in your web browser. For example, [http://localhost:4502](http://localhost:4502).
 
 1. Login to your Author instance. Tap the ![help](/help/assets/Help-icon.svg) icon, tap About Adobe Experience Manager, and ensure that the version number includes the PRERELEASE postfix.
 
     ![help](/help/assets/prerelease.png)
 
-If you do not see the PRERELEASE postfix, stop the server and restart it with '-r prerelease' switch. For more options, see [Troubleshooting](/help/troubleshooting.md)
+If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK installation]/crx-quickstart folder`, and restart the AEM SDK .jar file with `-r prerelease` switch. For more options, see [Troubleshooting](/help/troubleshooting.md)
 
-### 2. Add AEM Forms archive to local AEM Author instance {#add-forms-archive}
+### 2. Add AEM Forms archive to AEM SDK {#add-forms-archive}
 
-Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive:
+AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) provides tools to create Headless Adaptive Forms on a local development environment. To install the feature archive:
 
 1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK. 
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
-1. Stop your AEM Author instance. You can terminate your command prompt window that is running AEM Author instance to stop AEM.
+1. Stop your AEM SDK instance. You can terminate your command prompt window that is running AEM SDK instance to stop AEM.
 1. Copy the [!DNL AEM Forms] add-on feature archive from file, `aem-forms-addon-<version>.far`, extracted in step 1 to the install folder.
-1. Use the following command to restart the AEM Author instance:
+1. Use the following command to restart the AEM SDK instance:
 
     `java -jar aem-author-p4502.jar -r prerelease`
 
@@ -90,7 +90,7 @@ Adobe Experience Manager Forms as a Cloud Service feature archive provides tools
 
 Create seperate user accounts for Form Developer, Form Practitioner, and end users. These account help you test Headless Adaptive Forms for various types of users. To create a user account and add roles to the account:
 
-1. Login to your AEM Author instance.
+1. Login to your AEM SDK instance.
 1. Go to Tools > Security > Users and tap Create. The Create New User wizard opens.
 1. In the details tab, specify an ID and Password. All other fields are optional. It is recommended to provide name and an email address.
 1. In the Groups tab, search and select user-groups for a user depending on their role. The table below lists all types of users and pre-defined groups for each type of forms users based on their role:

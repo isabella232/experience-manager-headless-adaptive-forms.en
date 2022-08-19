@@ -42,8 +42,27 @@ Headless Adaptive Forms allows prefilling forms with personalized data. The [Sto
 
 **Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?**
 
-At this moment, you use the Adaptive Form Editor to specify the JSON Structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
+At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
 
 **Can I use Headless Adaptive Forms with Angular SPA?**
 
 You can use the Web SDK to integrate Headless Adaptive Forms with Angular SPA. It is independent of any framework. You can use React SDK as a reference. 
+
+**Should the `-r prerelease` switch be used everytime to start the AEM Author instance or only for the first time?**
+
+During the beta program, use the `-r prerelease` switch everytime you start the AEM Author instance.
+
+**What is AEM Forms add-on (.far file) and how to install it?**
+
+Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive, see [Setup development environment](setup-development-environment.md).
+
+**Where do one get the license.properties file from?**
+You do not require a license.properties file to run AEM Cloud Service SDK. 
+
+**Is there a Adaptive Forms Extension for Intellij also?**
+For now the extension is available only for Microsoft Visual Studio Code. It provides a convenient way to author the Headless Adaptive Forms JSON manually. Eventually, you would be able to use Adaptive Forms Editor to author a Headless Adaptive Form.
+
+**Can a Headless Adaptive Form connect to any CRM source to read or write data?**
+
+You can use Microsoft Dynamics and Salesforce to submit or prefill a Headless Adaptive Form. Apart from CRMs, Headless Adaptive Forms support submit or prefill using REST endpoints, email, and custom submit actions.
+

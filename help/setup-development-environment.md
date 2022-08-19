@@ -6,7 +6,7 @@ exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
 # Setup development environment {#headless-adaptive-forms-setup-development-environment}
 
-You can set up development environment to create, test, and deploy headless forms.  After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment.
+You can set up a development environment to create, test, and deploy headless forms. <!-- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. >
 
 You require knowledge to build application using react, Git, and Maven to use Headless Adaptive Forms.
 
@@ -43,16 +43,16 @@ To set up a new local development environment and use it to develop Headless Ada
 1. [Set up a local AEM Author instance](#setup-author-instance).
 1. [Add AEM Forms archive to local AEM Author instance](#add-forms-archive).
 1. (Optional) [Add Forms-specific users to your local Author instance](#configure-users-and-permissions).
-1. Install [Adaptive forms builder extension for Microsoft Visual Studio Code](#microsoft-visual-studio-code-extension-for-headless-adaptive-forms).
+1. (Optional) Install [Adaptive forms builder extension for Microsoft Visual Studio Code](#microsoft-visual-studio-code-extension-for-headless-adaptive-forms).
 
 ### 1. Set up a local AEM Author instance {#setup-author-instance}
 
-The local AEM Author instance provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the local AEM Author instance to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally, making it a vital element of development process. To setup a local author instance:
+The local AEM Author instance provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the local AEM Author instance to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
 It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
 1. Extract the downloaded .zip file to a directory on your local machine.
-1. Create a directory on your local machine to serve as installation location for the author instance. For example, `~/aem-sdk/author`. Copy the .jar file from extracted SDK files to the directory and rename the file to `aem-author-p4502.jar`. The word `p4502` in the filename specifies the port number to use. You can specify a different port number also.
+1. Create a directory on your local machine to serve as installation location for the author instance. For example, `~/aem-sdk/author`. Copy the .jar file from extracted SDK files to the directory and rename the file to `aem-author-p4502.jar`. The `p4502` string in the filename specifies the port number to use. You can specify a different port number also.
 1. Open the command prompt: 
     * On Windows, use the **Run as Administrator** option to open command prompt in evelated mode.
     * On Linux, ensure you open the terminal window as a root user.
@@ -65,7 +65,7 @@ It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.z
     * Do not double-click the .jar file to start it. It results in an [error](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click). 
     * You can use `admin` as username and password for local development to reduce the cognitive load.
 
-    After AEM starts, the login page opens in Web browser. You can also open the login page for AEM Author instance at address `http://localhost:<port>` in your Web browser. For example, [http://localhost:4502](http://localhost:4502).
+    After AEM starts, the login page opens in web browser. You can also open the login page for AEM Author instance at address `http://localhost:<port>` in your web browser. For example, [http://localhost:4502](http://localhost:4502).
 
 1. Login to your Author instance. Tap the ![help](/help/assets/Help-icon.svg) icon, tap About Adobe Experience Manager, and ensure that the version number includes the PRERELEASE postfix.
 
@@ -102,7 +102,7 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
     | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
     | End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-### 4. Install Visual Studio Code extension for headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
+### (Optional) 4. Install Visual Studio Code extension for headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
 
 You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
 

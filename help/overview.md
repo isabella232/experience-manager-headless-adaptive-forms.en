@@ -9,11 +9,11 @@ exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 Adobe Experience Manager Headless Adaptive Forms is an API-first form builder platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form in any website or application. <!-- You can also use Headless Adaptive Forms to build custom data capture experiences for voice based or non-visual interactions. --> Headless Adaptive Forms provide the flexibility to render the forms for any channel in an optimal way. For example, a React app, any  SPA (Single Page Application), or a native mobile app. It helps improve the enrolment experience for customers leading to better conversion. Headless Adaptive Forms includes:
 
 * Omni-channel forms with a single source of truth to easily manage and update forms
-* Channel agnostic JSON Structure of forms for easy consumption in any application
+* Channel agnostic JSON structure of forms for easy consumption in any application
 * RESTful APIs to list, fetch, validate, submit, track submission status of headless forms
 * Web SDK to natively render a headless adaptive form in a website or web application
 * Rule grammar to build dynamic forms and validations
-* Adaptive Forms Visual Studio Code extension to help create a valid JSON Structure
+* Adaptive Forms Visual Studio Code extension to help create a valid JSON structure
 
 <!-- ![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.jpg) -->
 
@@ -21,7 +21,7 @@ At the beta stage, we expect front end developers familiar with modern JavaScrip
 
 ## Why use Adobe Experience Manager Headless Adaptive Forms?
 
-Headless Adaptive Forms are based on an [Adaptive Forms V2 specification](/help/assets/Headless-Adaptive-Form-Specification.pdf) (JSON Structure of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks to Adobe. You have the freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
+Headless Adaptive Forms are based on an [Adaptive Forms V2 specification](/help/assets/Headless-Adaptive-Form-Specification.pdf) (JSON structure of form and Rules grammar) developed by Adobe and provide native SDKs to manage form state, validate form content, and connect a form to a UI framework of your choice, providing you freedom to concentrate on building great user experiences while leaving complex backend tasks to Adobe. You have the freedom to develop your own components to render a form using any UI framework or programming language or use OOTB react components to render a form. Along with the specification, Headless Adaptive Forms would add the following user-friendly backend tools and services for complex tasks as beta progresses:
 
 * Visual editor to easily develop a Headless Adaptive Forms.
 * Workflow engine to automate complex tasks.
@@ -34,7 +34,7 @@ Headless Adaptive Forms are based on an [Adaptive Forms V2 specification](/help/
 
 ## How Headless Adaptive Form works?
 
-A Headless Adaptive Form is essentially a JSON Structure (Schema) complete with fields (Text box, choices, and many more fields) and corresponding rules (Conditional logic) to add dynamism to the form. You can use REST APIs in your application or website to request the hosted schema and natively render the schema as a form in your app or website. A schema can serve multiple webpages and applications without making any app or website specific changes to it.
+A Headless Adaptive Form is essentially a JSON structure (Schema) complete with fields (Text box, choices, and many more fields) and corresponding rules (Conditional logic) to add dynamism to the form. You can use REST APIs in your application or website to request the hosted schema and natively render the schema as a form in your app or website. A schema can serve multiple webpages and applications without making any app or website specific changes to it.
 
 ![How Headless Adaptive Form works](/help/assets/how-headless-adaprive-forms-work.png)
 

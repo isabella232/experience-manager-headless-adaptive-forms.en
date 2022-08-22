@@ -186,9 +186,11 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents.  
 
-1. Tap Create and select Adaptive Form. Select the **Blank with core components** template and tap Create.
+1. Tap Create and select Adaptive Form. Select the **Blank with core components** template and tap Create. 
 
-1. An option to Add Properties appears. Specify the values for following property fields. The Title and Name fields are mandatory:
+  ![Template](assets/template.png)
+
+1. Specify the values for following property fields. The Title and Name fields are mandatory:
 
    * **Title**: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
    * **Name**: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.

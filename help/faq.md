@@ -8,6 +8,7 @@ exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
 
 ## Should I know React.js to use Headless Adaptive Forms?
+
 You can use any framework, library, or language to render Headless Adaptive Forms and use our REST APIs to validate and submit the forms. Web SDK and React components provided out of the box are for your convenience. You can develop your own components and are not limited to use these.
 
 ## Did Adobe release a new AEM Archetype for Headless Adaptive forms?
@@ -50,16 +51,18 @@ You can use the Web SDK to integrate Headless Adaptive Forms with Angular SPA. I
 
 ## Should the `-r prerelease` switch be used everytime to start the AEM SDK instance or only for the first time?
 
-During the beta program, use the `-r prerelease` switch everytime you start the AEM SDk instance.
+During the beta program, use the `-r prerelease` switch everytime you start the AEM SDK instance.
 
 ## What is AEM Forms add-on (.far file) and how to install it?
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless Adaptive Forms on the local development environment. To install the feature archive, see [Setup development environment](setup-development-environment.md).
 
 ## Where do one get the license.properties file from?
+
 You do not require a license.properties file to run AEM Cloud Service SDK. 
 
 ## Is there a Adaptive Forms Extension for Intellij also?
+
 For now the extension is available only for Microsoft Visual Studio Code. It provides a convenient way to author the Headless Adaptive Forms JSON manually. Eventually, you would be able to use Adaptive Forms Editor to author a Headless Adaptive Form.
 
 ## Can a Headless Adaptive Form connect to any CRM to read or write data?

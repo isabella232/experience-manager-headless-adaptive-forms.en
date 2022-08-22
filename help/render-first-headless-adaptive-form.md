@@ -158,7 +158,7 @@ To create and upload the schema:
 
 1. Log in to your [local AEM SDK instance](setup-development-environment.md#setup-author-instance)
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Tap Create > File Upload. 
-1. Select the `.schema.json` created in step 2 and upload it. You are ready to create the Headless Adaptive form. If you save the .schema.json file to your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.schema.json`. You can use the `mvn -PautoInstallPackage clean install` to deploy the project to your AEM SDK and <formname>.schema.json along with it.
+1. Select the `.schema.json` created in step 2 and upload it. You are ready to create the Headless Adaptive form. If you save the .schema.json file to your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.schema.json`. You can use the `mvn -PautoInstallPackage clean install` to deploy the project to your AEM SDK and `<formname>.schema.json` along with it.
 
 If there is a failure in uploading the `.schema.json`, ensure that the [AEM Archetype project is deployed successfully](#deploy-the-project-to-a-local-development-environment).
 

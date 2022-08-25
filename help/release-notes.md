@@ -10,7 +10,7 @@ Welcome to Experience Manager Headless Adaptive Forms Beta release. Read on for 
 
 You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI frameworks like React, Angular, and more and use Adaptive Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 
-The beta release provides you access to use Headless Adaptive Forms in a [local development environment](setup-development-environment.md). You can use the local development environment to build and test headless adaptive forms.
+The beta release provides you access to use Headless Adaptive Forms in a [local development environment](setup-development-environment.md). You can use the local development environment to build and test Headless Adaptive Forms.
 
 Headless Adaptive Forms receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about early access, latest releases, new features, improvements, bug fixes, deprecated functionality, special instructions, and future plans for changes. 
 
@@ -38,7 +38,7 @@ In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you,
 
 ### AEM Forms as a Cloud Service SDK
 
-AEM Forms as a Cloud Service SDK to help you create, store, and fetch Headless Adaptive Forms. It also helps provide prefill, server-side rule validation, and submit services for Headless adaptive forms.
+AEM Forms as a Cloud Service SDK to help you create, store, and fetch Headless Adaptive Forms. It also helps provide prefill, server-side rule validation, and submit services for Headless Adaptive Forms.
 
 ### Forms Web SDK
 

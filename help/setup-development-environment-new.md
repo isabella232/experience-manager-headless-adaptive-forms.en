@@ -47,7 +47,7 @@ To set up a new local development environment and use it to develop Headless Ada
 
 ### 1. Set up AEM as a Cloud Service SDK {#setup-author-instance}
 
-AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create, test, and deploy headless adaptive forms. You can use the AEM SDK to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally, making it a vital element of development process. To setup a local author instance:
+AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create, test, and deploy Headless Adaptive Forms. You can use the AEM SDK to both create and preview Headless Adaptive Forms, allowing you to perform most validations related to development locally, making it a vital element of development process. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
 It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
@@ -71,7 +71,7 @@ It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.z
 
     ![help](/help/assets/prerelease.png)
 
-If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK installation]/crx-quickstart folder`, and restart the AEM SDK .jar file with `-r prerelease` switch. For more options, see [Troubleshooting](/help/troubleshooting.md)
+If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK installation]/crx-quickstart folder`, and restart the AEM SDK .jar file with `-r ` switch. For more options, see [Troubleshooting](/help/troubleshooting.md)
 
 ### 2. Add Forms archive to local AEM SDK instance {#add-forms-archive}
 
@@ -84,7 +84,7 @@ Adobe Experience Manager Forms as a Cloud Service feature archive provides tools
 1. Copy the [!DNL AEM Forms] add-on feature archive from file, `aem-forms-addon-<version>.far`, extracted in step 1 to the install folder.
 1. Use the following command to restart the AEM SDK instance:
 
-    `java -jar aem-author-p4502.jar -r prerelease`
+    `java -jar aem-author-p4502.jar -r `
 
 ### 3. (Optional) Configure users and permissions {#configure-users-and-permissions}
 
@@ -102,9 +102,9 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
     | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
     | End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-### 4. Install Visual Studio Code extension for headless adaptive forms {#microsot-visual-studio-code-extension-for-headless-adaptive-forms}
+### 4. Install Visual Studio Code extension for Headless Adaptive Forms {#microsot-visual-studio-code-extension-for-headless-adaptive-forms}
 
-You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
+You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop Headless Adaptive Forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete Headless Adaptive Forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
 
 1. Ensure [Microsoft Visual Studio Code 1.62.0 or later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version) is installed. If you have an older version or no version installed, download the latest version from [Microsoft Website](https://code.visualstudio.com/docs/setup/setup-overview)
    >[!NOTE]

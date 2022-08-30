@@ -67,9 +67,9 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 [HTTP APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/) allow you to list, fetch, validate, submit, track submission status of headless forms. [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless Adaptive Forms with any JavaScript based UI framework. 
 
-### Visual Studio Code Plugin
+### Visual Studio Code Extension
 
-[Visual Studio Code extension](/help/assets/adaptive-form-builder-0.11.0.vsix) to help create a valid JSON schema. It provides IntelliSense support and validation for JSON schema of forms along with common funcions like add, delete, or rename components of a JSON schema.  
+[Visual Studio Code extension](visual-studio-code-extension-for-headless-adaptive-forms.md) to help create a valid JSON schema. It provides IntelliSense support and validation for JSON schema of forms along with common funcions like add, delete, or rename components of a JSON schema.  
 
 ## What's next
 

@@ -43,7 +43,7 @@ To install AEM SDK, your local machine must meet these minimum requirements:
 To set up a new local development environment and use it to develop and test Headless Adaptive Forms:
 
 1. [Set up AEM as a Cloud Service SDK](#setup-author-instance).
-1. [Add AEM Forms archive to AEM SDK](#add-forms-archive).
+1. [Add AEM Forms archive (AEM Forms Cloud Service add-on) to AEM SDK](#add-forms-archive).
 
 <!--
 
@@ -57,7 +57,7 @@ To set up a new local development environment and use it to develop and test Hea
 AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create and test headless adaptive forms. You can use the AEM as a Cloud Service SDK to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
-It is in .zip format. The minimum supported version is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
+It is in .zip format. The supported version is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip and later.
 
     ![Download AEM Cloud Service SDK from Software Distribution portal](assets/software-distribution.png)
 
@@ -91,11 +91,11 @@ It is in .zip format. The minimum supported version is aem-sdk-2022.7.8085.20220
 
 If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK installation]/crx-quickstart folder`, and restart the AEM SDK .jar file with `-r prerelease` switch. For more options, see [Troubleshooting](/help/troubleshooting.md).
 
-### 2. Add AEM Forms archive to AEM SDK {#add-forms-archive}
+### 2. Add AEM Forms archive (AEM Forms Cloud Service add-on) to AEM SDK {#add-forms-archive}
 
 AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) provides tools to create Headless Adaptive Forms on a local development environment. To install the feature archive:
 
-1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK.
+1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK. The supported version is aem-forms-addon-2022.07.06.02-220600 and later.
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 1. Stop your AEM SDK instance. You can terminate your command prompt window that is running AEM SDK instance to stop AEM.

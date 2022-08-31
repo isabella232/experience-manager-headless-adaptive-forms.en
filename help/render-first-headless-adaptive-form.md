@@ -7,7 +7,7 @@ exl-id: 99985fed-4a34-47d6-bb6f-79f81e1cd71b
 ---
 # Create your first headless adaptive form
 
-You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI like React, Angular, Flutter, NPM, Vue.js, Ionic, Chakra UI, Bootstrap, and more and use  Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
+You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI such as React and use Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 
 For example, an organization We.Org is looking to digitize their customer enrollment journey. Their developers are well versed at using Angular to build frontend solutions. They are looking to build a custom front end while offloading form validation and electronic signatures to specialized solutions.
 
@@ -134,8 +134,8 @@ A Headless Adaptive Forms is represented as a JSON file. You can get a sample fo
 
 To create and upload the schema:
 
-1. Create a plain-text file with extension `.schema.json`. For example, `myfirstform.schema.json`. The file extension of a Headless Adaptive Form schema is `schema.json`. You can create the file anywhere on your file system or in your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.schema.json` 
-1. Add the following JSON content to your `schema.json` file and save it:
+1. Create a plain-text file with extension `.json`. For example, `myfirstform.json`. You can create the file anywhere on your file system or in your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.json` 
+1. Add the following JSON content to your `.json` file and save it:
 
     ``` JSON
     {
@@ -162,9 +162,9 @@ To create and upload the schema:
 
 1. Log in to your [local AEM SDK instance](setup-development-environment.md#setup-author-instance)
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Tap Create > File Upload. 
-1. Select the `.schema.json` created in step 2 and upload it. You are ready to create the Headless Adaptive form. If you save the .schema.json file to your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.schema.json`. You can use the `mvn -PautoInstallPackage clean install` to deploy the project to your AEM SDK and `<formname>.schema.json` along with it.
+1. Select the `.json` created in step 2 and upload it. You are ready to create the Headless Adaptive form. If you save the .json file to your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.json`. You can use the `mvn -PautoInstallPackage clean install` to deploy the project to your AEM SDK and `<formname>.json` along with it.
 
-If there is a failure in uploading the `.schema.json`, ensure that the [AEM Archetype project is deployed successfully](#deploy-the-project-to-a-local-development-environment).
+If there is a failure in uploading the `.json`, ensure that the [AEM Archetype project is deployed successfully](#deploy-the-project-to-a-local-development-environment).
 
 <!-- 1. Open the [contact form](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) and tap the [![Raw](assets/raw.png)](faq.md#storybook-example) icon on bottom-right side of the Storybook page to view the source code of the headless . 
 
@@ -172,7 +172,7 @@ You can use [Adaptive Forms builder extension for Visual Studio Code](/help/setu
 
 You can see [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) for sample JSON schemas and list of components, attributes, and properties. You can also see the [specifications document](/help/assets/Headless-Adaptive-Form-Specification.pdf) for detailed information on all the components, constraints, and methods available to define Headless Adaptive Forms.
 
-File extension of a JSON schema of Headless Adaptive Forms is schema.json. For example, formname.schema.json. Create or add the file to your AEM Archetype based project. For example, `\myheadlessform\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\home-loan.schema.json` -> 
+File extension of a JSON schema of Headless Adaptive Forms is .json. For example, formname.json. Create or add the file to your AEM Archetype based project. For example, `\myheadlessform\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\home-loan.json` -> 
 
 ### 3. Deploy the project to a local development environment {#deploy-the-project-to-a-local-development-environment}
 
@@ -190,7 +190,7 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents.  
 
-1. Tap Create and select Adaptive Form. Select the **Blank with core components** template and tap Create. 
+1. Tap Create and select Adaptive Form. Select the **Blank with core components** template and tap Create.
 
     ![Template](assets/template.png)
 

@@ -11,7 +11,7 @@ hide: yes
 + [Release Notes](release-notes.md)
 + [Architecture](architecture.md)
 + [Setup Development environment](setup-development-environment.md)
-+ [Render a headless adaptive form](render-first-headless-adaptive-form.md)
++ [Create your first headless adaptive form](render-first-headless-adaptive-form.md)
 + [Frequently asked questions](faq.md)
 + [Troubleshooting](troubleshooting.md)
 + [Microsoft Visual Studio Code extension for Headless Adaptive Forms](visual-studio-code-extension-for-headless-adaptive-forms.md)

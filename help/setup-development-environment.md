@@ -59,7 +59,7 @@ AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
 It is in .zip format. The minimum supported version is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
 
-    ![Download AEM Cloud Service SDK from Software Distribution portal](assets\software-distribution.png)
+    ![Download AEM Cloud Service SDK from Software Distribution portal](assets/software-distribution.png)
 
 
 1. Extract the downloaded .zip file to a directory on your local machine.
@@ -78,7 +78,7 @@ It is in .zip format. The minimum supported version is aem-sdk-2022.7.8085.20220
 
     `java -jar aem-author-p4502.jar -r prerelease`
 
-    ![Download AEM Cloud Service SDK from Software Distribution portal](assets\install-sdk.png)
+    ![Download AEM Cloud Service SDK from Software Distribution portal](assets/install-sdk.png)
 
     *  The `-r prerelease` switch enables the features availabe only under the prerelease and beta programs.
     * You can use `admin` as username and password for local development to reduce the cognitive load.

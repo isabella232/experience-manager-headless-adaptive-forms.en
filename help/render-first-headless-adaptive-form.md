@@ -42,7 +42,7 @@ Depending on the operating system, run the below command to create an Experience
 
 **Microsoft Windows**
 
-1. Open the command prompt with Administrative privileges (Run command prompt or bash shell as an administrator) 
+1. Open the command prompt with Administrative privileges (Run command prompt or bash shell as an administrator).
 1. Run the below command:
 
       ``` shell
@@ -158,7 +158,7 @@ To create and upload the JSON structure:
     ![Hello World](assets/introduction.png)
 
 
-1. Log in to your [local AEM SDK instance](setup-development-environment.md#setup-author-instance)
+1. Log in to your [local AEM SDK instance](setup-development-environment.md#setup-author-instance).
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Tap Create > File Upload. 
 1. Select the `.json` created in step 2 and upload it. You are ready to create the Headless Adaptive form. If you save the .json file to your AEM Archetype based project at `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.json`. You can use the `mvn -PautoInstallPackage clean install` to deploy the project to your AEM SDK and `<formname>.json` along with it.
 

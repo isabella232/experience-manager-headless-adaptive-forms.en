@@ -57,19 +57,30 @@ To set up a new local development environment and use it to develop and test Hea
 AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create and test headless adaptive forms. You can use the AEM as a Cloud Service SDK to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
-It is in .zip format. For example, aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
+It is in .zip format. The minimum supported version is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip.
+
+    ![Download AEM Cloud Service SDK from Software Distribution portal](assets\software-distribution.png)
+
+
 1. Extract the downloaded .zip file to a directory on your local machine.
-1. Create a directory on your local machine to serve as installation location for the author instance. For example, `~/aem-sdk/author`. Copy the .jar file from extracted SDK files to the directory and rename the file to `aem-author-p4502.jar`. The `p4502` string in the filename specifies the port number to use. You can specify a different port number also.
+1. Create a directory on your local machine to serve as installation location for the author instance. For example, `~/aem-sdk/author`. 
+1. Copy the .jar file from extracted SDK files to the installation location and rename the file to `aem-author-p4502.jar`. The `p4502` string in the filename specifies the port number to use. You can specify a different port number also.
+
+    >[!NOTE]
+    >
+    > Do not double-click the .jar file to start it. It results in an [error](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click).
+
 1. Open the command prompt: 
-    * On Windows, use the **Run as Administrator** option to open command prompt in evelated mode.
+    * On Windows, use the **Run as Administrator** option to open command prompt in elevated mode.
     * On Linux, ensure you open the terminal window as a root user.
 
-1. Navigate to directory containing copied .jar file, and run the following command:
+1. Navigate to installation location containing copied .jar file, and run the following command:
 
     `java -jar aem-author-p4502.jar -r prerelease`
 
+    ![Download AEM Cloud Service SDK from Software Distribution portal](assets\install-sdk.png)
+
     *  The `-r prerelease` switch enables the features availabe only under the prerelease and beta programs.
-    * Do not double-click the .jar file to start it. It results in an [error](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click). 
     * You can use `admin` as username and password for local development to reduce the cognitive load.
 
     After AEM starts, the login page opens in web browser. You can also open the login page for AEM SDK instance at address `http://localhost:<port>` in your web browser. For example, [http://localhost:4502](http://localhost:4502).
@@ -84,7 +95,7 @@ If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK 
 
 AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) provides tools to create Headless Adaptive Forms on a local development environment. To install the feature archive:
 
-1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK. 
+1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK.
 
 1. Navigate to the crx-quickstart/install directory. If the folder does not exist, create it.
 1. Stop your AEM SDK instance. You can terminate your command prompt window that is running AEM SDK instance to stop AEM.

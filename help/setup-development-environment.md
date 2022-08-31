@@ -4,7 +4,7 @@ description: Set up development environment for AEM Headless Adaptive Forms
 hide: yes
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
-# Setup a local development environment for Headless Adaptive Forms {#headless-adaptive-forms-setup-development-environment}
+# Setup a local development environment {#headless-adaptive-forms-setup-development-environment}
 
 You can setup a local development environment to create and test headless Adaptive Forms on your local machine. The development environment consists of AEM SDK and AEM Forms Feature Archive installed on AEM SDK.  
 <!--

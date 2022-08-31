@@ -15,7 +15,7 @@ This tutorial provides you an end-to-end framework to create a Headless Adaptive
 * Prefill your form 
 * Embed your form to a webpage
 
-You will also build an understand of architecture, available artifacts, and JSON schema of Headless Adaptive Forms.
+You will also build an understand of architecture, available artifacts, and JSON structure of Headless Adaptive Forms.
 
 **The journey starts with learning the use case**:
 

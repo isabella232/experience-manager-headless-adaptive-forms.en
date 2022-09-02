@@ -132,7 +132,7 @@ You can use any IDE for developing Headless Adaptive Forms. Adobe provides an ex
    >
    > To use Visual Studio from command line on macOS, see [Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 
-1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.11.0.vsix).
+1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.12.0.vsix).
 
 1. Navigate the directory containing the *adaptive-form-builder-[version].vsix* file.
 
@@ -140,7 +140,7 @@ You can use any IDE for developing Headless Adaptive Forms. Adobe provides an ex
 
     `code -–install-extension adaptive-form-builder-[version].vsix`
 
-    </br> Replace the [version] with actual version of the extension. For example, `code -–install-extension adaptive-form-builder-0.11.0.vsix`
+    </br> Replace the [version] with actual version of the extension. For example, `code -–install-extension adaptive-form-builder-0.12.0.vsix`
 
     </br> 
 

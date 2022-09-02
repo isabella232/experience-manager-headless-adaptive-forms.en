@@ -41,9 +41,9 @@ In cascading fields, content of second field depends on content chosen in the fi
 
 Headless Adaptive Forms allows prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless Adaptive Form.
 
-## Can I use  existing Adaptive Forms editor to create a Headless Adaptive Form?
+## Can I use existing Adaptive Forms editor to create a Headless Adaptive Form?
 
-At this moment, you use the Adaptive Form Editor to specify the JSON schema and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
+At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes. 
 
 ## Can I use Headless Adaptive Forms with Angular SPA?
 

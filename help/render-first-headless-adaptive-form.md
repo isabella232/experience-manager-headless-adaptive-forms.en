@@ -33,7 +33,8 @@ Perform the following steps to create and render your first Headless Adaptive Fo
 1. [Create and deploy AEM Archetype based project](#create-an-archetype-based-project)
 1. [Deploy the project to AEM SDK](#deploy-the-project-to-a-local-development-environment)
 1. [Create JSON structure of headless adaptive form and upload it to your AEM SDK instance](#create-add-json-representation-of-headless-adaptive-forms)
-1. [Create an Adaptive Form based on the Blank with core components template](#create-adaptive-form-with-blank-with-core-components-template)
+1. [Create an Adaptive Form and add Headless Adaptive Form JSON to it](#create-adaptive-form-with-blank-with-core-components-template)
+1. [Render the Headless Adaptive form with the sample React App](#configure-adaptive-form-to-use-the-JSON-representation)
 
 
 ### 1. Create and deploy AEM Archetype based project {#create-an-archetype-based-project}  
@@ -184,7 +185,7 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 -->
 
-### 4. Create an Adaptive Form based on the Blank with core components template {#create-adaptive-form-with-blank-with-core-components-template}
+### 4. Create an Adaptive Form and add Headless Adaptive Form JSON to it {#create-adaptive-form-with-blank-with-core-components-template}
 
 1. Log in to your [AEM SDK instance](http://localhost:4502/). 
 
@@ -194,38 +195,37 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
     ![Template](assets/template.png)
 
+    If you do not see the **Blank with core components** template, ensure that the [AEM Archetype project is deployed successfully](#deploy-the-project-to-a-local-development-environment).
+
 1. Specify the values for the following property fields. The Title and Name fields are mandatory:
 
    * **Title**: Specifies the display name of the form. The title helps you identify the form in the Experience Manager Forms user interface.
    * **Name**: Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
 
-1. Tap Create. An Adaptive Form is created.
+1. Tap Create. A blank Adaptive Form is created. Now, let's add the Headless Adaptive Forms JSON it. The JSON includes all the components and structure of a Headless Adaptive Form.
 
-If you do not see the **Blank with core components** template, ensure that the [AEM Archetype project is deployed successfully](#deploy-the-project-to-a-local-development-environment).
-
-### 5. Configure the Adaptive Form to use the JSON structure {#configure-adaptive-form-to-use-the-JSON-representation}
-
-The Adaptive Form created in previous step is blank. Configure the Adaptive Form to use the JSON structure:
-
-1. Log in to your [AEM SDK instance](http://localhost:4502/). 
-
-1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Select the Adaptive Form created in previous step and tap Edit. The Adaptive Form opens in the editor. 
+1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Select the Adaptive Form created in previous step and tap Edit. The Adaptive Form opens in the editor.
 
 1. Tap the Adaptive Forms Container component and Tap Properties. It displays properties explorer in the sidebar.
 
 1. In the properties explorer, expand the BASIC accordion, and specify path of the JSON structure uploaded in a previous step for the Forms Runtime Document Path option. The container component displays a rendition of the form.
 
-1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready to be used in a react app.
+1. In the properties explorer, expand the SUBMISSION accordion and set a Submit Action for the adaptive form. Your form is ready. You can use it in any app or website. 
 
-1. To render the form, hosted on your local development machine:
+Next section explains how to include the headless adaptive  form in the sample react app included in an AEM Archetype project and render it.
 
-    1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, /content/forms/af/contact
+### 5. Render the Headless Adaptive form with the sample React App {#configure-adaptive-form-to-use-the-JSON-representation}
 
-    1. Open the command prompt and navigate to the ui.frontend.react.forms.af project and run the following command:
+To render the form with sample react app included in the AEM Archetype project template:
 
-        `npm run start`
+1. Open the `[Archetype project]\ui.frontend.react.forms.af\.env` file and set the path of form. For example, `/content/forms/af/contact`.
 
-    1. After the completion, open the localhost:3000 in your browser window to view rendered Headless Adaptive Form. 
-    1. To test the submission functionality, login to your AEM Forms Server, and use the **Preview the form in HTML** option to open the form in preview mode. 
+1. Open the command prompt and navigate to the `[AEM Archtype Project template]\ui.frontend.react.forms.af` folder and run the following command:
+
+     `npm run start`
+
+1. After the completion, open the localhost:3000 in your browser window to view rendered Headless Adaptive Form. Your form is rendered with the help of the React app.
+
+The submission support is not available yet for forms created with AEM SDK. To test the submission functionality, you can login to your AEM Forms Server, and use the **Preview the form in HTML** option to open the form in preview mode.
 
 The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) provides a list of components and rules that can be set on various Headless Adaptive Forms along with some example of JSON structure of Headless Adaptive Forms. You can also look at [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document to learn about various rules and properties related to Headless Adaptive Forms.

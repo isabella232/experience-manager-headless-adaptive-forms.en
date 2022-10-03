@@ -48,6 +48,9 @@ Forms Web SDK provides the APIs to validate constraints applied to various field
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core](https://www.npmjs.com/package/@aemforms/af-core)**
 
+npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core
+
+
 
 #### Storybook
 

@@ -28,7 +28,7 @@ This section describes how to render a sample headless adaptive form within a Re
 
     ![](assets/create-react-app.png)
 
-* 1. To install Headless Adaptive Forms dependencies, navigate to your [react-app] folder, and run the below commands in the listed order:
+1. To install Headless Adaptive Forms dependencies, navigate to your [react-app] folder, and run the below commands in the listed order:
 
       ```shell
       npm install --save react@16.0.0 react-dom@16.14.0 -force
@@ -55,6 +55,7 @@ A Headless Adaptive Forms is represented as a JSON file. The [Storybook](https:/
 1. Create the `src/demo.form.json` file and the following Headless Adaptive Form JSON content to it.
 
    ```JSON
+
      {
      "adaptiveform": "0.10.0",
      "items": [
@@ -71,6 +72,7 @@ A Headless Adaptive Forms is represented as a JSON file. The [Storybook](https:/
        "version": "1.0.0"
      }
    }
+
    ```
    The above JSON content adds a single field to the form to the React project:
     
@@ -119,8 +121,6 @@ A Headless Adaptive Forms is represented as a JSON file. The [Storybook](https:/
     On successful compilation, your default browser opens and the headless adaptive form is rendered. 
   
     ![](assets/create-react-app-browser.png)
-
-
 
 <!-- 
 

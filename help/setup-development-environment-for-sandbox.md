@@ -2,7 +2,6 @@
 title: Set up development environment for a Forms as a Cloud Service Sandbox
 description: Set up development environment for a Forms as a Cloud Service Sandbox
 hide: yes
-exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
 
 # Setup development environment for a Forms as a Cloud Service Sandbox or Production
@@ -121,7 +120,7 @@ To clone the repository:
 
 The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes core Headless Adaptive Forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project during the beta phase. Post-beta the project would be required only for customizations.
 
-Depending on the operating system, run the maven command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. See, [Archetype documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) to find the latest version of Archetype.
+Depending on the operating system, run the maven command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. See [Archetype documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) to find the latest version of Archetype.
 
 +++ Microsoft® Windows
 
@@ -248,5 +247,5 @@ On successful completion of the command, a project folder with name specified in
 </tr>
 </table>
 
-Now, your environment is ready for using headless adaptive forms. You can now [upload JSON definition of a forms to your Cloud Service environment](render-first-headless-adaptive-form.md#3-create-json-structure-of-headless-adaptive-form-and-upload-it-to-your-aem-sdk-instance-create-add-json-representation-of-headless-adaptive-forms), [create a headless adaptive form based on it](render-first-headless-adaptive-form.md#4-create-an-adaptive-form-and-add-headless-adaptive-form-json-to-it-create-adaptive-form-with-blank-with-core-components-template), and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.
+Now, your environment is ready for using headless adaptive forms. You can now [upload JSON definition of a form to your Cloud Service environment](render-first-headless-adaptive-form.md#3-create-json-structure-of-headless-adaptive-form-and-upload-it-to-your-aem-sdk-instance-create-add-json-representation-of-headless-adaptive-forms), [create a headless adaptive form based on it](render-first-headless-adaptive-form.md#4-create-an-adaptive-form-and-add-headless-adaptive-form-json-to-it-create-adaptive-form-with-blank-with-core-components-template), and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.
 

@@ -10,7 +10,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 
 ## Before you begin
 
-*  Install [Latest version of Git](https://git-scm.com/downloads) on your local machine. If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You use Git repository to push the forms and custom code developed on your local development environment to your Cloud Service development environment. 
+*  Install [Latest version of Git](https://git-scm.com/downloads) on your local machine. If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You use Git repository to push the forms and custom code developed on your local development environment to your Cloud Service development environment.
 
 * Install a Git Client. In order to access your git repository, a Git client is required. This could be a command-line Tool, a standalone visual Git client, or your IDE. 
 
@@ -46,7 +46,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 </tr>
 <tr>
   <td>
-    2. For your program, tap the ... icon, and select the <b> Edit Program </b> option. A dialog box appears. 
+    3. For your program, tap the ... icon, and select the <b> Edit Program </b> option. A dialog box appears. 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -57,7 +57,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 </tr>
 <tr>
   <td>
-    3. On the Edit program dialog box, go to the <b> Solutions & Add-ons tab </b>, select the <b> Forms - Digital Enrollment </b> option, and tap <b> update </b>. 
+    4. On the Edit program dialog box, go to the <b> Solutions & Add-ons tab </b>, select the <b> Forms - Digital Enrollment </b> option, and tap <b> update </b>. 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -72,7 +72,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 
 Every AEM as a Cloud Service program has a git repository. It allows you to upload custom code and assets from local machine to your Cloud Service environment. During the setup, we use the Git repository to bring Headless Adaptive Forms related code, templates, and other information to your Cloud Service program from your local machine. Cloning the Cloud Service git repository on your local machine is the first step towards bringing custom code and content from your local machine to Cloud Service.
 
-    >[!INFO]
+    >[!NOTE]
     >
     > You can always commit to a Git repository without cloning it. But, it has its own quirks. So, we are using the cloning approach in this document.  
 
@@ -103,7 +103,7 @@ To clone the repository:
   <td>
     3. On your local machine, open the command prompt, create a folder, and run the following command, and provide the Repository Credentials, asked :
     </br>
-    <code> git clone <Repository URL> </code> </br></br>
+    <code> git clone [Repository URL] </code> </br></br>
     For example, </br> 
     <code> git clone https://git.cloudmanager.adobe.com/stage-aemformsdev/khushwantsingh-p45413-uk89613/ </code>
 
@@ -189,23 +189,13 @@ On successful completion of the command, a project folder with name specified in
 
     >[!VIDEO](https://video.tv.adobe.com/v/3409809/)
 
- 1. Open command prompt, navigate to your Git Repository folder, and run the below commands to upload the replaced content to your Cloud Service environment. You can also use a visual editor, 
+ 1. Open command prompt, navigate to your Git Repository folder, and run the below commands in the listed order to upload the replaced content to your Cloud Service environment. You can also use a visual editor instead of using the below coammnds tp push content to Cloud Service repository. 
 
     ```
     
-        git add .
-
-    ```
-
-    ```
-    
-        git commit
-
-    ```
-
-    ```
-    
-        git push origin
+       git add .
+       git commit
+       git push origin
 
     ```
 

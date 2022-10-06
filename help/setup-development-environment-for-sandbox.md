@@ -18,6 +18,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 
 * Create a AEM as a Cloud Service program: Follow step 1-7 of the [create program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program) article to create a program for your organization.
 
+* Enable [Prerelease Channel for your Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments).
 
 ## 1. Enable Forms for your program
 

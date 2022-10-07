@@ -4,9 +4,9 @@ description: Set up development environment for a Forms as a Cloud Service Sandb
 hide: yes
 ---
 
-# Setup development environment for a Forms as a Cloud Service Sandbox or Production
+# Setup development environment for Headless Adaptive Forms on Cloud Service
 
-Ready to build and test headless adaptive forms on Cloud Service? Enable Forms for your Cloud Service program and get going.
+Ready to build and test Headless Adaptive Forms on Cloud Service? Enable Forms for your Cloud Service program and get going.
 
 ## Before you begin
 
@@ -246,4 +246,3 @@ On successful completion of the command, a project folder with name specified in
 </table>
 
 Now, your environment is ready for using headless adaptive forms. You can now [upload JSON definition of a form to your Cloud Service environment](render-first-headless-adaptive-form.md#3-create-json-structure-of-headless-adaptive-form-and-upload-it-to-your-aem-sdk-instance-create-add-json-representation-of-headless-adaptive-forms), [create a headless adaptive form based on it](render-first-headless-adaptive-form.md#4-create-an-adaptive-form-and-add-headless-adaptive-form-json-to-it-create-adaptive-form-with-blank-with-core-components-template), and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.
-

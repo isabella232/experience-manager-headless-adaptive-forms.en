@@ -12,15 +12,19 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 
 *  Install [Latest version of Git](https://git-scm.com/downloads) on your local machine. If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You use Git repository to push the forms and custom code developed on your local development environment to your Cloud Service development environment.
 
-* Install a Git Client. In order to access your git repository, a Git client is required. This could be a command-line Tool, a standalone visual Git client, or your IDE. 
-
 * Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/) on your local machine. If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
 * Create a AEM as a Cloud Service program: Follow step 1-7 of the [create program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program) article to create a program for your organization.
 
-* Enable [Prerelease Channel for your Cloud Service environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments).
+* Enable [Prerelease Channel for your Cloud Service program](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments).
 
-## 1. Enable Forms for your program
+## Setup workflow
+
+To enable Headless Adaptive Forms on your Forms as a Cloud Service Sandbox, enable `Forms - Digital enrolment` solution for your AEM Cloud Service program, create an Archetype 37 or later based project on your local machine, and push it to your Forms as a Cloud Service environment. The complete process is:
+
+![Workflow to setup development environment for a Forms as a Cloud Service Sandbox](assets/FORMS-HLAF-SANDBOX-PRODUCTION-ENR.png)
+
+### 1. Enable Forms for your program
 
 <table style="table-layout:auto">
 <tr>
@@ -69,7 +73,7 @@ Ready to build and test headless adaptive forms on Cloud Service? Enable Forms f
 </tr>
 </table>
 
-## 2. Clone Git repository of your program to your local machine
+### 2. Clone Git repository of your program to your local machine
 
 Every AEM as a Cloud Service program has a git repository. It allows you to upload custom code and assets from local machine to your Cloud Service environment. During the setup, we use the Git repository to bring Headless Adaptive Forms related code, templates, and other information to your Cloud Service program from your local machine. Cloning the Cloud Service git repository on your local machine is the first step towards bringing custom code and content from your local machine to Cloud Service.
 
@@ -118,7 +122,7 @@ To clone the repository:
 </table>
 
 
-## 3. Create an AEM Archetype-based project
+### 3. Create an AEM Archetype-based project
 
 The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes core Headless Adaptive Forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project during the beta phase. Post-beta the project would be required only for customizations.
 
@@ -185,13 +189,13 @@ Depending on the operating system, run the maven command to create an Experience
 
 On successful completion of the command, a project folder with name specified in the `appID` is created. For example, if you use `appID` with value `myheadlessform`, a folder named `myheadlessform` is created. It contains the Archetype based project.
 
-## 4. Push the AEM Archetype-based project to your Cloud Service environment
+### 4. Push the AEM Archetype-based project to your Cloud Service environment
 
  1. Replace the content of the git repository with content on of Archtype-based project.
 
     >[!VIDEO](https://video.tv.adobe.com/v/3409809/)
 
- 1. Open command prompt, navigate to your Git Repository folder, and run the below commands in the listed order to upload the replaced content to your Cloud Service environment. You can also use a visual editor instead of using the below coammnds tp push content to Cloud Service repository. 
+ 1. Open command prompt, navigate to your Git Repository folder, and run the below commands in the listed order to upload the replaced content to your Cloud Service environment. You can also use a visual editor instead of using the below commands to push content to Cloud Service repository. 
 
     ```
     
@@ -201,7 +205,7 @@ On successful completion of the command, a project folder with name specified in
 
     ```
 
-## 5. Run build pipeline for your program
+### 5. Run build pipeline for your program
 
 
 

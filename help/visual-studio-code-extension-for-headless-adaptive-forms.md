@@ -1,10 +1,10 @@
 ---
-title: Visual Studio Code extension for Headless Adaptive Forms 
-description: Visual Studio Code extension for Headless Adaptive Forms 
+title: Visual Studio Code extension for Headless Adaptive Forms
+description: Visual Studio Code extension for Headless Adaptive Forms
 keywords: headless, adaptive form, architecture
 hide: yes
+exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 ---
-
 # Microsoft Visual Studio Code extension for Headless Adaptive Forms
 
 You can use any JSON editor to create JSON Structure for Headless Adaptive Forms. 

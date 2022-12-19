@@ -4,15 +4,18 @@ description: Overview for AEM Headless Adaptive Forms.
 hide: yes
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
+
 # Release notes
 
-Welcome to Experience Manager Headless Adaptive Forms Beta release. Read on for resources and instructions to get started and make the best of the release.
+Welcome to Experience Manager Headless Adaptive Forms early adopter release. Read on for resources and instructions to get started and make the best of the release.
 
 You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI frameworks like React, Angular, and more and use Adaptive Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 
-The beta release provides you access to use Headless Adaptive Forms in a [local development environment](setup-development-environment.md). You can use the local development environment to build and test Headless Adaptive Forms.
+The early adopter release provides you access to use Headless Adaptive Forms in a [local development environment](setup-development-environment.md). You can use the local development environment to build and test Headless Adaptive Forms.
 
 Headless Adaptive Forms receives improvements on an ongoing basis. To stay up to date with the most recent developments, visit this page regularly. This page provides you with information about early access, latest releases, new features, improvements, bug fixes, deprecated functionality, special instructions, and future plans for changes. 
+
+<!-- 
 
 ## July 2022 (v0.22.1)
 
@@ -29,12 +32,11 @@ Headless Adaptive Forms receives improvements on an ongoing basis. To stay up to
 * The service was executing some event handlers twice. The issue is fixed.
 * Fixing Data Generation with different values of dataRef, name and type.
 
-## Artifacts available in beta release
-
-In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you, the following artifacts are available in the beta release:
-
 <!-- ### React Renderer component -->
 
+## Artifacts available in early adopter release
+
+In the journey to bring Adobe Experience Manager Headless Adaptive Forms to you, the following artifacts are available in the early adopter release:
 
 ### AEM Forms as a Cloud Service SDK
 
@@ -42,15 +44,13 @@ AEM Forms as a Cloud Service SDK to help you create, store, and fetch Headless A
 
 ### Forms Web SDK
 
-Forms Web SDK provides the APIs to validate constraints applied to various fields of a form and hooks to connect JSON structure of form to the UI framework. It also provides     React Renderer​ for Headless Adaptive Forms to help integrate a Headless Adaptive Form to your application. The following components of Web SDK are available:
+Forms Web SDK provides the APIs to validate constraints applied to various fields of a form and hooks to connect JSON structure of form to the UI framework. It also provides React Renderer​ for Headless Adaptive Forms to help integrate a Headless Adaptive Form to your application. The following components of Web SDK are available:
 
 * **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)** 
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core](https://www.npmjs.com/package/@aemforms/af-core)**
 
-npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core
-
-
+<!-- npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core -->
 
 #### Storybook
 
@@ -74,7 +74,7 @@ Headless Adaptive Forms specification provides a detailed information on all the
 
 [Visual Studio Code extension](visual-studio-code-extension-for-headless-adaptive-forms.md) to help create a valid JSON structure. It provides IntelliSense support and validation for JSON structure of forms along with common funcions like add, delete, or rename components of a JSON structure.  
 
-## What's next
+<!-- ## What's next
 
 The following features would be available in upcoming releases:
 
@@ -82,3 +82,4 @@ The following features would be available in upcoming releases:
 * Server-side capabilities (Prefill, server-side validation, generating Document of Record (DoR), Submitting to a Form Data Model or using Form Data Models for creating rules, and more).
 * Continuous improvements to specifications and headless adaptive form runtime.
 * Use  Adaptive Forms editor for easier management and authoring Headless Adaptive Forms.
+-->

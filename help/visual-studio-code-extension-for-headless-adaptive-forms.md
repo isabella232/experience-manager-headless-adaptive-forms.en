@@ -1,17 +1,18 @@
 ---
-title: Visual Studio Code extension for Headless Adaptive Forms
-description: Visual Studio Code extension for Headless Adaptive Forms
-keywords: headless, adaptive form, architecture
+title: Visual Studio Code extension for Headless Adaptive Forms 
+description: Visual Studio Code extension for Headless Adaptive Forms 
+keywords: headless, adaptive forms, Visual Studio Code extension
 hide: yes
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 ---
 # Microsoft Visual Studio Code extension for Headless Adaptive Forms
 
-You can use any JSON editor to create JSON Structure for Headless Adaptive Forms. 
+If you use Microsoft® Visual Studio Code as IDE, you can use Adaptive Forms extension for Microsoft Visual Studio Code. The extension:
 
-If you use Microsoft® Visual Studio Code as IDE, you can Adaptive Forms extension for Microsoft® Visual Studio Code. The extension provides Adaptive Forms related IntelliSense capabilities, helps validate and auto-complete JSON syntax for Headless Adaptive Forms components, and provides a panel to easily navigate the structure for a Headless Adaptive Form.
-
-
+* Adds IntelliSense capabilities for Adaptive Forms to Visual Studio Code
+* Helps validate and auto-complete JSON syntax for Headless Adaptive Forms components
+* Provides a panel to easily navigate the structure for a Headless Adaptive Form
+* Helps translate a Headless Adaptive Form
 
 <!-- 
 
@@ -21,24 +22,22 @@ Adobe provides an extension for Microsoft® Visual Studio Code to make it easier
 
 --> 
 
-Install the extension: 
+## Prerequisites
 
-1. Ensure [Microsoft Visual Studio Code 1.62.0 or later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version) is installed. If you have an older version or no version installed, download the latest version from [Microsoft Website](https://code.visualstudio.com/docs/setup/setup-overview)
-   >[!NOTE]
-   >
-   >
-   > To use Visual Studio from command line on macOS, see [Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+* Download and install [Microsoft Visual Studio Code 1.62.0 or later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). If you have an older version or no version installed, download the latest version from [Microsoft Website](https://code.visualstudio.com/docs/setup/setup-overview). To use Visual Studio from command line on Apple macOS, see [Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+* Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.12.0.vsix).
 
-1. Download the [Adaptive forms builder extension](/help/assets/adaptive-form-builder-0.12.0.vsix).
+## Install the extension
 
-1. Navigate the directory containing the *adaptive-form-builder-[version].vsix* file.
+1. Open command prompt and navigate to the directory containing the downloaded extension file, *adaptive-form-builder-[version].vsix*.
 
-1. Run the following command or see [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) article for detailed instructions to install a Visual Studio Code extension from a VSIX file:
+1. Run the following command to install the extension:
 
-    `code -–install-extension adaptive-form-builder-[version].vsix`
+    `code -–install-extension adaptive-form-builder-0.12.0.vsix`
 
-    </br> Replace the [version] with actual version of the extension. For example, `code -–install-extension adaptive-form-builder-0.12.0.vsix`
+    <br>
 
-    </br> 
+   ![Installing extension](/help/assets/install-extension.png)
 
-    ![Installing extension](/help/assets/install-extension.png)
+
+   For information about .vsix files, see [Microsoft Visual Studio Code Help](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).

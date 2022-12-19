@@ -8,7 +8,7 @@ exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 
 Adobe Experience Manager Headless Adaptive Forms is an API-first digital enrollment platform for developers and business users. You can use Headless Adaptive Forms to build and natively render a form for any website, application, or any other channel. For example, you can integrate a Headless Adaptive form in a React app, a SPA (Single Page Application), or a native mobile app with a dedicated experience for each channel.  It allows you to deliver an exceptional forms experience leading to better conversion for your business. 
 
-![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.jpg)
+![Build and natively render a form in any website, an application, or non-visual inteactions](/help/assets/headless-forms-for-any-device.png)
 
 Headless Adaptive Forms help you:
 

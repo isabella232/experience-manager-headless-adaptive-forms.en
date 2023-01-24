@@ -6,6 +6,7 @@ hide: yes
 
 # Create a Headless Adaptive Form using Adaptive Forms editor {#create-a-headless-adaptive-form-using-adaptive-forms-editor}
 
-<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+<span class="preview"> This is a **WORK IN PROGRESS** article.</span>
+
 
 

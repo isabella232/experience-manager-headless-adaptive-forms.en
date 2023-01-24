@@ -6,4 +6,5 @@ hide: yes
 
 # Developing for headless forms using your own components {#developing-for-headless-forms-using-your-own-components}
 
-<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+<span class="preview"> This is a **WORK IN PROGRESS** article.</span>
+

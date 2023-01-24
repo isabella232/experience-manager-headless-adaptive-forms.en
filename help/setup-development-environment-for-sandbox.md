@@ -6,7 +6,7 @@ exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
 ---
 # Setup development environment for Headless Adaptive Forms on Cloud Service
 
-<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+<span class="preview"> This is a **WORK IN PROGRESS** article.</span>
 
 
 Ready to build and test Headless Adaptive Forms on Cloud Service? Enable Forms for your Cloud Service program and get going.

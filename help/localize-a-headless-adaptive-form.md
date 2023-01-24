@@ -6,4 +6,5 @@ hide: yes
 
 # Localize a headless adaptive form {#localize-a-headless-adaptive-form}
 
-<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+<span class="preview"> This is a **WORK IN PROGRESS** article.</span>
+

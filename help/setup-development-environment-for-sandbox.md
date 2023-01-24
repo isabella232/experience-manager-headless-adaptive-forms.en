@@ -6,6 +6,9 @@ exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
 ---
 # Setup development environment for Headless Adaptive Forms on Cloud Service
 
+<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+
+
 Ready to build and test Headless Adaptive Forms on Cloud Service? Enable Forms for your Cloud Service program and get going.
 
 ## Before you begin
@@ -124,11 +127,11 @@ To clone the repository:
 
 ### 3. Create an AEM Archetype-based project
 
-The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes core Headless Adaptive Forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project during the beta phase. Post-beta the project would be required only for customizations.
-
+The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes core Headless Adaptive Forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project.
+&reg;&reg;&reg;
 Depending on the operating system, run the maven command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. See [Archetype documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) to find the latest version of Archetype.
 
-+++ Microsoft® Windows
++++ Microsoft&reg; Windows
 
 1. Open the command prompt with Administrative privileges (Run command prompt or bash shell as an administrator).
 1. Run the below command:
@@ -146,19 +149,19 @@ Depending on the operating system, run the maven command to create an Experience
         -D includeFormsheadless="y" 
     
       ```
-
+&trade;&trade;&trade;
     * Set `appTitle` to define the title and components groups.
     * Set `appId` to define the Maven artifactId, the component, config and content folder names, and client library names.
-    * Set `groupId` to define the Maven groupId and the Java™ Source Package.
+    * Set `groupId` to define the Maven groupId and the Java&trade; Source Package.
     * Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms.
     * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
         * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
         * A frontend React module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
 
-+++
++++&reg;&reg;&reg;
 
 
-+++ Apple macOS or Linux®
++++ Apple macOS or Linux&reg;
 
 1. Open terminal as a root user. It allows you to run commands with administrative privileges. You can also use `sudo root` command after opening the terminal window to run commands with administrative privileges.
 1. Run the below command: 
@@ -176,10 +179,10 @@ Depending on the operating system, run the maven command to create an Experience
         -D includeFormsheadless="y"  
 
       ```
-
+&trade;&trade;&trade;
     * Set `appTitle` to define the title and components groups.
     * Set `appId` to define the Maven artifactId, the component, config, content folder names, and client library names.
-    * Set `groupId` to define the Maven groupId and the Java™ Source Package.
+    * Set `groupId` to define the Maven groupId and the Java&trade; Source Package.
     *  Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms.
     * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
         * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
@@ -245,4 +248,4 @@ On successful completion of the command, a project folder with name specified in
 </tr>
 </table>
 
-Now, your environment is ready for using headless adaptive forms. You can now [upload JSON definition of a form to your Cloud Service environment](render-first-headless-adaptive-form.md#3-create-json-structure-of-headless-adaptive-form-and-upload-it-to-your-aem-sdk-instance-create-add-json-representation-of-headless-adaptive-forms), [create a headless adaptive form based on it](render-first-headless-adaptive-form.md#4-create-an-adaptive-form-and-add-headless-adaptive-form-json-to-it-create-adaptive-form-with-blank-with-core-components-template), and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.
+Now, your environment is ready for using headless adaptive forms. You can now upload JSON definition of a form to your Cloud Service environment, create a headless adaptive form based on it, and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.

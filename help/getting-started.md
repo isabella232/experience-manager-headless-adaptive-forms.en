@@ -19,12 +19,10 @@ You will also build an understand of architecture, available artifacts, and JSON
 
 **The journey starts with learning the use case**:
 
-Raya tan works in foreign department of a beautiful country, full of natural landscapes, and their economy is built around international tourism. Her country's foreign department provides visa forms to tourists via a website, native apps, and in PDF format. The forms are available in multiple locales and tourists can choose to fill forms in language of their choice. 
+Raya Tan, a member of the foreign department of a country known for its natural beauty and thriving tourism economy, oversees the distribution of visa forms to tourists. These forms are available on the department's website, native mobile apps, and in PDF format, with multiple language options for tourists to choose from. However, managing and scaling these forms across different platforms and technologies can be challenging.
 
-These forms are built on different technologies, there is a different version of these forms for each platform (Website, Mobile apps, and Printable PDFs),  and it is harder to scale these for enterprise class use cases, such as, auto-translation, demography-based targeting, standard-based rule building, performance analysis and more.
+In order to improve the efficiency and flexibility of their visa application process, the foreign department has decided to adopt a Headless Adaptive Forms approach. This decoupled architecture separates the frontend from the backend, allowing for greater customization and scalability. The department plans to use the React components of Google Material UI to enhance the user experience of the forms, while utilizing backend capabilities such as digital signatures, data integration, business process management, document of record, and usage analytics.
 
-The foreign department has decided to move to Headless Adaptive Forms to use its decoupled architecture, where frontend is independent of backend. They plan to use react components of Google Material UI to develop frontend experience for these forms while using backend capabilities for Digital Signatures, Data Integrations, Business Process Management, Document of Record, and Usage Analytics.
-
-Tourists use contact us form to ask various queries. It is the most sought after form in the department. It is the first form the foreign department is looking to build on Headless Adaptive Forms architecture. This tutorial teaches how to create the contact us form. Here is how the final form looks: 
+The most popular form among tourists is the "Contact Us" form, which is used to ask various questions and inquiries. As such, the foreign department has chosen to begin implementing the Headless Adaptive Forms approach with this form. This tutorial will guide you through the process of creating the Contact Us form using this new architecture. The final result will look like this: 
 
 ![Contact US Headless Adaptive Form](assets/contact-us-headless-adaptive-forms.png)

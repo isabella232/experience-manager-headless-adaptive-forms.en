@@ -8,22 +8,24 @@ exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 
 # Getting Started {#introduction}
 
+<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
+
+
 Starting with Headless Adaptive Forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless Adaptive Form integrated in a React App up and running. You can use the sample react project to build and test Headless Adaptive Forms before deploying it in a production environment. Let's start:
 
-<!--
 ## Before you start {#pre-requisites}
 
 To create and run a React app, you should have Node.js and npm (Node Package Manager) installed on your computer:
 
-* Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+*   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+*   Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
 ## Setup starter React app and render a Headless Adaptive Form {#install}
 
 Once you fullfill the requirements, you can run the following commands to create a starter React app and render a sample Headless Adaptive Form:
 
-1. Open command prompt and run the following command to clone the starter Headless Adaptive Forms React app:
+1.  Open command prompt and run the following command to clone the starter Headless Adaptive Forms React app:
 
     ```shell
 
@@ -35,7 +37,7 @@ Once you fullfill the requirements, you can run the following commands to create
 
     This command creates a new directory called *aem-headless-forms-app-starter* inside the current directory, and generates the necessary files for starter Headless Adaptive Forms React app.
 
-1. Navigate to the **aem-headless-forms-app-starter** directory and run the following command to install the dependencies:
+1.  Navigate to the **aem-headless-forms-app-starter** directory and run the following command to install the dependencies:
 
     ```shell
 
@@ -45,7 +47,7 @@ Once you fullfill the requirements, you can run the following commands to create
 
     ![Install dependencies](assets/install-dependecies.png)
 
-1. Use the following command to run the app: 
+1.  Use the following command to run the app: 
 
     ```shell
 
@@ -183,6 +185,7 @@ Once you fullfill the requirements, you can run the following commands to create
 
 ```
 
+<!-- 
 ## Change default style of a Headless Adaptive Form
 
 The default form in the starter app uses Adobe's Spectrum UI components style the form. Headless Adaptive Forms allows you to use your own UI components to render a form. Let's set the default form to use Google's Material UI:
@@ -230,18 +233,12 @@ The default form in the starter app uses Adobe's Spectrum UI components style th
 
 
 
-
-            and replace the slider component tag with button 
-          1. 
-
-
-
-
-         and replace 
+            
+          1. Replace the slider component tag with button and replace 
 
           ```JSON
 
-          <Slider {...res} {...actions}  />
+            <Slider {...res} {...actions}  />
 
           ```
 
@@ -249,9 +246,14 @@ The default form in the starter app uses Adobe's Spectrum UI components style th
 
           ```JSON
 
-          <Button>Primary</Button>
+            <Button>Primary</Button>
 
           ```
+ 
+
+
+
+--> 
 
 ## Use a custom form with sample Headless Forms app
 
@@ -261,8 +263,8 @@ You can configure the app to fetch a Headless Adaptive Form from an AEM Forms Se
 
 ### Replace the sample Headless Adaptive Form included with the app to a custom Headless Adaptive Form
 
-1. Open the  /aem-headless-forms-app-starter/form-definations/form-model.json file for editing.
-1. Replace the content of the **afModelDefinition** property with your custom Headless Adaptive Form. For example, when you use the [Contact](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) form the final content of the file look like the following:
+1.  Open the  /aem-headless-forms-app-starter/form-definations/form-model.json file for editing.
+1.  Replace the content of the **afModelDefinition** property with your custom Headless Adaptive Form. For example, when you use the [Contact](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) form the final content of the file look like the following:
 
 
     ``` JSON
@@ -389,8 +391,6 @@ You can configure the app to fetch a Headless Adaptive Form from an AEM Forms Se
 
     ```
 
-1. Save the file. Wait for Webpack to render the form. The browser window is automatically refreshed after the webpack bundle is ready.
+1.  Save the file. Wait for Webpack to render the form. The browser window is automatically refreshed after the webpack bundle is ready.
 
 
-
---> 

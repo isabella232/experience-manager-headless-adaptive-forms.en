@@ -10,10 +10,16 @@ hide: yes
 + [Overview](overview.md)
 + [Architecture](architecture.md)
 + Get Started {#get-started}
+    + [Create and publish a headless form using started project](create-and-publish-a-headless-form.md)
+    + [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
++ Create Headless Adaptive Forms {#authoring-headless-adaptive-forms}
     + [Setup Local development environment](setup-development-environment.md)
     + [Setup development environment for a sandbox](setup-development-environment-for-sandbox.md)
-    + [Create your first headless adaptive form](render-first-headless-adaptive-form.md)
+    + [Create a Headless Adaptive Form using Adaptive Forms editor](create-a-headless-adaptive-form.md)
+    + [Localize a headless adaptive form](localize-a-headless-adaptive-form.md)
+    + [Generate a document of record for a headless adaptive form](generate-a-document-of-record-for-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}
+    + [Developing for headless forms using your own components](developing-for-headless-forms-using-your-own-components.md)
     + [Headless Adaptive Forms APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [Frequently asked questions](faq.md)
 + [Troubleshooting](troubleshooting.md)

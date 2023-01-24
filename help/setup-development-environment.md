@@ -81,7 +81,7 @@ It is in .zip format. The supported version is aem-sdk-2022.7.8085.20220725T1403
 
     ![Download AEM Cloud Service SDK from Software Distribution portal](assets/install-sdk.png)
 
-    *  The `-r prerelease` switch enables the features availabe only under the prerelease and beta programs.
+    *  The `-r prerelease` switch enables the features availabe only under the prerelease and limited release programs.
     * You can use `admin` as username and password for local development to reduce the cognitive load.
 
     After AEM starts, the login page opens in web browser. You can also open the login page for AEM SDK instance at address `http://localhost:<port>` in your web browser. For example, [http://localhost:4502](http://localhost:4502).
@@ -125,7 +125,7 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
 
 <!-- ### 4. (Optional) Install Visual Studio Code extension for headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
 
-You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
+You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft&reg;reg; Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
 
 1. Ensure [Microsoft Visual Studio Code 1.62.0 or later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version) is installed. If you have an older version or no version installed, download the latest version from [Microsoft Website](https://code.visualstudio.com/docs/setup/setup-overview)
    >[!NOTE]
@@ -220,4 +220,4 @@ Adaptive forms renderer component is a react based component. It requires a reac
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
     ``` 
 --> 
- Your local environment is ready. You can proceed to [create a Headless Adaptive Form](render-first-headless-adaptive-form.md).
+ Your local environment is ready. You can proceed to creating a Headless Adaptive Form.

@@ -41,9 +41,9 @@ A typical Headless Adaptive Forms architecture constitutes an Adobe Experience M
 
 **Front-end Apps**: Front-end apps like, SPA (Single Page Applications), Mobile Apps, JavaScript Apps, consume Headless Adaptive Forms (the JSON Form Representation) and render the form on a client. You can use the React renderer component shipped with Headless Adaptive Forms to render an Adaptive Form or build your own custom component to natively render Headless Adaptive Forms.
 
-### Understanding Headless Adaptive Forms definition
+<!-- ### Understanding Headless Adaptive Forms definition --> 
 
-`<Section Under Development>`
+
 
 ### Developer tools
 

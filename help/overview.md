@@ -27,4 +27,4 @@ You require no prior knowledge of Adobe Experience Manager to develop Headless A
 
 ## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
-Send an email to headless-forms@adobe.com from your official email ID to join the early adopter program.
+Send an email to [headlessadaptiveforms@adobe.com](mailto:someone@example.com) from your official email ID to join the early adopter program.

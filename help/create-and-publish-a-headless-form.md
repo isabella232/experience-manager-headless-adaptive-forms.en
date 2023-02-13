@@ -28,12 +28,13 @@ Once you fullfill the requirements, perform the following steps to get started q
 
 1.  [Create and render your own Headless adaptive form](#custom)
 
-1.  [Render your Headless adaptive form with custom React components](#style)
+<!-- 1.  [Render your Headless adaptive form with custom React components](#style) -->
+
     
-   >![NOTE]
-   >
-   >
-   > The starter kit helps you get started quickly using a React app. You are free to develop and use Headless adaptive forms in an Angular, Vanilla JS, and other development environments of your choice. 
+>[!NOTE]
+>
+>
+> The starter kit helps you get started quickly using a React app. You are free to develop and use Headless adaptive forms in an Angular, Vanilla JS, and other development environments of your choice. 
 
 
 
@@ -153,8 +154,7 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
 
 ```
 
->![NOTE]
->
+>[!NOTE]
 >
 > * The "afModelDefinition" attribute is only needed for React applications and is not a part of the form definition.
 > * You can hand-craft the JSON or use the adaptive forms editor (adaptive forms WYSIWYG editor) to create the JSON.

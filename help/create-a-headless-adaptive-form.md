@@ -6,7 +6,7 @@ exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 ---
 # Create a Headless adaptive form using Adaptive Forms editor {#create-a-headless-adaptive-form-using-adaptive-forms-editor}
 
-AEM Forms as a Cloud Service offers a user-friendly editor to create Headless Adaptive Forms. With over 24 components available, you can easily create a form by dragging and dropping components in the editor. Additionally, the Rules editor allows you to add validations to your form fields. Peform the following steps to create a Headless adaptive form using Adaptive Forms editor: 
+AEM Forms as a Cloud Service offers a user-friendly editor to create Headless Adaptive Forms. With over 24 components available, you can easily create a form by dragging and dropping components in the editor. Additionally, the Rules editor allows you to add validations to your form fields. Perform the following steps to create a Headless adaptive form using Adaptive Forms editor: 
 
 ## Before you start: 
 
@@ -16,9 +16,8 @@ You require the following to create an Adaptive Form using Adaptive Forms editor
 
 *   **An Adaptive Form template**: A template provides a basic structure and defines appearance (layouts and styles) of an Adaptive Form. It has pre-formatted components containing certain properties and content structure. It also provides the options to define a theme and a submit action. The theme defines the look and feel and submit action defines the action to take on submission of an Adaptive Form. For example, sending the collected data to a data source. The cloud service provides an OOTB template, named blank:
 
-    * The `blank` template is included with every fresh AEM Forms as a Cloud Service program.
-    * You can install the reference package, via package manager, to add the `blank` template to your AEM Forms as a Cloud Service program. 
-    * You can also [create a new Adaptive Forms template ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor.html) from scratch.
+    * The `blank Adaptive Forms (Core Components)` template is included with every fresh AEM Forms as a Cloud Service program.
+    * You can also [create a new Adaptive Forms (Core Components) template ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor.html) from scratch.
 
 *   **An Adaptive Form theme**: A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style reflects on the corresponding components.  The `Canvas` template is included with every fresh AEM Forms as a Cloud Service program.
 
@@ -70,11 +69,13 @@ You require the following to create an Adaptive Form using Adaptive Forms editor
 Now, you can drag-and-drop the Adaptive Forms components to Adaptive Forms container to design and create the form. 
 
 
-## View JSON rendetion of an Adaptive Form {#preview-form}
+## View JSON rendition of an Adaptive Form {#preview-form}
 
-Select the Adaptive Form and tap ![Preview]. The Preview of the form appears. To view form defination (JSON) of the form replace .html extension in the URL with .model.json
+Select the Adaptive Form and tap **Preview**. The preview of the form appears. To view form definition (JSON) of the form replace .html extension in the URL with .model.json
 
-For example, http://[Author-server]:[port]/editor.html/content/forms/af/contact-us.model.json
+For example, http://[author-server]:[port]/editor.html/content/forms/af/contact-us.model.json
 
-You can use the Headless Adaptive Forms [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) API to fetch the form defination (JSON) and use it in your application.  
+You can use the Headless Adaptive Forms [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) API to fetch the form definition (JSON) and use it in your application.  
+
+![View form definantion(JSOI)](assets/json-definantion.png)
 

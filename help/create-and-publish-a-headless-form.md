@@ -28,7 +28,7 @@ Once you fullfill the requirements, perform the following steps to get started q
 
 1.  [Create and render your own Headless adaptive form](#custom)
 
-<!-- 1.  [Render your Headless adaptive form with custom React components](#style)
+1.  [Render your Headless adaptive form with custom React components](#style)
     
    >![NOTE]
    >

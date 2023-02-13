@@ -10,7 +10,7 @@ hide: yes
 + [Overview](overview.md)
 + [Architecture](architecture.md)
 + Get Started {#get-started}
-    + [Create and publish a headless form using starter project](create-and-publish-a-headless-form.md)
+    + [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md)
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}
     + [Create a Headless adaptive form using Adaptive Forms editor](create-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}

@@ -21,7 +21,7 @@ It can happen due to an unsupported version or corrupt installtion of node.js or
 
 1.  Completely [remove present installations of Node.JS](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/) from your environment.
 
-1.  Install the supported version of [Node.JS and NPM](setup-development-environment.md).
+1.  Install Node.JS 16.13.0 or later with NPM.
 
 1.  Reboot your machine.
 

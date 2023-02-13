@@ -1,17 +1,17 @@
 ---
-title: Set up development environment for AEM Headless Adaptive Forms
-description: Set up development environment for AEM Headless Adaptive Forms
+title: Set up development environment for AEM Headless adaptive forms
+description: Set up development environment for AEM Headless adaptive forms
 hide: yes
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 ---
 
 # Setup a local development environment {#headless-adaptive-forms-setup-development-environment}
 
-You can setup a local development environment to create and test headless Adaptive Forms on your local machine. The development environment consists of AEM SDK and AEM Forms Feature Archive installed on AEM SDK.  
+You can setup a local development environment to create and test Headless adaptive forms on your local machine. The development environment consists of AEM SDK and AEM Forms Feature Archive installed on AEM SDK.  
 <!--
- After a Headless Adaptive Form or related assets are ready on the local development environment, you can deploy the Headless Adaptive Form application to your publishing environment. -- >
+ After a Headless adaptive form or related assets are ready on the local development environment, you can deploy the Headless adaptive form application to your publishing environment. -- >
 
-You require knowledge to build application using react, Git, and Maven to use Headless Adaptive Forms.
+You require knowledge to build application using react, Git, and Maven to use Headless adaptive forms.
 
 <!-- 
 
@@ -41,7 +41,7 @@ To install AEM SDK, your local machine must meet these minimum requirements:
 
 ## Setup development environment {#headless-adaptive-forms-procedure-to-setup-development-environment}
 
-To set up a new local development environment and use it to develop and test Headless Adaptive Forms:
+To set up a new local development environment and use it to develop and test Headless adaptive forms:
 
 1. [Set up AEM as a Cloud Service SDK](#setup-author-instance).
 1. [Add AEM Forms archive (AEM Forms Cloud Service add-on) to AEM SDK](#add-forms-archive).
@@ -55,7 +55,7 @@ To set up a new local development environment and use it to develop and test Hea
 
 ### 1. Set up AEM as a Cloud Service SDK {#setup-author-instance}
 
-AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create and test headless adaptive forms. You can use the AEM as a Cloud Service SDK to both create and preview headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
+AEM as a Cloud Service SDK (AEM SDK) provides developers with a local experience to create and test Headless adaptive forms. You can use the AEM as a Cloud Service SDK to both create and preview Headless adaptive forms, allowing you to perform most validations related to development locally. To setup a local author instance:
 
 1. [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) the latest [!DNL Adobe Experience Manager] as a Cloud Service SDK. Use the Date Published column to sort and easily locate the latest SDK. 
 It is in .zip format. The supported version is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip and later.
@@ -94,7 +94,7 @@ If you do not see the PRERELEASE postfix, stop the server, delete the `[AEM SDK 
 
 ### 2. Add AEM Forms archive (AEM Forms Cloud Service add-on) to AEM SDK {#add-forms-archive}
 
-AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) provides tools to create Headless Adaptive Forms on a local development environment. To install the feature archive:
+AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) provides tools to create Headless adaptive forms on a local development environment. To install the feature archive:
 
 1. Download and extract the latest [!DNL AEM Forms] feature archive (AEM Forms add-on) from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Use the Date Published column to sort and easily locate the latest SDK. The supported version is aem-forms-addon-2022.07.06.02-220600 and later.
 
@@ -109,7 +109,7 @@ AEM Forms as a Cloud Service feature archive (AEM Forms Cloud Service add-on) pr
 
 ### 3. (Optional) Configure users and permissions {#configure-users-and-permissions}
 
-Create seperate user accounts for Form Developer, Form Practitioner, and end users. These account help you test Headless Adaptive Forms for various types of users. To create a user account and add roles to the account:
+Create seperate user accounts for Form Developer, Form Practitioner, and end users. These account help you test Headless adaptive forms for various types of users. To create a user account and add roles to the account:
 
 1. Login to your AEM SDK instance.
 1. Go to Tools > Security > Users and tap Create. The Create New User wizard opens.
@@ -123,9 +123,9 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
     | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
     | End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
 
-<!-- ### 4. (Optional) Install Visual Studio Code extension for headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
+<!-- ### 4. (Optional) Install Visual Studio Code extension for Headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
 
-You can use any IDE for developing Headless Adaptive Forms. Adobe provides an extension for Microsoft&reg;reg; Visual Studio Code to make it easier for you to navigate structure and develop headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. To use the extension: 
+You can use any IDE for developing Headless adaptive forms. Adobe provides an extension for Microsoft&reg;reg; Visual Studio Code to make it easier for you to navigate structure and develop Headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete Headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of Headless adaptive form. To use the extension: 
 
 1. Ensure [Microsoft Visual Studio Code 1.62.0 or later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version) is installed. If you have an older version or no version installed, download the latest version from [Microsoft Website](https://code.visualstudio.com/docs/setup/setup-overview)
    >[!NOTE]
@@ -149,7 +149,7 @@ You can use any IDE for developing Headless Adaptive Forms. Adobe provides an ex
 
 <!-- ## Create and setup a react app
 
-Adaptive forms renderer component is a react based component. It requires a react app to run and render a headless adaptive form. To create and setup react app:
+Adaptive forms renderer component is a react based component. It requires a react app to run and render a Headless adaptive form. To create and setup react app:
 
 1. Open terminal in Visual Studio code and run the following command to create a react app and installs all related dependencies:
 
@@ -213,11 +213,11 @@ Adaptive forms renderer component is a react based component. It requires a reac
         always-auth=true
         ```
 
-        It defines the antifactory repositories to use for Headless Adaptive Forms, react, and quarry related scope.
+        It defines the antifactory repositories to use for Headless adaptive forms, react, and quarry related scope.
     1. Run the following command to install adaptive forms renderer component related dependencies:
 
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
     ``` 
 --> 
- Your local environment is ready. You can proceed to creating a Headless Adaptive Form.
+ Your local environment is ready. You can proceed to creating a Headless adaptive form.

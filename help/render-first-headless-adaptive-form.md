@@ -5,17 +5,17 @@ keywords: headless, adaptive form
 hide: yes
 exl-id: 99985fed-4a34-47d6-bb6f-79f81e1cd71b
 ---
-# Create your first headless adaptive form
+# Create your first Headless adaptive form
 
-You can use Adobe Experience Manager Headless Adaptive Forms to build forms applications using front-end UI such as React and use Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
+You can use Adobe Experience Manager Headless adaptive forms to build forms applications using front-end UI such as React and use Forms Web SDK for capabilities like state management, validation, and integrations with various other touchpoints.
 
 For example, an organization We.Org is looking to digitize their customer enrollment journey. Their developers are well versed at using Angular to build frontend solutions. They are looking to build a custom front end while offloading form validation and electronic signatures to specialized solutions.
 
-Adobe Experience Manager Headless Adaptive Forms provides such organizations freedom to build forms using their existing expertise in frontend languages while providing support to use back-end capabilities to create enterprise class forms experience.
+Adobe Experience Manager Headless adaptive forms provides such organizations freedom to build forms using their existing expertise in frontend languages while providing support to use back-end capabilities to create enterprise class forms experience.
 
 <!-- >>[!VIDEO](https://video.tv.adobe.com/v/341011/) -->
 
-<!--  ![Create a Headless Adaptive Form](/help/assets/headless-forms.png) -->
+<!--  ![Create a Headless adaptive form](/help/assets/headless-forms.png) -->
 
 ## Before you start
 
@@ -26,15 +26,16 @@ Adobe Experience Manager Headless Adaptive Forms provides such organizations fre
     * [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
     * [Maven 3.6 or later](https://maven.apache.org/download.cgi). If you are new to Maven, see [Installing Apache Maven](https://maven.apache.org/install.html).
 
-## Use the archetype project to create a headless adaptive form
 
-The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes Headless Adaptive Forms functionality for Forms as a Cloud Service and local development environments. It is mandatory to create and deploy the archetype 37 or later based project during the beta phase. Post-beta the project would be required only for customizations. 
+## Use the archetype project to create a Headless adaptive form
 
-Perform the following steps to create and render your first Headless Adaptive Form: 
+The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless adaptive forms. It also includes Headless adaptive forms functionality for Forms as a Cloud Service and local development environments. It is mandatory to create and deploy the archetype 37 or later based project during the beta phase. Post-beta the project would be required only for customizations. 
+
+Perform the following steps to create and render your first Headless adaptive form: 
 
 1. [Create and deploy AEM Archetype based project](#create-an-archetype-based-project)
 1. [Deploy the project to AEM SDK](#deploy-the-project-to-a-local-development-environment)
-1. [Create JSON schema of headless adaptive form and upload it to your AEM SDK instance](#create-add-json-representation-of-headless-adaptive-forms)
+1. [Create JSON schema of Headless adaptive form and upload it to your AEM SDK instance](#create-add-json-representation-of-headless-adaptive-forms)
 1. [Create an Adaptive Form based on the Blank with core components template](#create-adaptive-form-with-blank-with-core-components-template)
 
 
@@ -103,7 +104,6 @@ On successful completion of the command, a project folder with name specified in
 ### 2. Deploy the project to AEM SDK {#deploy-the-project-to-a-local-development-environment}
 
 When you deploy the project to your AEM SDK instance, it adds Headless Adaptive Forms functionality, the **Blank with core components** template, and other resources included in the project to your development environment. <!-- Deploy the project to your local development environment to locally create Headless Adaptive Forms. or deploy directly to your Forms as a Cloud Service environment. !--> To deploy to your AEM SDK instance: 
-
 
 1. Open command prompt. If you are on Windows, open the command prompt with Administrative privileges (Run command prompt or [Git bash shell](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)  as an administrator).
 

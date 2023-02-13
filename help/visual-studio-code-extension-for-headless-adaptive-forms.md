@@ -1,24 +1,24 @@
 ---
-title: Visual Studio Code extension for Headless Adaptive Forms 
-description: Visual Studio Code extension for Headless Adaptive Forms 
+title: Visual Studio Code extension for Headless adaptive forms 
+description: Visual Studio Code extension for Headless adaptive forms 
 keywords: headless, adaptive forms, Visual Studio Code extension
 hide: yes
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 ---
-# Microsoft Visual Studio Code extension for Headless Adaptive Forms
+# Microsoft Visual Studio Code extension for Headless adaptive forms
 
-If you use Microsoft® Visual Studio Code as IDE, you can use Adaptive Forms extension for Microsoft Visual Studio Code. The extension:
+If you use Microsoft&reg; Visual Studio Code as IDE, you can use Adaptive Forms extension for Microsoft Visual Studio Code. The extension:
 
 * Adds IntelliSense capabilities for Adaptive Forms to Visual Studio Code
-* Helps validate and auto-complete JSON syntax for Headless Adaptive Forms components
-* Provides a panel to easily navigate the structure for a Headless Adaptive Form
-* Helps translate a Headless Adaptive Form
+* Helps validate and auto-complete JSON syntax for Headless adaptive forms components
+* Provides a panel to easily navigate the structure for a Headless adaptive form
+* Helps translate a Headless adaptive form
 
 <!-- 
 
 The extension o easily navigate the structure 
 
-Adobe provides an extension for Microsoft® Visual Studio Code to make it easier for you to navigate structure and develop Headless Adaptive forms in Visual Studio Code. The extension adds Adaptive Forms related IntelliSense capabilities and helps auto-complete headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of headless adaptive form. 
+Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it easier for you to navigate structure and develop Headless adaptive forms in Visual Studio Code. The extension adds Adaptive Forms related IntelliSense capabilities and helps auto-complete Headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of Headless adaptive form. 
 
 --> 
 

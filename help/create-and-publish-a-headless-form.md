@@ -1,6 +1,6 @@
 ---
-title: AEM Headless Adaptive Forms Overview
-description: Overview for AEM Headless Adaptive Forms.
+title: AEM Headless adaptive forms Overview
+description: Overview for AEM Headless adaptive forms.
 hide: yes
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
@@ -8,10 +8,7 @@ exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 
 # Getting Started {#introduction}
 
-<span class="preview"> This word is a **WORK IN PROGRESS** article.</span>
-
-
-Starting with Headless Adaptive Forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless Adaptive Form integrated in a React App up and running. You can use the sample react project to build and test Headless Adaptive Forms before deploying it in a production environment. Let's start:
+Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React App up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. Let's start:
 
 ## Before you start {#pre-requisites}
 
@@ -21,23 +18,40 @@ To create and run a React app, you should have Node.js and npm (Node Package Man
 
 *   Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-## Setup starter React app and render a Headless Adaptive Form {#install}
+## Get Started
 
-Once you fullfill the requirements, you can run the following commands to create a starter React app and render a sample Headless Adaptive Form:
+Once you fullfill the requirements, perform the following steps to get started quickly with developing and styling a Headless adaptive form:
 
-1.  Open command prompt and run the following command to clone the starter Headless Adaptive Forms React app:
+1.  [Setup Headless adaptive forms starter kit](#setup)
+
+1.  [Preview the Headless adaptive form included in the starter kit](#preview)
+
+1.  [Create and render your own Headless adaptive form](#custom)
+
+<!-- 1.  [Render your Headless adaptive form with custom React components](#style)
+    
+   >![NOTE]
+   >
+   >
+   > The starter kit helps you get started quickly using a React app. You are free to develop and use Headless adaptive forms in an Angular, Vanilla JS, and other development environments of your choice. 
+
+
+
+## 1.  Setup Headless adaptive forms starter kit {#install}
+
+The starter kit is a React app with a sample Headless adaptive form and corresponding libraries. Use the kit to develop and test your Headless adaptive forms and corresponding React components. Run the following commands to setup Headless adaptive forms starter kit:
+
+1.  Open command prompt and run the following command:
 
     ```shell
 
-    git clone https://git.corp.adobe.com/barshatr/aem-headless-forms-app-starter
+    git clone https://github.com/adobe/react-starter-kit-aem-headless-forms
 
     ```
 
-    ![Clone Package](assets/clone-package.png)
+    The command creates a directory called "react-starter-kit-aem-headless-forms" in your current location and clones the Headless adaptive forms React starter app into it.
 
-    This command creates a new directory called *aem-headless-forms-app-starter* inside the current directory, and generates the necessary files for starter Headless Adaptive Forms React app.
-
-1.  Navigate to the **aem-headless-forms-app-starter** directory and run the following command to install the dependencies:
+1.  Navigate to the **react-starter-kit-aem-headless-forms** directory and run the following command to install the dependencies:
 
     ```shell
 
@@ -45,150 +59,159 @@ Once you fullfill the requirements, you can run the following commands to create
 
     ```
 
-    ![Install dependencies](assets/install-dependecies.png)
+    The command downloads all of the necessary packages and libraries needed to run and build the app, such as React, ReactDOM, and Headless adaptive forms 
+    libraries (@aemforms/af-react-renderer, @aemforms/af-react-components, @adobe/react-spectrum) required to render form, run validations, and persist data for instances of the form. 
 
-1.  Use the following command to run the app: 
+    ![](/help/assets/install-react-app-starter-kit.png)
 
-    ```shell
+
+
+## 2. Preview the Headless adaptive form {#preview}
+
+After setting up the starter kit, you can preview the sample Headless adaptive form, replace it with your own custom form. You can also configure the starter kit to retrieve a form from an AEM Forms server.
+
+Use the following command to run the app: 
+
+  ```shell
 
     npm start
 
-    ```
+  ```
 
    
-    This command starts a local development server, and opens the sample Headless Adaptive Form, included in starter app, in your default web browser.
+  This command starts a local development server, and opens the sample Headless adaptive form, included in starter app, in your default web browser.
 
-    ![Sample Headless Form](assets/sample-headless-adaptive-form.png)
+  ![Sample Headless Form](assets/sample-headless-adaptive-form.png)
 
+  Voila! Your are all setup to start developing a custom Headless adaptive form. 
+    
+  <!--  As you know, in a headless form the form data and logic are separate from the presentation layer and can be used by any client that can make HTTP requests, such as a mobile app, a static site, or a different web application. The form is often managed and stored on a server, which serves as the backend for the form. The client sends requests to the server to retrieve the form, submit data, and receive updated form data. This allows for greater flexibility and integration with different technologies. You can store and retrive a Headless adaptive form on an AEM Server  -->
 
-  A Headless Adaptive Forms is represented as a JSON file. To view JSON structure of the sample Headless Adaptive Form included with the app, open the `/aem-headless-forms-app-starter/form-definations/form-model.json` file. 
+## 3. Create and render your own Headless adaptive form{#custom}
+
+A Headless adaptive form represents the form and its components, such as fields and buttons, in JSON (JavaScript Object Notation) format. The advantage of using JSON format is that it can be easily parsed and used by various programming languages, making it a convenient way to exchange form data between systems. To view the sample Headless adaptive form included with the app, open the `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` file. 
+
+Let's create a contact us form that four fields: "Name", "Email", "Phone No", and "Message". The fields are defined as objects (items) within the JSON, with each object (item) having properties such as type, label, name, and required. The form also has a button with of type "submit". Here is JSON for the form. 
+
 
 ```JSON
-
-    {
-      "adaptiveform": "0.0.10",
-      "metadata": {
-        "version": "1.0.0"
+{
+  "afModelDefinition": {
+    "adaptiveform": "0.10.0",
+    "items": [
+      {
+        "fieldType": "text-input",
+        "label": {
+          "value": "Name"
+        },
+        "name": "name"
       },
-      "items": [
-        {
-          "name": "firstName",
-          "fieldType": "text-input",
-          "default": "john",
-          "type": "string",
-          "minLength": 0,
-          "maxLength": 30,
-          "required": true,
-          "constraintMessages": {
-            "minLength": "Name cannot be empty",
-            "maxLength": "Please enter only first 30 characters of your name",
-            "required": "Name cannot be empty"
-          },
-          "description": "We need it to address you in our responses",
-          "screenReaderText": "'Enter your name as you like us to address you'",
-          "rules": {
-            "required": "$form.isAnonymous.$value != true"
-          },
-          "label": {
-            "value": "First Name"
-          }
+      {
+        "fieldType": "text-input",
+        "format": "email",
+        "label": {
+          "value": "Email"
         },
-        {
-          "name": "lastName",
-          "fieldType": "text-input",
-          "default": "doe",
-          "description": "We need it to address you in our responses",
-          "screenReaderText": "Enter your name as you like us to address you",
-          "type": "string",
-          "minLength": 0,
-          "maxLength": 30,
-          "required": true,
-          "constraintMessages": {
-            "minLength": "Name cannot be empty",
-            "maxLength": "Please enter only first 30 characters of your name",
-            "required": "Name cannot be empty"
-          },
-          "rules": {
-            "required": "$form.isAnonymous.$value != true"
-          },
-          "label": {
-            "value": "Last Name"
-          }
+        "name": "email"
+      },
+      {
+        "fieldType": "text-input",
+        "format": "phone",
+        "pattern": "[0-9]{10}",
+        "label": {
+          "value": "Phone"
         },
-        {
-          "name": "name",
-          "fieldType": "text-input",
-          "rules": {
-            "value": "$form.firstName.$value & ' ' & $form.lastName.$value"
-          },
-          "label": {
-            "value": "Your Full Name"
-          }
+        "name": "Phone"
+      },
+      {
+        "fieldType": "multiline-input",
+        "label": {
+          "value":"Message"
         },
-        {
-          "name": "email",
-          "fieldType": "text-input",
-          "description": "It's a promise that we will not spam you",
-          "screenReaderText": "Provide your email address so that we can reply to you.",
-          "type": "string",
-          "format": "email",
-          "required": true,
-          "constraintMessages": {
-            "format": "Please enter a valid email address",
-            "required": "The email address is mandatory"
-          },
-          "rules": {
-            "required": "$form.isAnonymous.$value != true"
-          },
-          "label": {
-            "value": "Email Address"
-          }
+        "name": "message"
+      },
+      {
+        "fieldType": "button",
+        "label":{
+          "value": "Submit"
         },
-        {
-          "name": "isAnonymous",
-          "fieldType": "checkbox",
-          "description": "In case you want to remain anonymous",
-          "type": "boolean",
-          "required": true,
-          "label": {
-            "value": "Remain Anonymous",
-            "richText": false,
-            "visible": false
-          }
-        },
-        {
-          "name": "phone",
-          "fieldType": "text-input",
-          "description": "Your mobile number where we can reach you. But only if you want",
-          "screenReaderText": "Enter you mobile number without the ISD code",
-          "pattern": "[0-9]{10}",
-          "constraintMessages": {
-            "pattern": "Phone number must be 10 digit long"
-          },
-          "label": {
-            "value": "Mobile Number"
-          }
-        },
-        {
-          "name": "submit",
-          "fieldType": "button",
-          "screenReaderText": "Enter your message in less than 1000 characters and minimum 50 characters",
-          "events": {
-            "click": "dispatchEvent($form, 'submit')"
-          },
-          "label": {
-            "value": "Submit"
-          }
+        "name":"submit",
+        "events":{
+          "click": "submitForm()"
         }
-      ]
+      }
+    ],
+    "action": "https://eozrmb1rwsmofct.m.pipedream.net",
+    "description": "Sample form",
+    "title": "Sample Form",
+    "metadata": {
+      "grammar": "json-formula-1.0.0",
+      "version": "1.0.0"
     }
+  }
+}
 
 ```
 
-<!-- 
-## Change default style of a Headless Adaptive Form
+>![NOTE]
+>
+>
+> * The "afModelDefinition" attribute is only needed for React applications and is not a part of the form definition.
+> * You can hand-craft the JSON or use the adaptive forms editor (adaptive forms WYSIWYG editor) to create the JSON.
 
-The default form in the starter app uses Adobe's Spectrum UI components style the form. Headless Adaptive Forms allows you to use your own UI components to render a form. Let's set the default form to use Google's Material UI:
+
+To render the form, replace the sample Headless adaptive form JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` with the above JSON, save the file, wait for the starter-kit to compile and refresh the form.    
+
+![Replace the sample Headless adaptive form JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` with the custom Headless adaptive form JSON](assets/render-custom-headless-adaptive-form.png)
+
+<!-- Your form is ready. Let's add some validations and make "Name", "Email", and "Message" fields mandatory. -->
+
+
+<!-- 
+
+## 4. Render your Headless adaptive form with custom React components
+
+You can develop and use custom components to render or style your Headless adaptive form as per your requirements. The getting started guide uses Google Material UI components to illustrate how to render a Headless adaptive form with custom React components. You can use any other React components library or develop your own custom React Components.
+
+By default, the starter kit uses Adobe's Spectrum UI components. Let's set it to use Google's Material UI:
+
+1.  Open command prompt, navigate to the **react-starter-kit-aem-headless-forms** and run the following command:
+
+    ```shell
+    
+    npm install @mui/material @emotion/react @emotion/styled --force
+    
+    ```
+
+    It installs the Google Material UI npm libraries and and adds the libraries to starter kits dependencies. You can now use Material UI components to render Headless Adaptive Froms components.  
+
+    The process of using a third-party library to render Headless Adaptive forms component (form field) is know as mapping. You map each component type ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) to corresponding component of third-party library. For example, Google Material UI library components. 
+
+1.  [fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) for Name, Email, and Phone components in the Contact Us form that you created in previous section is "text-input". To map these components to [Google Material UI Text Field component](https://mui.com/material-ui/react-text-field/):
+
+    1.  Open the **react-starter-kit-aem-headless-forms** directory in a code editor and navigate to navigate to `\react-starter-kit-aem-headless-forms\src\components`.
+  
+        Examples in documents are based on VSCode. You are free to use any plain-text code editor. 
+
+    1.  Create a copy of the **slider** or **richtext** folder, and rename the copied folder to **materialtextfield**. Slider and richtext are two sample custom components available in the starter app. You can use these to create your own custom components.
+
+        ![The materialtextfield custom component in VSCode](/help/assets/richtext-custom-component-in-vscode.png)
+
+    1. Open the `\react-starter-kit-aem-headless-forms\src\components\materialbutton\index.tsx` file. Add the following statement to import the Material UI Text Field component to your starter kit
+
+
+
+
+
+<!-- 
+[Headless adaptive form Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) is a great resource for React developers to see examples of headless adaptive forms and learn about components, events, layouts, validations, constraints, and more.
+
+![Storybook](/help/assets/storybook.png) -->
+
+<!-- 
+## Change default style of a Headless adaptive form
+
+The default form in the starter app uses Adobe's Spectrum UI components style the form. Headless adaptive forms allows you to use your own UI components to render a form. Let's set the default form to use Google's Material UI:
 
 1. Install the Google Material UI npm library. To install, open command prompt, navigate to the **aem-headless-forms-app-starter** directory, and run the following command:
 
@@ -253,18 +276,18 @@ The default form in the starter app uses Adobe's Spectrum UI components style th
 
 
 
---> 
+
 
 ## Use a custom form with sample Headless Forms app
 
-You can configure the app to fetch a Headless Adaptive Form from an AEM Forms Server or replace the sample Headless Adaptive Form included with the app to a custom Headless Adaptive Form. By default, the app is configured to use the sample Headless Adaptive Form included with the app. You can get some sample/custom Headless Adaptive Form JSON from [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact). Use the **Raw** option on Storybook to view JSON structure of the form.
+You can configure the app to fetch a Headless adaptive form from an AEM Forms Server or replace the sample Headless adaptive form included with the app to a custom Headless adaptive form. By default, the app is configured to use the sample Headless adaptive form included with the app. You can get some sample/custom Headless adaptive form JSON from [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact). Use the **Raw** option on Storybook to view JSON structure of the form.
 
 ![](/help/assets/storybook-example.png)
 
-### Replace the sample Headless Adaptive Form included with the app to a custom Headless Adaptive Form
+### Replace the sample Headless adaptive form included with the app to a custom Headless adaptive form
 
 1.  Open the  /aem-headless-forms-app-starter/form-definations/form-model.json file for editing.
-1.  Replace the content of the **afModelDefinition** property with your custom Headless Adaptive Form. For example, when you use the [Contact](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) form the final content of the file look like the following:
+1.  Replace the content of the **afModelDefinition** property with your custom Headless adaptive form. For example, when you use the [Contact](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) form the final content of the file look like the following:
 
 
     ``` JSON
@@ -394,3 +417,4 @@ You can configure the app to fetch a Headless Adaptive Form from an AEM Forms Se
 1.  Save the file. Wait for Webpack to render the form. The browser window is automatically refreshed after the webpack bundle is ready.
 
 
+-->

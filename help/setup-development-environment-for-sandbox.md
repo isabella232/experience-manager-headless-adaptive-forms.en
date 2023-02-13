@@ -4,12 +4,12 @@ description: Set up development environment for a Forms as a Cloud Service Sandb
 hide: yes
 exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
 ---
-# Setup development environment for Headless Adaptive Forms on Cloud Service
+# Setup development environment for Headless adaptive forms on Cloud Service
 
 <span class="preview"> This is a **WORK IN PROGRESS** article.</span>
 
 
-Ready to build and test Headless Adaptive Forms on Cloud Service? Enable Forms for your Cloud Service program and get going.
+Ready to build and test Headless adaptive forms on Cloud Service? Enable Forms for your Cloud Service program and get going.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Ready to build and test Headless Adaptive Forms on Cloud Service? Enable Forms f
 
 ## Setup workflow
 
-To enable Headless Adaptive Forms on your Forms as a Cloud Service Sandbox, enable `Forms - Digital enrolment` solution for your AEM Cloud Service program, create an Archetype 37 or later based project on your local machine, and push it to your Forms as a Cloud Service environment. The complete process is:
+To enable Headless adaptive forms on your Forms as a Cloud Service Sandbox, enable `Forms - Digital enrolment` solution for your AEM Cloud Service program, create an Archetype 37 or later based project on your local machine, and push it to your Forms as a Cloud Service environment. The complete process is:
 
 ![Workflow to setup development environment for a Forms as a Cloud Service Sandbox](assets/FORMS-HLAF-SANDBOX-PRODUCTION-ENR.png)
 
@@ -78,7 +78,7 @@ To enable Headless Adaptive Forms on your Forms as a Cloud Service Sandbox, enab
 
 ### 2. Clone Git repository of your program to your local machine
 
-Every AEM as a Cloud Service program has a git repository. It allows you to upload custom code and assets from local machine to your Cloud Service environment. During the setup, we use the Git repository to bring Headless Adaptive Forms related code, templates, and other information to your Cloud Service program from your local machine. Cloning the Cloud Service git repository on your local machine is the first step towards bringing custom code and content from your local machine to Cloud Service.
+Every AEM as a Cloud Service program has a git repository. It allows you to upload custom code and assets from local machine to your Cloud Service environment. During the setup, we use the Git repository to bring Headless adaptive forms related code, templates, and other information to your Cloud Service program from your local machine. Cloning the Cloud Service git repository on your local machine is the first step towards bringing custom code and content from your local machine to Cloud Service.
 
 >[!INFO]
 >
@@ -127,7 +127,7 @@ To clone the repository:
 
 ### 3. Create an AEM Archetype-based project
 
-The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless Adaptive Forms. It also includes core Headless Adaptive Forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project.
+The archetype project is a maven-based template. It creates a minimal project based on best practice to get started with Headless adaptive forms. It also includes core Headless adaptive forms functionality for Forms as a Cloud Service. It is mandatory to create and deploy the archetype 37 or later based project.
 &reg;&reg;&reg;
 Depending on the operating system, run the maven command to create an Experience Manager Forms as a Cloud Service project. Use archetype version 37 or later. See [Archetype documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) to find the latest version of Archetype.
 
@@ -154,9 +154,9 @@ Depending on the operating system, run the maven command to create an Experience
     * Set `appId` to define the Maven artifactId, the component, config and content folder names, and client library names.
     * Set `groupId` to define the Maven groupId and the Java&trade; Source Package.
     * Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms.
-    * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
+    * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless adaptive forms functionality. On enabling this option, the following are included:  
         * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
-        * A frontend React module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.  
+        * A frontend React module, `ui.frontend.react.forms.af`. It helps you render Headless adaptive form in a react app.  
 
 +++&reg;&reg;&reg;
 
@@ -184,9 +184,9 @@ Depending on the operating system, run the maven command to create an Experience
     * Set `appId` to define the Maven artifactId, the component, config, content folder names, and client library names.
     * Set `groupId` to define the Maven groupId and the Java&trade; Source Package.
     *  Use the `includeFormsenrollment=y` option to include Forms specific configurations, themes, templates, Core Components, and dependencies required to create Adaptive Forms.
-    * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless Adaptive Forms functionality. On enabling this option, the following are included:  
+    * Use the `includeFormsheadless=y` option to include Forms Core Components and dependencies required to include Headless adaptive forms functionality. On enabling this option, the following are included:  
         * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
-        * A frontend reacts module, `ui.frontend.react.forms.af`. It helps you render headless adaptive form in a react app.
+        * A frontend reacts module, `ui.frontend.react.forms.af`. It helps you render Headless adaptive form in a react app.
 
 +++
 
@@ -248,4 +248,4 @@ On successful completion of the command, a project folder with name specified in
 </tr>
 </table>
 
-Now, your environment is ready for using headless adaptive forms. You can now upload JSON definition of a form to your Cloud Service environment, create a headless adaptive form based on it, and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the headless adaptive form in your application or service.
+Now, your environment is ready for using Headless adaptive forms. You can now upload JSON definition of a form to your Cloud Service environment, create a Headless adaptive form based on it, and use the [getForm](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) and other rest APIs to use the Headless adaptive form in your application or service.

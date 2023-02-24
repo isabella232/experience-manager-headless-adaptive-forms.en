@@ -2,7 +2,7 @@
 title: Frequently asked questions
 description: Frequently asked questions
 keywords: headless, adaptive form, FAQ
-hide: yes
+hide: no
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 ---
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}

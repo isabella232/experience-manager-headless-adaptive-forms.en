@@ -1,7 +1,7 @@
 ---
 title: AEM Headless adaptive forms Overview
 description: Overview for AEM Headless adaptive forms.
-hide: yes
+hide: no
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 ---
 # Headless adaptive forms Overview

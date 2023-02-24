@@ -1,7 +1,7 @@
 ---
 title: Create a Headless adaptive form using Adaptive Forms editor
 description: Create a Headless adaptive form using Adaptive Forms editor
-hide: yes
+hide: no
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 ---
 # Create a Headless adaptive form using Adaptive Forms editor {#create-a-headless-adaptive-form-using-adaptive-forms-editor}

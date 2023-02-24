@@ -2,7 +2,7 @@
 title: Headless adaptive forms architecture
 description: Headless adaptive forms architecture
 keywords: headless, adaptive form, architecture
-hide: yes
+hide: no
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
 ---
 

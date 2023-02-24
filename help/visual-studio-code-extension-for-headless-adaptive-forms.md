@@ -2,7 +2,7 @@
 title: Visual Studio Code extension for Headless adaptive forms 
 description: Visual Studio Code extension for Headless adaptive forms 
 keywords: headless, adaptive forms, Visual Studio Code extension
-hide: yes
+hide: no
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 ---
 # Microsoft Visual Studio Code extension for Headless adaptive forms

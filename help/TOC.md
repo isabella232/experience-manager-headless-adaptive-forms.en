@@ -2,7 +2,8 @@
 user-guide-title: Adobe Experience Manager Headless adaptive forms
 breadcrumb-title: AEM Headless adaptive forms
 user-guide-description: Documentation for Adobe Experience Manager Headless adaptive forms
-hide: yes
+hide: no
+
 ---
 
 # Adobe Experience Manager Headless adaptive forms {#using}
@@ -11,6 +12,7 @@ hide: yes
 + [Architecture](architecture.md)
 + Get Started {#get-started}
     + [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md)
+    + [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}
     + [Create a Headless adaptive form using Adaptive Forms editor](create-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}

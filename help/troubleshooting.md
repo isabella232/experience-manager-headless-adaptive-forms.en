@@ -2,7 +2,7 @@
 title: Headless Adaptive Forms Troubleshooting
 description: Headless Adaptive Forms Troubleshooting
 keywords: headless, adaptive form, Troubleshooting
-hide: yes
+hide: no
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
 ---
 # Troubleshooting 

@@ -149,6 +149,7 @@ Depending on the operating system, run the maven command to create an Experience
         -D includeFormsheadless="y" 
     
       ```
+
 &trade;&trade;&trade;
     * Set `appTitle` to define the title and components groups.
     * Set `appId` to define the Maven artifactId, the component, config and content folder names, and client library names.
@@ -179,6 +180,7 @@ Depending on the operating system, run the maven command to create an Experience
         -D includeFormsheadless="y"  
 
       ```
+      
 &trade;&trade;&trade;
     * Set `appTitle` to define the title and components groups.
     * Set `appId` to define the Maven artifactId, the component, config, content folder names, and client library names.

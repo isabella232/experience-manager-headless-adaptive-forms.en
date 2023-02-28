@@ -154,11 +154,11 @@ To create and upload the schema:
         "version": "1.0.0"
       }
     }
-
     ```
-    It adds a single field to the form:
-    ![Hello World](assets/introduction.png)
 
+    It adds a single field to the form:
+    
+    ![Hello World](assets/introduction.png)
 
 1. Log in to your [local AEM SDK instance](setup-development-environment.md#setup-author-instance)
 1. Navigate to Adobe Experience Manager > Forms > Forms and Documents. Tap Create > File Upload. 

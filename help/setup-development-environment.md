@@ -218,6 +218,7 @@ Adaptive forms renderer component is a react based component. It requires a reac
 
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
-    ``` 
+    ```
+ 
 --> 
  Your local environment is ready. You can proceed to creating a Headless adaptive form.

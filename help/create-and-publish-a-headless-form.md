@@ -1,12 +1,12 @@
 ---
-title: AEM Headless adaptive forms Overview
-description: Overview for AEM Headless adaptive forms.
+title: Create and Publish a Headless Form with Adobe Experience Manager Adaptive Forms | Step-by-Step Guide
+description: Learn how to create and publish a headless form using Adobe Experience Manager's adaptive forms in this step-by-step guide. Discover the benefits of going headless and streamline your form creation process today. Start building dynamic, responsive forms that work seamlessly across devices with Adobe Experience Manager Headless Adaptive Forms
 hide: no
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
 
 
-# Getting Started {#introduction}
+# Create and Publish a Headless Form {#introduction}
 
 Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React App up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. Let's start:
 

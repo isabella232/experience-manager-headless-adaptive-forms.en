@@ -1,10 +1,11 @@
 ---
-title: AEM Headless adaptive forms Overview
-description: Overview for AEM Headless adaptive forms.
+title: AEM Headless adaptive forms overview
+description: AEM Forms Headless Adaptive Forms provide a fast and efficient way to create forms for various platforms including Headless or Headful CMS, React applications, Single Page Applications (SPA), Web Apps, Mobile apps, Amazon Alexa, Google Assistant, WhatsApp, and more. With Headless Adaptive Forms, you can streamline the process of building forms, making it easier to collect data from your users across different devices and platforms.
+keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
 hide: no
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 ---
-# Headless adaptive forms Overview
+# Introduction
 
 Adobe Experience Manager (AEM) Headless Adaptive Forms is a solution for creating and managing headless web forms within the Adobe Experience Manager platform. This feature enables organizations to create, publish, and manage interactive forms that can be accessed and interacted with through APIs, rather than through a traditional graphical user interface. AEM Headless Adaptive Forms allows for greater flexibility and scalability in form development and deployment, as well as improved user experience through the ability to tailor form design and functionality to specific needs. By utilizing the capabilities of AEM and headless technology, this solution provides a robust platform for creating, managing, and deploying web forms for various use cases and applications.
 

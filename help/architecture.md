@@ -1,6 +1,6 @@
 ---
 title: Headless adaptive forms architecture
-description: Headless adaptive forms architecture
+description: Learn about the architecture of AEM Forms Headless Adaptive Forms and how it can help you quickly build forms for various platforms. This article provides insights into how Headless Adaptive Forms work, and how they can be integrated with different applications to simplify the form building process.
 keywords: headless, adaptive form, architecture
 hide: no
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb

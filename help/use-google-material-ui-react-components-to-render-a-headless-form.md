@@ -1,9 +1,10 @@
 ---
 title: Use Google Material UI react components to render a headless form
-description: Use Google Material UI react components to render a headless forms
+description: Learn how to use Google Material-UI React components to render a headless form. This comprehensive guide will walk you through the step-by-step process to create custom Headless Adaptive Forms components to map and use Google Material-UI React components to style a Headless Adaptive Form.
 hide: no
 exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
 ---
+
 # Use a custom react library to render a headless form
 
 You have the option to create and implement custom components to customize the appearance and functionality of your Headless adaptive form as per requirement and guidelines of your organization. 
@@ -151,8 +152,10 @@ To add mapping for the  `materialtextfield` component, created in last step:
 
     Similalrly you can create custom components for message ("fieldType": "multiline-input") and rate the service ("fieldType":"number-input") fields. You can clone the  following Git repository for custom components of message and rate the service fields:  
 
-    https://github.com/singhkh/react-starter-kit-aem-headless-forms
+    [https://github.com/singhkh/react-starter-kit-aem-headless-forms](https://github.com/singhkh/react-starter-kit-aem-headless-forms)
 
 ## Next step
 
-You have sucessfully rendered the Headless Adaptive Form with custom components that use Google Material UI. The next step is to persist user-entered data to the form model by implementing events. 
+You have sucessfully rendered the Headless Adaptive Form with custom components that use Google Material UI. Try clicking on the Submit Button (Mapped with corresponding Google Material UI component) of the form. Does it submit the data to any data source? No, it does not. Why? Your form is not communicating with it's data model.
+
+Now, What is data model? How to configure your form to communicate with Data Model? The use use events to handle and submit form data explains it all (The article would be available soon).

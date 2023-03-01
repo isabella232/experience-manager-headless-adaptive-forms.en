@@ -156,6 +156,6 @@ To add mapping for the  `materialtextfield` component, created in last step:
 
 ## Next step
 
-You have sucessfully rendered the Headless Adaptive Form with custom components that use Google Material UI. Try clicking on the Submit Button (Mapped with corresponding Google Material UI component) of the form. Does it submit the data to any data source? No, it does not. Why? Your form is not communicating with it's data model.
+You have managed to incorporate Google Material UI components into your Headless Adaptive Form. Have you tried submitting the form by clicking on the corresponding Google Material UI Submit Button? If not, go ahead and give it a try.
 
-Now, What is data model? How to configure your form to communicate with Data Model? The use use events to handle and submit form data explains it all (The article would be available soon).
+If the form isn't submitting the data to any data source, don't worry. This is most likely because your form isn't communicating with its data model. But what exactly is a data model, you may wonder? And how can you configure your form to communicate with it?  We've got an article coming soon that will explain everything in detail on how to use events to handle and submit form data.

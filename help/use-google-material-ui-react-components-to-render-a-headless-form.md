@@ -18,7 +18,7 @@ By the conclusion of this article, the appearence of the form created in [Create
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
 
-The major steps involved in using Google Material UI components as custom components to render a Headless Adaptive Forms are:
+The major steps involved in using Google Material UI components to render a Headless Adaptive Form are:
 
 ![](assets/headless-forms-graphics-source-main.svg)
 
@@ -156,6 +156,8 @@ To add mapping for the  `materialtextfield` component, created in last step:
 
 ## Next step
 
-You have managed to incorporate Google Material UI components into your Headless Adaptive Form. Have you tried submitting the form by clicking on the corresponding Google Material UI Submit Button? If not, go ahead and give it a try.
+You have sucessfully rendered the Headless Adaptive Form with custom components that use Google Material UI. Have you tried submitting the form by clicking on the Submit Button (Mapped with corresponding Google Material UI component)? If not, go ahead and give it a try. 
 
-If the form isn't submitting the data to any data source, don't worry. This is most likely because your form isn't communicating with its data model. But what exactly is a data model, you may wonder? And how can you configure your form to communicate with it?  We've got an article coming soon that will explain everything in detail on how to use events to handle and submit form data.
+Is the the form submitting the data to any data source? No? Don't worry. This is because your form is not configured to communicate with its data model.
+
+You may wonder, what exactly is a data model? How can you configure your form to communicate with it? We've got an article coming soon that will explain everything in detail. Stay tuned! 

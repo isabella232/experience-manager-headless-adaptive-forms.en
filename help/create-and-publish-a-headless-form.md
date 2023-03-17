@@ -6,7 +6,7 @@ exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
 
 
-# Create and Publish a Headless Form {#introduction}
+# Create and preview a Headless Form {#introduction}
 
 Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React App up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. Let's start:
 
@@ -69,9 +69,14 @@ The starter kit is a React app with a sample Headless adaptive form and correspo
 
 After setting up the starter kit, you can preview the sample Headless adaptive form, replace it with your own custom form. You can also configure the starter kit to retrieve a form from an AEM Forms server. To preview the form
 
-1. Rename the env_template file to .env file.
+1. Rename the `env_template` file to `.env` file. Also ensure, the USE_LOCAL_JSON option is set to true. 
 
+   ![](/help/assets/rename-env-file.png)
 
+    <!-- The options in the .env file help you configure source of the forms definantion (.JSON):
+    *  To source forms definantion (.JSON) from an AEM Server, set USE_LOCAL_JSON option to false, use the AEM_URL option to specify URL  of your AEM Server, and set the AEM_FORM_PATH option to path of your adaptive form.
+    *  To source forms definantion (.JSON) form-model.json file included in the starter-kit, set USE_LOCAL_JSON option to false. -->
+  
 1. Use the following command to run the app: 
 
     ```shell

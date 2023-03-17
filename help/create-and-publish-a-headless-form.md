@@ -67,24 +67,27 @@ The starter kit is a React app with a sample Headless adaptive form and correspo
 
 ## 2. Preview the Headless adaptive form {#preview}
 
-After setting up the starter kit, you can preview the sample Headless adaptive form, replace it with your own custom form. You can also configure the starter kit to retrieve a form from an AEM Forms server.
+After setting up the starter kit, you can preview the sample Headless adaptive form, replace it with your own custom form. You can also configure the starter kit to retrieve a form from an AEM Forms server. To preview the form
 
-Use the following command to run the app: 
+1. Rename the env_template file to .env file.
 
-  ```shell
 
-    npm start
+1. Use the following command to run the app: 
 
-  ```
+    ```shell
+
+      npm start
+
+    ```
 
    
-  This command starts a local development server, and opens the sample Headless adaptive form, included in starter app, in your default web browser.
+    This command starts a local development server, and opens the sample Headless adaptive form, included in starter app, in your default web browser.
 
-  ![Sample Headless Form](assets/sample-headless-adaptive-form.png)
+    ![Sample Headless Form](assets/sample-headless-adaptive-form.png)
 
-  Voila! Your are all setup to start developing a custom Headless adaptive form. 
+    Voila! Your are all setup to start developing a custom Headless adaptive form. 
     
-  <!--  As you know, in a headless form the form data and logic are separate from the presentation layer and can be used by any client that can make HTTP requests, such as a mobile app, a static site, or a different web application. The form is often managed and stored on a server, which serves as the backend for the form. The client sends requests to the server to retrieve the form, submit data, and receive updated form data. This allows for greater flexibility and integration with different technologies. You can store and retrive a Headless adaptive form on an AEM Server  -->
+    <!--  As you know, in a headless form the form data and logic are separate from the presentation layer and can be used by any client that can make HTTP requests, such as a mobile app, a static site, or a different web application. The form is often managed and stored on a server, which serves as the backend for the form. The client sends requests to the server to retrieve the form, submit data, and receive updated form data. This allows for greater flexibility and integration with different technologies. You can store and retrive a Headless adaptive form on an AEM Server  -->
 
 ## 3. Create and render your own Headless adaptive form{#custom}
 

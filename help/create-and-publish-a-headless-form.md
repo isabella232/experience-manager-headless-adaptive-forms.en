@@ -6,13 +6,21 @@ exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
 
 
-# Create and preview a Headless Form {#introduction}
+# Create and preview a Headless Form using a React app {#introduction}
 
-Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React App up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. Let's start:
+
+Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React app up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. 
+
+Let's start:
+
+>[!NOTE]
+>
+>
+> This getting started guide uses a React app. You are free to use technology or programming language of your choice to use Headless adaptive forms. 
 
 ## Before you start {#pre-requisites}
 
-To create and run a React app, you should have Node.js and npm (Node Package Manager) installed on your computer:
+To create and run a React app, you should have prerequisites installed on your computer:
 
 *   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
@@ -20,7 +28,7 @@ To create and run a React app, you should have Node.js and npm (Node Package Man
 
 ## Get Started
 
-Once you fullfill the requirements, perform the following steps to get started quickly with developing and styling a Headless adaptive form:
+Once you fullfill the requirements, perform the following steps to get started:
 
 1.  [Setup Headless adaptive forms starter kit](#setup)
 
@@ -48,7 +56,20 @@ The starter kit is a React app with a sample Headless adaptive form and correspo
 
     ```
 
-    The command creates a directory called "react-starter-kit-aem-headless-forms" in your current location and clones the Headless adaptive forms React starter app into it.
+    The command creates a directory called **react-starter-kit-aem-headless-forms** in your current location and clones the Headless adaptive forms React starter app into it. Along with the configrations and list of dependencies required to render the form, the directory includes the following important content:
+
+    * **Sample form**: The starter kit includes a sample loan application form. To view the form (form definantion) included with the app, open the `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` file. 
+    * **Sample react components**: The starter kit includes sample react components for Richtext and Slider. This guide helps you create your own custom components using these Richtext and Slider components. 
+    * **Mappings.ts**: The mappings.ts file helps you map custom components with form fields. For example, map a numeric stepper field with ratings component. 
+    * **Environment configurations**: Environment configurations let you choose to render a form inclued in the starter kit or fetch a a form from an AEM Forms server. 
+
+    ![](/help/assets/getting-started-starter-kit-content.png)
+
+    >[!NOTE]
+    >
+    > 
+    > Examples in documents are based on VSCode. You are free to use any plain-text code editor. 
+    
 
 1.  Navigate to the **react-starter-kit-aem-headless-forms** directory and run the following command to install the dependencies:
 
@@ -58,8 +79,8 @@ The starter kit is a React app with a sample Headless adaptive form and correspo
 
     ```
 
-    The command downloads all of the necessary packages and libraries needed to run and build the app, such as React, ReactDOM, and Headless adaptive forms 
-    libraries (@aemforms/af-react-renderer, @aemforms/af-react-components, @adobe/react-spectrum) required to render form, run validations, and persist data for instances of the form. 
+    The command downloads all of the necessary packages and libraries needed to run and build the app, such as Headless adaptive forms 
+    libraries (@aemforms/af-react-renderer, @aemforms/af-react-components, @adobe/react-spectrum), runs validations, and persists data for instances of the form. 
 
     ![](/help/assets/install-react-app-starter-kit.png)
 
@@ -96,7 +117,7 @@ After setting up the starter kit, you can preview the sample Headless adaptive f
 
 ## 3. Create and render your own Headless adaptive form{#custom}
 
-A Headless adaptive form represents the form and its components, such as fields and buttons, in JSON (JavaScript Object Notation) format. The advantage of using JSON format is that it can be easily parsed and used by various programming languages, making it a convenient way to exchange form data between systems. To view the sample Headless adaptive form included with the app, open the `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` file. 
+A Headless adaptive form represents the form and its components, such as fields and buttons, in JSON (JavaScript Object Notation) format. The advantage of using JSON format is that it can be easily parsed and used by various programming languages, making it a convenient way to exchange form data between systems. 
 
 Let's create a contact us form that four fields: "Name", "Email", "Phone No", and "Message". The fields are defined as objects (items) within the JSON, with each object (item) having properties such as type, label, name, and required. The form also has a button with of type "submit". Here is JSON for the form. 
 
@@ -163,7 +184,7 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
 >[!NOTE]
 >
 > * The "afModelDefinition" attribute is only needed for React applications and is not a part of the form definition.
-> * You can hand-craft the JSON or use the adaptive forms editor (adaptive forms WYSIWYG editor) to create the JSON.
+> * This article focuses on hand-crafted JSON definantion. You can also use the [adaptive forms editor to create a core components based adaptive form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=en#create-an-adaptive-form-core-components) and use it to render a headless adaptive form. 
 
 
 To render the form, replace the sample Headless adaptive form JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` with the above JSON, save the file, wait for the starter-kit to compile and refresh the form.    
@@ -175,6 +196,6 @@ To render the form, replace the sample Headless adaptive form JSON `/react-start
  
 ## Next step
 
-You have sucessfully rendered the Headless Adaptive Form. By default, the starter kit uses [Adobe's Spectrum](https://spectrum.adobe.com/) components. The next step is to [use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
+You have sucessfully created the Headless Adaptive Form. By default, the starter kit uses [Adobe's Spectrum](https://spectrum.adobe.com/) components. The next step is to [use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
 
     

@@ -11,7 +11,7 @@ You have the option to create and implement custom components to customize the a
 
 These components serve two primary purposes: to control the appearance or style of form fields, and to store the data collected through these fields within the form model instance. If this sounds confusing, don't worry - we'll explore these purposes in greater detail shortly. For now, let's focus on the initial steps of creating custom components, rendering the form using these components, and utilizing events to save and submit data to a REST endpoint.
 
-In this tutorial for beginners, Google Material UI components are employed to demonstrate how to render a Headless adaptive form using custom React components. However, you are not limited to this library and are free to utilize any React components library or develop your own custom components.
+In this tutorial, Google Material UI components are employed to demonstrate how to render a Headless adaptive form using custom React components. However, you are not limited to this library and are free to utilize any React components library or develop your own custom components.
 
 By the conclusion of this article, the appearence of the form created in [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md) article transforms into the following:
 
@@ -41,23 +41,22 @@ It installs the Google Material UI npm libraries and and adds the libraries to s
 
 Let's create a custom component that replaces default [text input](https://spectrum.adobe.com/page/text-field/) component with [Google Material UI Text Field](https://mui.com/material-ui/react-text-field/) component. 
 
-A separate component is required for each component type ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) or :type) used in a Headless Form definition. For example, in the Contact Us form that you created in the previous section, the Name, Email, and Phone fields of type `text-input` ([fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) and the message field is of type `multiline-input` (["fieldType": "multiline-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input)). A separate component is required for each. The :type property is generally for layout fields like panels and out of scope for this tutorial. 
+A separate component is required for each component type ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) or :type) used in a Headless Form definition. For example, in the Contact Us form that you created in the previous section, the Name, Email, and Phone fields of type `text-input` ([fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) and the message field is of type `multiline-input` (["fieldType": "multiline-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input)). 
 
 
-This custom component would overlay all Headless Adaptive Form fields that use the [fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) property with [Google Material UI Text Field](https://mui.com/material-ui/react-text-field/) component. In the Contact Us form that you created in previous section, the Name, Email, and Phone fields use the [fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) property.  
+This custom component would overlay all form fields that use the [fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) property with [Google Material UI Text Field](https://mui.com/material-ui/react-text-field/) component. In the Contact Us form that you created in previous section, the Name, Email, and Phone fields use the [fieldType: "text-input"](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) property.  
 
       
 To create the custom component and map the custom component with the [fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) property :
 
    1.  Open the **react-starter-kit-aem-headless-forms** directory in a code editor and navigate to `\react-starter-kit-aem-headless-forms\src\components`.
   
-        Examples in documents are based on VSCode. You are free to use any plain-text code editor. 
 
    1.  Create a copy of the **slider** or **richtext** folder, and rename the copied folder to **materialtextfield**. Slider and richtext are two sample custom components available in the starter app. You can use these to create your own custom components.
 
         ![The materialtextfield custom component in VSCode](/help/assets/richtext-custom-component-in-vscode.png)
 
-   1.  Open the `\react-starter-kit-aem-headless-forms\src\components\materialbutton\index.tsx` file and replace the existing code with the below code. This code returns and renders a [Google Material UI Text Field](https://mui.com/material-ui/react-text-field/) component.  
+   1.  Open the `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` file and replace the existing code with the below code. This code returns and renders a [Google Material UI Text Field](https://mui.com/material-ui/react-text-field/) component.  
     
    ```JavaScript 
     
@@ -101,7 +100,7 @@ Your custom component `materialtextfield` is ready. Let's set this custom compon
 
 ## 3. Map custom component with headless form fields
 
-The process of using a third-party librarary components to render Headless Adaptive forms fields is know as mapping. You map each ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)) to corresponding component of third-party library. For example, Google Material UI library components. 
+The process of using a third-party librarary components to render Headless Adaptive forms fields is know as mapping. You map each ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)) to corresponding component of third-party library. 
 
 All the mapping related information is added to the `mappings.ts` file. The `...mappings` statement in the `mappings.ts` file refers to the default mappings, which overlays the ([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) or :type) with [Adobe Spectrum](https://spectrum.adobe.com/page/text-field/) components. 
 
@@ -160,4 +159,4 @@ You have sucessfully rendered the Headless Adaptive Form with custom components 
 
 Is the the form submitting the data to any data source? No? Don't worry. This is because your form is not configured to communicate with runtime library. 
 
-You may wonder, what exactly is a runtime library? How can you configure your form to communicate with it? We've got an article coming soon that will explain everything in detail. Stay tuned! 
+How can you configure your form to communicate with it? We've got an article coming soon that will explain everything in detail. Stay tuned! 

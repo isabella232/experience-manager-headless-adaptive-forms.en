@@ -8,6 +8,7 @@ exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 
 # Create and preview a Headless Form using a React app {#introduction}
 
+The starter kit helps you get started quickly using a React app. You are free to develop and use Headless adaptive forms in an Angular, Vanilla JS, and other development environments of your choice.
 
 Starting with Headless adaptive forms is quite easy and quick. Clone the ready-made React project, install the dependencies, and run the project. You have a Headless adaptive form integrated in a React app up and running. You can use the sample react project to build and test Headless adaptive forms before deploying it in a production environment. 
 
@@ -20,7 +21,7 @@ Let's start:
 
 ## Before you start {#pre-requisites}
 
-To create and run a React app, you should have the following prerequisites installed on your computer:
+To create and run a React app, you should have the following installed on your computer:
 
 *   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
@@ -37,12 +38,6 @@ Once you fulfill the requirements, perform the following steps to get started:
 1.  [Create and render your own Headless adaptive form](#custom)
 
     
->[!NOTE]
->
->
-> The starter kit helps you get started quickly using a React app. You are free to develop and use Headless adaptive forms in an Angular, Vanilla JS, and other development environments of your choice. 
-
-
 
 ## 1.  Setup Headless adaptive forms starter kit {#install}
 
@@ -184,7 +179,7 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
 >[!NOTE]
 >
 > * The "afModelDefinition" attribute is only needed for React applications and is not a part of the form definition.
-> * This article focuses on hand-crafted JSON definition. You can also use the [adaptive forms editor to create a core components based adaptive form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=en#create-an-adaptive-form-core-components) and use it to render a headless adaptive form. 
+> * This article focuses on hand-crafted JSON definition. You can also use the [adaptive forms editor to create a core components based adaptive form](create-a-headless-adaptive-form.md) and use it to render a headless adaptive form. 
 
 
 To render the form, replace the sample Headless adaptive form JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` with the above JSON, save the file, wait for the starter-kit to compile and refresh the form.    

@@ -20,7 +20,7 @@ Let's start:
 
 ## Before you start {#pre-requisites}
 
-To create and run a React app, you should have prerequisites installed on your computer:
+To create and run a React app, you should have the following prerequisites installed on your computer:
 
 *   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 

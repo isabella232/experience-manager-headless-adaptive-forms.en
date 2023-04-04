@@ -6,11 +6,33 @@ exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 ---
 # Create a Headless adaptive form using Adaptive Forms editor {#create-a-headless-adaptive-form-using-adaptive-forms-editor}
 
-AEM Forms as a Cloud Service offers a user-friendly editor to create Headless Adaptive Forms. With over 24 components available, you can easily create a form by dragging and dropping components in the editor. Additionally, the Rules editor allows you to add validations to your form fields. Perform the following steps to create a Headless adaptive form using Adaptive Forms editor: 
+AEM Forms as a Cloud Service offers a user-friendly editor to create Headless Adaptive Forms. With over 24 core components available, you can easily create a form by dragging and dropping components in the editor. Additionally, the Rules editor allows you to add validations to your form fields. 
+
+>[!NOTE]
+>
+> 
+>If you are new to Headless Adaptive Forms, Adobe recommends to go through the [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md) tutorial to learn the basics and handcraft a headless adaptive form before using Adaptive Forms editor for Headless forms. 
+
+Perform the following steps to create a Headless adaptive form using Adaptive Forms editor: 
 
 ## Before you start: 
 
 You require the following to create an Adaptive Form using Adaptive Forms editor:
+
+**For AEM 6.5 Forms:**
+
+*   Access to an AEM 6.5.16.0 or later Forms author instance. 
+
+*   Adaptive Forms Core Components
+
+*   Adaptive Forms Core Components template 
+
+*   An Adaptive Form theme for Core Components based template 
+
+*   Add your users to [!DNL forms-users] group. The members of the [!DNL forms-users] group have permissions to create an Adaptive Form. 
+
+
+**For AEM Forms as a Cloud Service:**
 
 * Access to an [AEM Forms as a Cloud Service author instance](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service.html?lang=en) or a [local AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=en) environment. 
 
@@ -26,7 +48,7 @@ You require the following to create an Adaptive Form using Adaptive Forms editor
 
 ## Create an Adaptive Form  {#create-an-adaptive-form-components}
 
-1.  Login to your [!DNL Experience Manager Forms] Author instance. It can be a Cloud instance or a local development instance.
+1.  Login to your [!DNL Experience Manager Forms] Author instance. 
 
 1.  Enter your credentials on the Experience Manager login page. After you are logged in, in the upper-left corner, tap **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 

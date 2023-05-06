@@ -1,6 +1,6 @@
 ---
 title: Create and Publish a Headless Form with Adobe Experience Manager Adaptive Forms | Step-by-Step Guide
-description: Learn how to create and publish a headless form using Adobe Experience Manager's adaptive forms in this step-by-step guide. Discover the benefits of going headless and streamline your form creation process today. Start building dynamic, responsive forms that work seamlessly across devices with Adobe Experience Manager Headless Adaptive Forms
+description: Learn how to create and publish a headless form using Adobe Experience Manager's adaptive forms in this step-by-step guide. Discover the benefits of going headless and streamline your form creation process today. Start building dynamic, responsive forms that work seamlessly across devices with Adobe Experience Manager Headless Adaptive Forms.
 hide: no
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
@@ -80,7 +80,6 @@ The starter kit is a React app with a sample Headless adaptive form and correspo
     ![](/help/assets/install-react-app-starter-kit.png)
 
 
-
 ## 2. Preview the Headless adaptive form {#preview}
 
 After setting up the starter kit, you can preview the sample Headless adaptive form, replace it with your own custom form. You can also configure the starter kit to retrieve a form from an AEM Forms Server. To preview the form
@@ -112,9 +111,9 @@ After setting up the starter kit, you can preview the sample Headless adaptive f
 
 ## 3. Create and render your own Headless adaptive form{#custom}
 
-A Headless adaptive form represents the form and its components, such as fields and buttons, in JSON (JavaScript Object Notation) format. The advantage of using JSON format is that it can be easily parsed and used by various programming languages, making it a convenient way to exchange form data between systems. 
+A Headless adaptive form represents the form and its components, such as fields and buttons, in JSON (JavaScript Object Notation) format. The advantage of using JSON format is that it can be easily parsed and used by various programming languages, making it a convenient way to exchange form data between systems. To view the sample Headless adaptive form included with the app, open the `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` file. 
 
-Let's create a contact us form that four fields: "Name", "Email", "Phone No", and "Message". The fields are defined as objects (items) within the JSON, with each object (item) having properties such as type, label, name, and required. The form also has a button with of type "submit". Here is JSON for the form. 
+Let's create a contact us form with four fields: "Name", "Email", "Contact Number", and "Message". The fields are defined as objects (items) within the JSON, with each object (item) having properties such as type, label, name, and required. The form also has a button of type "submit". Here is JSON for the form. 
 
 
 ```JSON
@@ -142,7 +141,7 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
         "format": "phone",
         "pattern": "[0-9]{10}",
         "label": {
-          "value": "Phone"
+          "value": "Contact Number"
         },
         "name": "Phone"
       },
@@ -165,8 +164,8 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
       }
     ],
     "action": "https://eozrmb1rwsmofct.m.pipedream.net",
-    "description": "Sample form",
-    "title": "Sample Form",
+    "description": "Contact Us",
+    "title": "Contact Us",
     "metadata": {
       "grammar": "json-formula-1.0.0",
       "version": "1.0.0"
@@ -179,7 +178,8 @@ Let's create a contact us form that four fields: "Name", "Email", "Phone No", an
 >[!NOTE]
 >
 > * The "afModelDefinition" attribute is only needed for React applications and is not a part of the form definition.
-> * This article focuses on hand-crafted JSON definition. You can also use the [adaptive forms editor to create a core components based adaptive form](create-a-headless-adaptive-form.md) and use it to render a headless adaptive form. 
+> * You can hand-craft the form JSON or use the [AEM adaptive forms editor (adaptive forms WYSIWYG editor)](create-a-headless-adaptive-form.md) to create and deliver the form JSON. In a production environment, you use AEM Forms to deliver the form JSON, more on it later.
+> * The tutorial uses the https://pipedream.com/ to test form submissions. You use your own or third-party endpoints approved by your organization to recieve the data from a Headless Adaptive Form.   
 
 
 To render the form, replace the sample Headless adaptive form JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` with the above JSON, save the file, wait for the starter-kit to compile and refresh the form.    
@@ -188,9 +188,22 @@ To render the form, replace the sample Headless adaptive form JSON `/react-start
 
 <!-- Your form is ready. Let's add some validations and make "Name", "Email", and "Message" fields mandatory. -->
 
+You have sucessfully rendered the Headless Adaptive Form. 
+
+
+## Bonus
+
+Let's set the title of the webpage hosting the form to `Contact Us | WKND Adventures and Travel`. To change the title, open the _react-starter-kit-aem-headless-forms/public/index.html_ file for editing and set the title.  
+
+![](assets/contact-us-headless-adaptive-forms-updated-title.png)
+
  
 ## Next step
 
-You have successfully created the Headless Adaptive Form. By default, the starter kit uses [Adobe's Spectrum](https://spectrum.adobe.com/) components. The next step is to [use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
+By default, the starter kit uses [Adobe's Spectrum](https://spectrum.adobe.com/) components to render the form. You can use create and use your own components or third-party components. For example, using Google Material UI or Chakra UI.
+
+Let's [use Google Material UI](use-google-material-ui-react-components-to-render-a-headless-form.md) to render our Contact Us form.
+
+
 
     

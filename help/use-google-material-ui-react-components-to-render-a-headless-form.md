@@ -7,13 +7,13 @@ exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
 
 # Use a custom react library to render a headless form
 
-You have the option to create and implement custom components to customize the appearance and functionality of your Headless adaptive form as per requirement and guidelines of your organization. 
+You can create and implement custom components to customize the appearance and functionality (Behaviour) of your Headless adaptive forms as per requirement and guidelines of your organization. 
 
 These components serve two primary purposes: to control the appearance or style of form fields, and to store the data collected through these fields within the form model instance. If this sounds confusing, don't worry - we will explore these purposes in greater detail shortly. For now, let's focus on the initial steps of creating custom components, rendering the form using these components, and utilizing events to save and submit data to a REST endpoint.
 
 In this tutorial, Google Material UI components are employed to demonstrate how to render a Headless adaptive form using custom React components. However, you are not limited to this library and are free to utilize any React components library or develop your own custom components.
 
-By the conclusion of this article, the form created in [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md) article transforms into the following:
+By the conclusion of this article, the _Contact Us_ form created in [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md) article transforms into the following:
 
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
@@ -26,7 +26,11 @@ The major steps involved in using Google Material UI components to render a form
 
 By default, the starter kit uses [Adobe's Spectrum](https://spectrum.adobe.com/) components. Let's set it to use [Google's Material UI](https://mui.com/):
 
-Open command prompt, navigate to the **react-starter-kit-aem-headless-forms** and run the following command:
+1.  Ensure that the starter kit is not running. To stop the starter kit, open your terminal, navigate to the **react-starter-kit-aem-headless-forms**, and press Ctrl-C (it's the same on Windows, Mac & Linux). 
+
+    Do not attempt to close the terminal. Closing your terminal does not stop the starter kit.
+
+1. Run the following command:
 
 ```shell
     

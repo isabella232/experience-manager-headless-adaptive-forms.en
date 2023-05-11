@@ -10,7 +10,13 @@ hide: no
 
 + [Overview](overview.md)
 + [Architecture](architecture.md)
-+ Get Started {#get-started}
++ Quick Setup {#quick-setup}
+    + [Enable Headless Adaptive Forms on AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
+    + [Enable Headless Adaptive Forms on AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
++  Tutorial {#tutorial}
+    + [Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
+    + [Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM 6.5 Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
++ Get Started using starter kit{#get-started}
     + [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md)
     + [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}

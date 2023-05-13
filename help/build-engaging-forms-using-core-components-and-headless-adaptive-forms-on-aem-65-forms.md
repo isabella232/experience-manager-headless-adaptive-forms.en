@@ -11,6 +11,7 @@ hide: yes
 
 ## Lab Overview {#lab-overview}
 
+
 In this hands-on lab, you learn:
 
 How to use AEM Forms to easily create Adaptive Forms using the latest Core Components which are consistent with AEM Sites, enable omnichannel data capture experiences by delivering the Adaptive Forms as headless forms to web, mobile, and chat. You also learn best practices around styling, customizations, and front-end development.
@@ -23,7 +24,7 @@ How to use AEM Forms to easily create Adaptive Forms using the latest Core Compo
 
 *   **Developer Velocity**: As a developer, I can easily and consistently customize Sites and Forms components.
 
-## Before you start {#pre-requisites}
+## Prerequisites {#pre-requisites}
 
 To use this hands on lab:
 
@@ -93,23 +94,28 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
     1.  Click **Create** and select Adaptive Form.
         ![](/help/assets/creating-adaptive-form-6-5.png)
 
-    1.  Select the **Blank with Core Components** template from the template selection screen as shown below and click **Next**:
+    1.  Select the **Blank with Core Components** template from the template selection screen as shown below and click **Next**.
     ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png)
 
-    1.  Specify **Name** and **Title** of the form. For example, Contact us.
+    1.  Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
     ![](/help/assets/creating-adaptive-form-65-specify-title.png)
 
-    1.  Click **Create**. On the Adaptive Form Created dialog, click **Edit**. The Adaptive Form editor opens. Dismiss any pop-ups or dialogs for preferences or information.
+    1.  Click **Create**. A dialog box is displayed.
+    
+    1.  On the dialog box, click **Edit**. The form opens in Adaptive Form editor. Dismiss any pop-ups or dialogs for preferences or information.
+
+    1.  Open the Components browser and drag and drop the Panel component to the middle of the screen.
+
+        ![](/help/assets/lab65-add-panel.png) 
 
 
-    1.  Drag and drop other components to create a Contact US form, similar to the following:
+    1.  Drag and drop components from the Components browser to create a form, similar to the following:
 
         ![](/help/assets/contact-us-headless-adaptive-form.png)
 
 
-    1.  Open the Content Browser, Click Guide Container properties icon, and click the **Submission** tab
-    
-    1.  Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
+
+    1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
 
         ![](/help/assets/configure-submit-action.png)
    
@@ -135,6 +141,16 @@ Set up local repository of the theme:
 
     ![](/help/assets/screenshot2028115829.png)
 
+1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
+
+    ```Shell
+
+    cd git
+
+    ```
+
+    If the folder does not exist, use the `md git` command to create it
+
 1.  Use the following command to clone the theme frontend code:
     
     ```Shell
@@ -142,7 +158,6 @@ Set up local repository of the theme:
     git clone -b WKND https://github.com/adobe/aem-forms-theme-canvas
 
     ```
-    
 
 1.  Use the following command in the listed order to navigate to the **aem-forms-theme-canvas** directory and open Visual Studio Code.
     
@@ -172,6 +187,10 @@ Set up local repository of the theme:
     *   **AEM_URL**: Specify URL of a **publish** instance. For example, `https://localhost:4502/`
     
     *   **AEM_ADAPTIVE_FORM**: Specify the name of the form. For example, `contact-us`.
+
+     </br>
+
+    ![](/help/assets//lab65-theme-environment-variable.png)
     
 
 1.  In the Command Prompt window, run the following command:
@@ -246,6 +265,14 @@ Setup local repository using react starter project:
 
     ![](/help/assets/screenshot2028115829.png)
 
+1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
+
+    ```Shell
+
+    cd git
+
+    ```
+
 1.  Use the following command to clone the Adaptive Form react starter project:
     
     ```Shell
@@ -287,7 +314,9 @@ To render the form hosted on your publish environment:
 
     *   **AEM_FORM_PATH**: Specify the path of the Adaptive Form created in the previous lesson. For example, `/content/forms/af/contact-us/`
 
-        ![](/help/assets/screenshot202023-03-0820at202.49.1820pm.png)
+    </br>
+
+    ![](/help/assets/lab65-starter-kit-environment-variable.png)
 
 1.  Open the command window, ensure you are at the **react-starter-kit-aem-headless-forms** directory, and run the following command:
 
@@ -308,7 +337,7 @@ To render the form hosted on your publish environment:
     
     ```
 
-    ![](/help/assets/screenshot2028118129.png)
+    ![](/help/assets/lab65-starter-kit-start.png)
 
     The above command starts a local development server which would render the form definition fetched from AEM in a headless way using the react-spectrum frontend library.
 
@@ -336,16 +365,13 @@ Let's publish the updated form to propagate the changes to publish environment.
 
 1.  In the AEM Forms management interface tab, select the contact us form, and click **Unpublish**. If you do not see the **Unpublish** button, skip to step 3 to publish the changes directly.
 
-      ![](/help/assets/screenshot2028119829.png)
 
 1.  Click **Unpublish**. Click **Close** in respective dialog.
     
-    ![](/help/assets/screenshot2028120029.png)
 
 
 1.  After the browser refreshes, select the contact us form and click **Publish**.
 
-    ![](/help/assets/screenshot2028120129.png)
 
 
 1.  Click **Publish**. Click **Close** in the respective dialog.
@@ -378,6 +404,13 @@ Setup local repository using Material UI starter project:
     
     ![](/help/assets/screenshot2028115829.png)
 
+1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
+
+    ```Shell
+
+    cd git
+
+    ```
 
 1.  Run the following commands in the listed order to create a folder named mui and navigate to the mui folder using following commands: 
 
@@ -423,7 +456,6 @@ To render the form hosted on your publish environment:
 
     *   **AEM_FORM_PATH**: Specify the path of the Adaptive Form created in the previous lesson. For example, /content/forms/af/contact-us/
 
-        ![](/help/assets/screenshot2028126929.png) 
 
 1.  Open the command window, ensure you are at the **react-starter-kit-aem-headless-forms** directory, and run the following command:
 
@@ -443,7 +475,7 @@ To render the form hosted on your publish environment:
     
     ```
 
-    ![](/help/assets/screenshot2028127129.png)
+    ![](/help/assets/lab65-mui-starter-kit-start.png)
     
     The command starts a local development server and renders the form definition fetched from AEM in a headless way using the Google
     Material UI frontend library.

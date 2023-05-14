@@ -14,14 +14,24 @@ hidefromtoc: yes
 
 Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Headless Forms using your AEM Forms Cloud Service instances to multiple channels. 
 
-*   If you have a new AEM Cloud Service program (created after 2023.04.0 release), Headless Adaptive Forms are already enabled for your environment.
+## Considerations 
 
-*   If you have an older Forms as a Cloud Service program where [Core Components are not enabled](#frequently-asked-questions-faq), you can Add Adaptive Forms Core Components dependencies to your AEM repository's and deploy the repository to your environment to enable Headless Adaptive Forms. 
+*   When you create a fresh AEM Forms as a Cloud Service program, [Headless Adaptive Forms are already enabled for your environments](#are-adaptive-forms-core-components-enabled-for-my-environment).
+
+*   If you have an older Forms as a Cloud Service program where Core Components are not enabled, (the environment does not include the capability to [create Core Components-based Adaptive Forms](create-a-headless-adaptive-form.md), you can [add Adaptive Forms Core Components dependencies](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)) to your AEM as a Cloud Service repository and deploy the repository to your Cloud Service environments to enable Headless Adaptive Forms.
+
+*   If your existing Cloud Service environment provides option to [create Core Components-based Adaptive Forms](create-a-headless-adaptive-form.md), Headless Adaptive Forms are are already enabled for your environment and you can serve Core Component based Adaptive Forms as headless forms to channels such as mobile, web, native apps, and services that require a headless representation of Adaptive Forms.
+
 
 >[!NOTE]
 >
 >
-> With the Headless Adaptive Forms starter kit, Forms developers can begin [building forms on their local machines](create-and-publish-a-headless-form.md) without the need to enable Headless Adaptive Forms on AEM Forms as a Cloud Service. This means that developers can start developing Headless Adaptive Forms immediately, without any additional setup or configuration requirements.
+> Adobe provides Adaptive Forms [starter kit (React App)]((create-and-publish-a-headless-form.md)) to help developers start quickly with Headless Adaptive Forms development, without enabling Headless Adaptive Forms on AEM Forms as a Cloud Service environment. You can enable the Headless Adaptive Forms on a Forms as a Cloud Service environment later after a [quick hands-on with developing headless forms]((create-and-publish-a-headless-form.md)). 
+
+## Enable Headless Adaptive Forms for an AEM Forms as a Cloud Service environment
+
+Perform the following steps, in the listed order, to enable Headless Adaptive Forms for an AEM Forms as a Cloud Service environment
+
 
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
@@ -31,8 +41,6 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
 1.  Log in to [Cloud Manager](https://my.cloudmanager.adobe.com/) and select your organization and program.
 
 1.  Navigate to the **Pipelines** card from your **Program Overview** page, Click the **Access Repo Info** button to access and manage your Git Repository.
-
-1.  Click **View Repo Info** to open a dialog to view,
 
     * URL to the Cloud Manager Git Repository.
     * Credentials of the Git Repository (Username and Password) Git username.
@@ -54,7 +62,7 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
 
 1.  Open your Git Repository folder in a plain text code editor. For example, VS Code.
 1.  Open the `[AEM Repository Folder]\pom.xml` file for editing.
-1.  Add the following properties to the file and save it. Replace versions of the `core.forms.components` and `core.wcm.components` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components).
+1.  Add the following properties to the  `<properties>` section and save it. Replace versions of the `core.forms.components` and `core.wcm.components` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components).
         
     ```XML
 
@@ -254,16 +262,21 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
     >[!NOTE]
     >
     >Ensure that the following Adaptive Forms Core Components artifacts are not included in your project.
+    >
     > `<dependency>`
-    > `<groupId>com.adobe.aem</groupId>` 
-    > `<artifactId>core-forms-components-apps</artifactId>`
+    >
+    >   `<groupId>com.adobe.aem</groupId>` 
+    >   `<artifactId>core-forms-components-apps</artifactId>`
+    >
     > `</dependency>`
     >
     > and
     >
     > `<dependency>`
-    > `<groupId>com.adobe.aem</groupId>`
-    > `<artifactId>core-forms-components-core</artifactId>`
+    >
+    >   `<groupId>com.adobe.aem</groupId>`
+    >   `<artifactId>core-forms-components-core</artifactId>`
+    >
     > `</dependency>`
 
 
@@ -276,8 +289,8 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
         ```Shell
     
         git add pom.xml
-        git add /all/pom.xml
-        git add /ui.apps/pom.xml
+        git add all/pom.xml
+        git add ui.apps/pom.xml
         git commit -m "Added dependencies for Adaptive Forms Core Components"
         git push origin
     
@@ -285,16 +298,16 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
 
 1.  After the files are committed to Git Repository, [Run the pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html).  
 
-    After pipeline run is successful, Adaptive Forms Core Components enabled for the corresponding environment. Additionally, an Adaptive Forms (Core Components) template and Canvas 3.0 theme are added to your Forms as a Cloud Service environment, providing you with options to customize and create Core Components based Adaptive Forms. 
+    After pipeline run is successful, Adaptive Forms Core Components are enabled for the corresponding environment. Also, an Adaptive Forms (Core Components) template and Canvas 3.0 theme are added to your Forms as a Cloud Service environment, providing you with options to customize and create Core Components based Adaptive Forms. 
 
 
 ## Frequently Asked Questions {#faq}
 
-**What are core components?**
+### What are core components? {#core-components}
 
-The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites. 
+The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites.
 
-**What all is capabilities are added on enabling core components?**
+### What all capabilities are added on enabling core components? {#core-components-capabilities}
 
 When the  Adaptive Forms Core Components are enabled for your environment, a blank Core Components based Adaptive Form template and Canvas 3.0 theme are added to your environment. After enabling Adaptive Forms Core Components for your environment, you can:
 
@@ -303,19 +316,23 @@ When the  Adaptive Forms Core Components are enabled for your environment, a bla
 * Create custom themes for Core Components based Adaptive Form templates.
 * Serve Core Component based Adaptive Form's JSON representations to channels such as mobile, web, native apps, and services that require a form's headless representation.
 
-**Are Adaptive Forms Core Components enabled for my environment?**
+### Are Adaptive Forms Core Components enabled for my environment? {#enable-components}
 
-To check Adaptive Forms Core Components are enabled for your environment:
+To check that Adaptive Forms Core Components are enabled for your environment:
 
+1.  [Clone your AEM Forms as a Cloud Service repository](#1-clone-your-aem-forms-as-a-cloud-service-git-repository). 
 1.  Open the `[AEM Repository Folder]/all/pom.xml` file of your AEM Forms Cloud Service Git Repository. 
 1.  Search for the following dependencies:
     
+    * core-forms-components-af-core
     * core-forms-components-core
     * core-forms-components-apps
-    * core-forms-components-af-core
     * core-forms-components-af-apps
     * core-forms-components-examples-apps
     * core-forms-components-examples-content
+
+    
+    ![locate the core-forms-components-af-core artifact in all/pom.xml](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service-locate-core-af-artifact.png)
 
     If the dependencies exist, Adaptive Forms Core Components are enabled for your environment.
 

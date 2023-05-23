@@ -11,7 +11,6 @@ hide: yes
 
 ## Lab Overview {#lab-overview}
 
-
 In this hands-on lab, you learn:
 
 How to use AEM Forms to easily create Adaptive Forms using the latest Core Components which are consistent with AEM Sites, enable omnichannel data capture experiences by delivering the Adaptive Forms as headless forms to web, mobile, and chat. You also learn best practices around styling, customizations, and front-end development.
@@ -24,7 +23,7 @@ How to use AEM Forms to easily create Adaptive Forms using the latest Core Compo
 
 *   **Developer Velocity**: As a developer, I can easily and consistently customize Sites and Forms components.
 
-## Prerequisites {#pre-requisites}
+## Before you start {#pre-requisites}
 
 To use this hands on lab:
 
@@ -78,10 +77,10 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
 1.  Create a submission endpoint for the form:
 
     1.  Open <https://requestbin.com/> in a new browser tab.
-        ![](/help/assets/screenshot2028114329.png)
+        ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
     1.  Click **Create a public bin** and copy the endpoint URL.
-        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png)
+        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
     This example endpoint is to demonstrate the process of data submission. In an actual production environment, it is recommended that you use your own endpoint or submission method.
     
@@ -92,14 +91,18 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
     1.  In the browser tab used in Lesson 1, navigate to AEM Forms web interface and navigate to **Forms** > **Forms and Documents**.
 
     1.  Click **Create** and select Adaptive Form.
-        ![](/help/assets/creating-adaptive-form-6-5.png)
+        ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
     1.  Select the **Blank with Core Components** template from the template selection screen as shown below and click **Next**.
-    ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png)
+    ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
+    1.  Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
     1.  Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
     ![](/help/assets/creating-adaptive-form-65-specify-title.png)
 
+    1.  Click **Create**. A dialog box is displayed.
+    
+    1.  On the dialog box, click **Edit**. The form opens in Adaptive Form editor. Dismiss any pop-ups or dialogs for preferences or information.
     1.  Click **Create**. A dialog box is displayed.
     
     1.  On the dialog box, click **Edit**. The form opens in Adaptive Form editor. Dismiss any pop-ups or dialogs for preferences or information.
@@ -108,16 +111,23 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
 
         ![](/help/assets/lab65-add-panel.png) 
 
+    1.  Open the Components browser and drag and drop the Panel component to the middle of the screen.
+
+        ![](/help/assets/lab65-add-panel.png) 
+
 
     1.  Drag and drop components from the Components browser to create a form, similar to the following:
+    1.  Drag and drop components from the Components browser to create a form, similar to the following:
 
-        ![](/help/assets/contact-us-headless-adaptive-form.png)
+        ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
 
 
 
     1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
 
-        ![](/help/assets/configure-submit-action.png)
+    1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
+
+        ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
    
 1.  Open AEM UI, navigate to **Forms** > **Forms & Documents**. Select the form created in previous step and click **Publish**. 
 
@@ -139,7 +149,7 @@ Set up local repository of the theme:
 
 1.  Open the Command Prompt or shell with administrator rights:
 
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -149,7 +159,7 @@ Set up local repository of the theme:
 
     ```
 
-    If the folder does not exist, use the `md git` command to create it
+    If the folder does not exist, use the `md git` command to create it.
 
 1.  Use the following command to clone the theme frontend code:
     
@@ -168,19 +178,19 @@ Set up local repository of the theme:
 
     ```
     
-    ![](/help/assets/screenshot2028126029.png)
+    ![](/help/assets/screenshot2028126029.png){width="50%" align="left"}
 
 1.  Select **Trust the authors of all files in the parent folder** and click **Yes, I trust the authors**.
 
-    ![](/help/assets/screenshot2028116229.png)
+    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
 1.  Rename the `env_template` file to .env.  To rename the file, right click the **env_template** file and select the **Rename** option.
 
-    ![](/help/assets/screenshot2028116429.png)
+    ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
      </br>
 
-    ![](/help/assets/screenshot2028116529.png)
+    ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
 
 1.  Set the following values for the variables in .env file and save the file:
 
@@ -298,13 +308,13 @@ Setup local repository using react starter project:
 
     The Visual Studio Code window opens.
 
-    ![](/help/assets/screenshot2028117429.png)
+    ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
 
 To render the form hosted on your publish environment:
 
 1.  Rename the env_template file to .env file. To rename, right-click the **env_template** file and select the **Rename** option. 
     
-    ![](/help/assets/screenshot2028117629.png)
+    ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
     
     ![](/help/assets/screenshot2028117729.png)
 
@@ -402,7 +412,7 @@ Setup local repository using Material UI starter project:
 
 1.  Open the Command Prompt using administrator rights.
     
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 

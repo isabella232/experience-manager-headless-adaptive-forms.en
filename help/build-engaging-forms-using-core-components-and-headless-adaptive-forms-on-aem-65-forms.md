@@ -52,15 +52,15 @@ In this lesson, you familiarize yourself with AEM 6.5 Forms by navigating the us
 
 1.  After you are logged in, navigate to the AEM Forms UI. Click **Forms**.
 
-    ![](/help/assets/screenshot2028113829.png)
+    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1.  Click **Forms & Documents**. Dismiss any pop-ups related to preferences or information.
 
-    ![](/help/assets/screenshot2028113929.png)
+    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
     All the available forms are displayed.
     
-    ![](/help/assets/screenshot2028114029.png)
+    ![](/help/assets/screenshot2028114029.png){width="50%" align="left"}
 
 ## Lesson 2
 
@@ -97,33 +97,20 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
     ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
     1.  Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
-    1.  Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
-    ![](/help/assets/creating-adaptive-form-65-specify-title.png)
+    ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
     1.  Click **Create**. A dialog box is displayed.
     
     1.  On the dialog box, click **Edit**. The form opens in Adaptive Form editor. Dismiss any pop-ups or dialogs for preferences or information.
-    1.  Click **Create**. A dialog box is displayed.
-    
-    1.  On the dialog box, click **Edit**. The form opens in Adaptive Form editor. Dismiss any pop-ups or dialogs for preferences or information.
-
+   
     1.  Open the Components browser and drag and drop the Panel component to the middle of the screen.
 
-        ![](/help/assets/lab65-add-panel.png) 
+        ![](/help/assets/lab65-add-panel.png){width="50%" align="left"} 
 
-    1.  Open the Components browser and drag and drop the Panel component to the middle of the screen.
-
-        ![](/help/assets/lab65-add-panel.png) 
-
-
-    1.  Drag and drop components from the Components browser to create a form, similar to the following:
     1.  Drag and drop components from the Components browser to create a form, similar to the following:
 
         ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
 
-
-
-    1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
 
     1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
 
@@ -271,7 +258,7 @@ Setup local repository using react starter project:
 
 1.  Open the Command Prompt using administrator rights.
 
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -312,7 +299,7 @@ To render the form hosted on your publish environment:
 
 1.  Rename the env_template file to .env file. To rename, right-click the **env_template** file and select the **Rename** option. 
     
-    ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028117629.png){width="30%" align="left"}
     
     ![](/help/assets/screenshot2028117729.png)
 
@@ -365,7 +352,7 @@ Let's make changes on the form on the server as a business user and view changes
 
 1.  Select the **Contact number** field and click the **Edit icon (Pencil icon)** in the toolbar. If you are not able to see the pop up toolbar, switch to Edit mode by clicking **Edit** button in top right, left to **Preview** button.
 
-    ![](/help/assets/change-field-title.png)
+    ![](/help/assets/change-field-title.png){width="50%" align="left"}
 
 1.  Change the label to **Mobile Number**. Click any empty space in the form and the changes made to the form are saved.
 
@@ -376,10 +363,7 @@ Let's publish the updated form to propagate the changes to publish environment.
 
 1.  Click **Unpublish**. Click **Close** in respective dialog.
     
-
-
 1.  After the browser refreshes, select the contact us form and click **Publish**.
-
 
 
 1.  Click **Publish**. Click **Close** in the respective dialog.
@@ -485,8 +469,7 @@ To render the form hosted on your publish environment:
 
     ![](/help/assets/lab65-mui-starter-kit-start.png)
     
-    The command starts a local development server and renders the form definition fetched from AEM in a headless way using the Google
-    Material UI frontend library.
+    The command starts a local development server and renders the form definition fetched from AEM in a headless way using the Google Material UI frontend library.
 
     >[!NOTE]
     >

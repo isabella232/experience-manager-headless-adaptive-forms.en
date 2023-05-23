@@ -248,8 +248,6 @@ Set up local repository of the theme:
 
 1.  Set the **$error** color to **#5736eb** and save the file. 
 
-    ![](/help/assets/screenshot2028120729.png)
-
 1.  Refresh the browser and submit the form. Notice error color on the first name field has changed accordingly.
     
     ![](/help/assets/error-color-after.png)
@@ -436,7 +434,7 @@ Setup local repository using Material UI starter project:
 
     ```Shell
 
-    git clone -b mui https://github.com/adobe/react-starter-kit-aem-headless-forms
+    git clone -b mui-lab https://github.com/adobe/react-starter-kit-aem-headless-forms
 
     ```
 

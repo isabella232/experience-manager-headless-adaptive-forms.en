@@ -92,7 +92,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 1.  Update project to include latest version of Forms Core Components: 
 
      1.  Open the [AEM Archetype Project Folder]/pom.xml for editing. 
-     1.  Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650#:~:text=Maven-,1.1.16,-2.21.2) version.
+     1.  Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
      
          ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
 
@@ -125,7 +125,6 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 >
 >
 >In case you encounter difficulty accessing the login dialog on a publish instance to install the package through the Package Manager, try logging in through the following URL: http://[Publish Server URL]:[PORT]/system/console. This allows you access to login to Publish instance, allowing you to proceed with the installation process.
-
 
 
 The Core Components are enabled for your environment. A blank Core Components based Adaptive Form template and Canvas 3.0 theme are deployed to your environment, enabling you to [create Core Components based Adaptive Forms](create-a-headless-adaptive-form.md).

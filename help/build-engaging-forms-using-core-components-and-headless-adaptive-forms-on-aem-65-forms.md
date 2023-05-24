@@ -81,8 +81,6 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
 
     1.  Click **Create a public bin** and copy the endpoint URL.
         ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
-
-    This example endpoint is to demonstrate the process of data submission. In an actual production environment, it is recommended that you use your own endpoint or submission method.
     
     This particular endpoint serves as an example for submitting and viewing data. In actual production, you use your own endpoint or data sources to store the captured data.  
 
@@ -115,10 +113,12 @@ In this lesson, as a business user, you author an Adaptive Form for multiple cha
     1.  Open the Content Browser, click Guide Container properties icon, and open the **Submission** tab. Select the **Submit to REST endpoint** Submit Action, select the **Enable POST request** option, and specify REST endpoint created in lesson 2 in the **URL for POST request** text box, and click the **Done** icon. 
 
         ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
-   
-1.  Open AEM UI, navigate to **Forms** > **Forms & Documents**. Select the form created in previous step and click **Publish**. 
 
-1.  On the Publish Assets dialog, click **Publish**. The success message is displayed.
+1.  Publish an Adaptive Form:
+
+    1.  Open AEM UI, navigate to **Forms** > **Forms & Documents**. Select the form created in previous step and click **Publish**. 
+
+    1.  On the Publish Assets dialog, click **Publish**. The success message is displayed.
 
 ## Lesson 3
 

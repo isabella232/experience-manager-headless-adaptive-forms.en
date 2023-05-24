@@ -12,13 +12,13 @@ hidefromtoc: yes
 
 # Enable Headless Adaptive Forms on AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
-Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Headless Forms using your AEM Forms Cloud Service instances to multiple channels. 
+Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Headless Forms using your AEM Forms Cloud Service instances to multiple channels. You require Adaptive Forms Core Components enabled environment to use Headless Adaptive Forms.
 
 ## Considerations 
 
 *   When you create a fresh AEM Forms as a Cloud Service program, [Headless Adaptive Forms are already enabled for your environments](#are-adaptive-forms-core-components-enabled-for-my-environment).
 
-*   If you have an older Forms as a Cloud Service program where Core Components are not enabled, (the environment does not include the capability to [create Core Components-based Adaptive Forms](create-a-headless-adaptive-form.md), you can [add Adaptive Forms Core Components dependencies](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)) to your AEM as a Cloud Service repository and deploy the repository to your Cloud Service environments to enable Headless Adaptive Forms.
+*   If you have an older Forms as a Cloud Service program where Core Components are [not enabled](#enable-components), you can [add Adaptive Forms Core Components dependencies](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment) to your AEM as a Cloud Service repository and deploy the repository to your Cloud Service environments to enable Headless Adaptive Forms.
 
 *   If your existing Cloud Service environment provides option to [create Core Components-based Adaptive Forms](create-a-headless-adaptive-form.md), Headless Adaptive Forms are are already enabled for your environment and you can serve Core Component based Adaptive Forms as headless forms to channels such as mobile, web, native apps, and services that require a headless representation of Adaptive Forms.
 
@@ -62,24 +62,23 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
 1.  Open your Git Repository folder in a plain text code editor. For example, VS Code.
 1.  Open the `[AEM Repository Folder]\pom.xml` file for editing.
-1.  Replace versions of the `core.forms.components` and `core.wcm.components` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components). If the component does not exist, add these components. 
+1.  Replace versions of the `core.forms.components.version`, `core.forms.components.af.version` and `core.wcm.components.version` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components). If the component does not exist, add these components. 
         
     ```XML
 
     <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
 
     <properties>
-        <core.forms.components.version>2.0.14</core.formscomponents.version> 
+        <core.forms.components.version>2.0.14</core.formscomponents.version>
+        <core.forms.components.af.version>2.0.14</core.forms.components.af.version>  
         <core.wcm.components.version>2.21.2</core.wcmcomponents.version>
     </properties>
 
     
 
     ```
-
-    ![](/help/assets/component-version.png)
-
-    
+     
+    ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
 
 1.  In the dependencies section of the `[AEM Repository Folder]\pom.xml` file, add the following dependencies, and save the file.
 
@@ -205,8 +204,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     >
     >  To find your `${appId}`, in the `[AEM Repository Folder]/all/pom.xml` file, search the `-packages/application/install` term. The text before the `-packages/application/install` term is your `${appId}`. For example, the following code, `myheadlessform` is `${appId}`. 
     >
-    >   ```XML
-    >        
+    >   ``` 
     >        <embedded>
     >            <groupId>com.myheadlessform</groupId>
     >            <artifactId>myheadlessform.ui.apps<artifactId>
@@ -292,9 +290,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 ## 3.  Update project to include latest version of Forms Core Components: 
 
 1.  Open the [AEM Archetype Project Folder]/pom.xml for editing. 
-1.  Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
-     
-    ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
+
 
 1.  Save and close the file.  
 

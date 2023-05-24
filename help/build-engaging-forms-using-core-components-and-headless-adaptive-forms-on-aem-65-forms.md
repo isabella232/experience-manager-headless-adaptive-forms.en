@@ -173,7 +173,7 @@ Set up local repository of the theme:
 
 1.  Rename the `env_template` file to .env.  To rename the file, right click the **env_template** file and select the **Rename** option.
 
-    ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
 
      </br>
 
@@ -187,7 +187,7 @@ Set up local repository of the theme:
 
      </br>
 
-    ![](/help/assets//lab65-theme-environment-variable.png)
+    ![](/help/assets/lab65-theme-environment-variable.png)
     
 
 1.  In the Command Prompt window, run the following command:
@@ -222,12 +222,12 @@ Set up local repository of the theme:
     >If you experience a blank screen in browser after executing the `npm run live` command for more than 3-4 minutes, change `localhost` in browser URL to 127.0.0.1 and hit **Enter**. 
 
     
-    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png)
+    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
 
 
 1.  In Visual Studio Code, open the `PROJECT\src\site\_variables.scss` file. Notice the `$error` color is a shade of RED.
 
-    ![](/help/assets/screenshot2028120729.png)
+    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
 1.  In the browser, submit the form to see the Red color in the **First Name** field.
 
@@ -258,7 +258,7 @@ Setup local repository using react starter project:
 
 1.  Open the Command Prompt using administrator rights.
 
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -394,7 +394,7 @@ Setup local repository using Material UI starter project:
 
 1.  Open the Command Prompt using administrator rights.
     
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -440,7 +440,7 @@ To render the form hosted on your publish environment:
 
 1.  Rename the **env_template** file to **.env** file. To rename, right-click the **env_template** file and select **Rename**.
 
-    ![](/help/assets/screenshot2028126629.png)
+    ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
 
 1.  Set the following values for the variables in the .env file. After updating variables, save the file. Use the **CTRL + S** switch combination to save the file. 
 
@@ -519,7 +519,7 @@ Update the variation of components in the headless project. To change the varian
 
 1.  Refresh the browser, if it does not refresh automatically, to see text input component use a different variant.
 
-    ![](/help/assets/screenshot2028127729.png)
+    ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
 
     
     This change happens for end users without any change to form definition at AEM Forms Server and is specific for the headless

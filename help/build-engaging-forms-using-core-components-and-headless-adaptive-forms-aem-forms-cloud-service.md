@@ -26,7 +26,17 @@ How to use AEM Forms to easily create adaptive forms using the latest core compo
 
 ## Prerequisites {#prerequisites}
 
-* [Enable Headless Adaptive Forms on AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
+To use this hands on lab:
+
+*   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+*   Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+
+*   [Enable Headless Adaptive Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) for your AEM Forms as a Cloud Service environment.
+
+*   Install [Microsoft Visual Studio Code](https://code.visualstudio.com/download) or any plain text editor. Examples in document make use of Microsoft Visual Studio Code. 
+
+
 
 ## Lesson 1 {#lesson-1}
 
@@ -43,19 +53,16 @@ In this lesson, you familiarize yourself with AEM Forms as a Cloud Service envir
 1.  Open your browser and enter the URL of the Cloud Service author environment. For example:
     [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1.  Log in to the Cloud Service author environment. The login credentials for your author environment will be shared with you during the lab. 
+1.  Log in to the Cloud Service author environment.  
 
-1.  After you are logged in, navigate to the AEM Forms UI. Click **Forms**.
+1.  To navigate to the AEM Forms UI, click **Forms > Forms & Documents**.
 
-    ![](/help/assets/screenshot2028113829.png)
+    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1.  Click **Forms & Documents**. Dismiss any pop-ups related to preferences or information.
+    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
-    ![](/help/assets/screenshot2028113929.png)
-
-    All the available forms are displayed.
+    Dismiss any pop-ups related to preferences or information. All the available forms are displayed.
     
-    ![](/help/assets/screenshot2028114029.png)
 
 ## Lesson 2
 
@@ -72,10 +79,10 @@ In this lesson, as a business user, you will author an adaptive form for multipl
 1.  Create a submission endpoint for the form:
 
     1.  Open <https://requestbin.com/> in a new browser tab.
-        ![](/help/assets/screenshot2028114329.png)
+        ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
     1.  Click **Create a public bin** and copy the endpoint URL.
-        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png)
+        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1.  Author an adaptive form using the Wizard interface:
 
@@ -95,84 +102,61 @@ In this lesson, as a business user, you will author an adaptive form for multipl
     **URL for the POST request** field as shown below:
     ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-    1.  Click **Create**. Specify a name and title to your form. For example, **contactus**. Click **Create**.
-     ![](/help/assets/screenshot2028123329.png)
+    1.  Click **Create**. Specify a name and title to your form. For example, **registration**. Click **Create**.
 
-    1.  The adaptive form editor opens. Dismiss any pop-ups or dialogs for preferences or information. Click the components browser on left rail and add the **Footer** component to the bottom of the blank form.
+    1.  The adaptive form editor opens. Dismiss any pop-ups or dialogs for preferences or information. Click the components browser on left rail and add the **Header** and **Footer** components respectively to the top and bottom of the blank form.
      ![](/help/assets/screenshot2028121929.png)
 
-    1.  The header is part of the adaptive form template. It allows an easy way to provide a consistent header/footer across all adaptive forms. Alternatively, you can also choose to keep it editable in the form - as seen for the Footer component in the next step.
+    1.  Drag and drop components from the Components browser to create a form, similar to the following:
 
-    1.  Add a **Title** component to the middle of the form.
-     ![](/help/assets/screenshot2028122129.png)
+        ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
 
-    1.  Add a **Text Input** component after the title component.
-     ![](/help/assets/screenshot2028122329.png)
 
-    1.  Add a **Number Input** component.
-     ![](/help/assets/screenshot2028122429.png)
 
-    1.  Add a **Submit Button** component to the form.
-     ![](/help/assets/screenshot2028122529.png)
-
-    1.  Click the **Title** component so that **pop-up menu** is displayed. Click the **Edit icon** in the menu to edit the label.
-     ![](/help/assets/screenshot2028122629.png)
-
-    1.  Enter `Contact Us` as the title text.
-    ![](/help/assets/screenshot2028122829.png)
-
-    1.  Click the **Text Input** component so that the pop-up menu is displayed. Click the **Edit icon** in the menu to edit the label.
-    ![](/help/assets/screenshot2028122929.png)
-
-    1.  Enter **Full Name** as field label.
-    ![](/help/assets/screenshot2028123029.png)
-
-    1.  Click the **Number Input** component so that the pop-up menu is displayed. Click the **Edit icon** in the menu to edit the label.
-    ![](/help/assets/screenshot2028123129.png)
-
-    1.  Enter the **Phone number** as the field label.
-    ![](/help/assets/screenshot2028123829.png)
 
 
 1.  Add validations to form:
 
     1.  Click the **Phone number** component so that the pop-up menu is displayed. Click the **Wrench icon** in the menu to configure the field.
-        ![](/help/assets/screenshot2028123429.png)
 
     1.  Open the **validations tab**, mark the field **Required**, and click **Done**. The success message is displayed.
-        ![](/help/assets/screenshot2028123529.png)
+        ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
         
-        ![](/help/assets/screenshot2028123629.png)
+        ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
+
+1.  Preview and submit the form.
 
     1.  Click **Preview** to preview the form from an end-user perspective.
-        ![](/help/assets/screenshot2028125529.png)
 
-    1.  Fill the form with dummy data
-        ![](/help/assets/screenshot2028125629.png)
+    1.  Fill the form with dummy data.
 
-    1.  Submit the form
+    1.  Submit the form.
         ![](/help/assets/screenshot2028125729.png)
 
     1.  In the Request bin tab, check the submitted data.
         ![](/help/assets/screenshot2028125829.png)
 
-Now for purpose of the remaining exercise, use a pre-created registration form.
+1.  Add interactivity to form with rules:
 
-1.  Open AEM Forms management interface, for example, `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`, and select the registration form.
+    1.  Click the **Check the box to receive 5% off** component. On the options toolbar, click the Rules icon. The Rule edior option opens. 
     
-    ![](/help/assets/screenshot2028115529.png)
+    1.  Create a rule, when the **Check the box to receive 5% off** option is selected, the options for applying credit card is disabled.
 
-1.  Click **Publish**.
+1.  Publish the form.
 
-    ![](/help/assets/screenshot2028115629.png)
+    1.  Open AEM Forms management interface, for example, `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`, and select the form.
     
-    The success message is displayed.
+    1.  Click **Publish**.
 
-    ![](/help/assets/screenshot2028115729.png)
+        ![](/help/assets/screenshot2028115629.png)
+    
+        The success message is displayed.
 
-    The publish URL of the form would be similar to `https://publish-p105303-e986623.adobeaemcloud.com/content/forms/af/registration.html`.
+        ![](/help/assets/screenshot2028115729.png)
 
-1.  To view the published form replace the program ID (pXXXXXX) and environment ID (eXXXXXX) in the above URL with ID's of your
+        The publish URL of the form would be similar to `https://publish-p105303-e986623.adobeaemcloud.com/content/forms/af/registration.html`.
+
+    1.  To view the published form replace the program ID (pXXXXXX) and environment ID (eXXXXXX) in the above URL with ID's of your
     environment.
 
 ## Lesson 3
@@ -191,7 +175,7 @@ Set up local repository of the theme:
 
 1.  Open the Command Prompt or shell with administrator rights:
 
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to **c:\git** folder
     
@@ -223,15 +207,15 @@ Set up local repository of the theme:
 
 1.  Select **Trust the authors of all files in the parent folder** and click **Yes, I trust the authors**.
 
-    ![](/help/assets/screenshot2028116229.png)
+    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
 1.  To render the form hosted on your cloud service publish environment, rename the `env_template` file.  To rename the file, right click the **env_template** file and select the **Rename** option.
 
-    ![](/help/assets/screenshot2028116429.png)
+    ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
      </br>
 
-    ![](/help/assets/screenshot2028116529.png)
+    ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
 
 1.  Set the following values for the variables in .env file and save the file:
 
@@ -239,7 +223,7 @@ Set up local repository of the theme:
     
     *   **AEM_ADAPTIVE_FORM**: Specify the path of the form. For example, if the form path is `/content/forms/af/registration`, the value of this variable would be `registration`.
 
-    ![](/help/assets/screenshot2028116429.png)
+        ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
     
 
 1.  In the Command Prompt window, run the following command:
@@ -274,12 +258,12 @@ Set up local repository of the theme:
     >If you experience a blank screen in browser after executing the `npm run live` command for more than 3-4 minutes, change `localhost` in browser URL to 127.0.0.1 and hit **Enter**. 
 
     
-    ![](/help/assets/screenshot2028115129.png)
+    ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
 
 
 1.  In Visual Studio Code, open the `PROJECT\src\site\_variables.scss` file. Notice the `$error` color is a shade of RED.
 
-    ![](/help/assets/screenshot2028120729.png)
+    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
 1.  In the browser, submit the form to see the Red color in the **First Name** field.
 
@@ -287,7 +271,7 @@ Set up local repository of the theme:
 
 1.  Set the **$error** color to **#5736eb** and save the file. 
 
-    ![](/help/assets/screenshot2028120729.png)
+    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
 1.  Refresh the browser and submit the form. Notice error color on the first name field has changed accordingly.
     
@@ -312,7 +296,7 @@ Setup local repository using react starter project:
 
 1.  Open the Command Prompt using administrator rights.
 
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 1.  On the Command Prompt, use the following command to navigate to **c:\git** folder
 
@@ -347,13 +331,13 @@ Setup local repository using react starter project:
 
     The Visual Studio Code window opens.
 
-    ![](/help/assets/screenshot2028117429.png)
+    ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
 
 To render the form hosted on your cloud service publish environment:
 
 1.  Rename the env_template file to .env file. To rename, right-click the **env_template** file and select the **Rename** option. 
     
-    ![](/help/assets/screenshot2028117629.png)
+    ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
     
     ![](/help/assets/screenshot2028117729.png)
 
@@ -409,9 +393,8 @@ Let's make changes on the form on the server as a business user and view changes
 
 1.  Open the AEM Forms management interface in the browser. For example, [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments).
 
-1.  Select the **registration** form and click **Edit.** It opens the form in the adaptive forms editor.
+1.  Select the **contactus** form and click **Edit.** It opens the form in the adaptive forms editor.
 
-    ![](/help/assets/screenshot2028118529.png)
 
 1.  Select the **Phone number** field and click the **Edit icon (Pencil icon)** in the toolbar. If you are not able to see the pop up toolbar, switch to Edit mode by clicking **Edit** button in top right, left to **Preview** button.
 
@@ -425,25 +408,11 @@ Let's publish the updated form to propagate the changes to publish environment.
 
 1.  In the AEM Forms management interface tab, select the registration form, and click **Unpublish**. If you do not see the **Unpublish** button, skip to step 3 to publish the changes directly.
 
-      ![](/help/assets/screenshot2028119829.png)
-
 1.  Click **Unpublish**. Click **Close** in respective dialog.
     
-    ![](/help/assets/screenshot2028119929.png)
-
-    ![](/help/assets/screenshot2028120029.png)
-
-
 1.  After the browser refreshes, select the registration form and click **Publish**.
 
-    ![](/help/assets/screenshot2028120129.png)
-
-
 1.  Click **Publish**. Click **Close** in the respective dialog.
-
-    ![](/help/assets/screenshot2028120329.png)
-    
-    ![](/help/assets/screenshot2028120429.png)
 
 1.  Refresh the browser tab with the headless form displayed. Notice, the Phone number label has changed to Mobile number.
 
@@ -471,7 +440,7 @@ Setup local repository using Material UI starter project:
 
 1.  Open the Command Prompt using administrator rights.
     
-    ![](/help/assets/screenshot2028115829.png)
+    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
 
 1.  On the Command Prompt, use the following command to navigate to **c:\git** folder:
@@ -496,7 +465,7 @@ Setup local repository using Material UI starter project:
 
     ```Shell
 
-    git clone -b mui https://github.com/adobe/react-starter-kit-aem-headless-forms
+    git clone -b mui-lab https://github.com/adobe/react-starter-kit-aem-headless-forms
 
     ```
 
@@ -518,7 +487,7 @@ To render the form hosted on your cloud service publish environment:
 
 1.  Rename the **env_template** file to **.env** file. To rename, right-click the **env_template** file and select **Rename**.
 
-    ![](/help/assets/screenshot2028126629.png)
+    ![](/help/assets/screenshot2028126629.png){width="50%" align="left"}
 
 1.  Set the following values for the variables in the .env file. After updating variables, save the file. Use the **CTRL + S** switch combination to save the file. 
 
@@ -561,7 +530,7 @@ To render the form hosted on your cloud service publish environment:
 
     Select **Check the box to receive 5% off**. The subsequent option **Would you like to apply for We.Finance Corporate Credit Card Form?** gets disabled.
 
-    ![](/help/assets/screenshot2028127329.png)
+    ![](/help/assets/screenshot2028127329.png){width="50%" align="left"}
 
 ## Lesson 6
 
@@ -611,7 +580,7 @@ Update the variation of components in the headless project. To change the varian
     This change happens for end users without any change to form definition at AEM Forms Server and is specific for the headless
     channel under consideration. For example, web channel in this lab.
     
-    ![](/help/assets/screenshot2028127529.png)
+    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
 
 
 1.  Close Visual Studio Code and Command Prompt Windows.

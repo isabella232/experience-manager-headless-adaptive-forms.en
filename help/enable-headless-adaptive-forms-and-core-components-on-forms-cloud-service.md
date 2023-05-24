@@ -40,7 +40,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     
 1.  Log in to [Cloud Manager](https://my.cloudmanager.adobe.com/) and select your organization and program.
 
-1.  Navigate to the **Pipelines** card from your **Program Overview** page, Click the **Access Repo Info** button to access and manage your Git Repository.
+1.  Navigate to the **Pipelines** card from your **Program Overview** page, click the **Access Repo Info** button to access and manage your Git Repository. The page includes the following information:
 
     * URL to the Cloud Manager Git Repository.
     * Credentials of the Git Repository (Username and Password) Git username.
@@ -62,16 +62,24 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
 1.  Open your Git Repository folder in a plain text code editor. For example, VS Code.
 1.  Open the `[AEM Repository Folder]\pom.xml` file for editing.
-1.  Add the following properties to the  `<properties>` section and save it. Replace versions of the `core.forms.components` and `core.wcm.components` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components).
+1.  Replace versions of the `core.forms.components` and `core.wcm.components` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components). If the component does not exist, add these components. 
         
     ```XML
 
-        <properties>
-            <core.forms.components.version>2.0.4</core.forms.components.version> <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
-            <core.wcm.components.version>2.21.2</core.wcm.components.version>
-        </properties>
+    <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
+
+    <properties>
+        <core.forms.components.version>2.0.14</core.formscomponents.version> 
+        <core.wcm.components.version>2.21.2</core.wcmcomponents.version>
+    </properties>
+
+    
 
     ```
+
+    ![](/help/assets/component-version.png)
+
+    
 
 1.  In the dependencies section of the `[AEM Repository Folder]\pom.xml` file, add the following dependencies, and save the file.
 
@@ -136,71 +144,84 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
     ```
 
-1.  Open the `[AEM Repository Folder]/all/pom.xml` file for editing. Add the following dependencies in the `embedded` section and save the file.
+1.  Open the `[AEM Repository Folder]/all/pom.xml` file for editing. Add the following dependencies in the `<embeddeds>` section and save the file.
 
     ```XML
 
-        <!-- WCM Core Component Examples Dependencies -->
+    <!-- WCM Core Component Examples Dependencies -->
 
-            <!-- inside plugin config of filevault-package-maven-plugin -->  
-            <!-- embed wcm core components examples artifacts -->
+    <!-- inside plugin config of filevault-package-maven-plugin -->  
+    <!-- embed wcm core components examples artifacts -->
 
-            <embedded>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.examples.ui.apps</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/content/install</target>
-            </embedded>
-            <embedded>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.examples.ui.content</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/content/install</target>
-                </embedded>
-            <embedded>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.examples.ui.config</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/content/install</target>
-            </embedded>
-            <!-- embed forms core components artifacts -->
-            <embedded>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>core-forms-components-af-apps</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/application/install</target>
-                </embedded>
-            <embedded>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>core-forms-components-af-core</artifactId>
-            <target>/apps/${appId}-vendor-packages/application/install</target>
-                </embedded>
-            <embedded>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>core-forms-components-examples-apps</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/content/install</target>
-            </embedded>
-            <embedded>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>core-forms-components-examples-content</artifactId>
-            <type>zip</type>
-            <target>/apps/${appId}-vendor-packages/content/install</target>
-            </embedded>
+    <embedded>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples.ui.apps</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/content/install</target>
+    </embedded>
+    <embedded>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples.ui.content</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/content/install</target>
+    </embedded>
+    <embedded>
+        <groupId>com.adobe.cq</groupId>
+        <artifactId>core.wcm.components.examples.ui.config</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/content/install</target>
+    </embedded>
+    <!-- embed forms core components artifacts -->
+    <embedded>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>core-forms-components-af-apps</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/application/install</target>
+    </embedded>
+    <embedded>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>core-forms-components-af-core</artifactId>
+        <target>/apps/${appId}-vendor-packages/application/install</target>
+    </embedded>
+    <embedded>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>core-forms-components-examples-apps</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/content/install</target>
+    </embedded>
+    <embedded>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>core-forms-components-examples-content</artifactId>
+        <type>zip</type>
+        <target>/apps/${appId}-vendor-packages/content/install</target>
+    </embedded>
 
     ```
 
     >[!NOTE]
     >
-    >  Replace ${appId} with the appId of your Git Repository.
+    >
+    >  Replace `${appId}` with your appId. 
+    >
+    >  To find your `${appId}`, in the `[AEM Repository Folder]/all/pom.xml` file, search the `-packages/application/install` term. The text before the `-packages/application/install` term is your `${appId}`. For example, the following code, `myheadlessform` is `${appId}`. 
+    >
+    >   ```XML
+    >        
+    >        <embedded>
+    >            <groupId>com.myheadlessform</groupId>
+    >            <artifactId>myheadlessform.ui.apps<artifactId>
+    >            <type>zip</type>
+    >           <target>/apps/myheadlessform-packages/application install</target>
+    >        </embedded>
+    >   ```
 
-1.  In the dependencies section of the `[AEM Repository Folder]/all/pom.xml` file, add the following dependencies, and save the file:
+1.  In the `<dependencies>` section of the `[AEM Repository Folder]/all/pom.xml` file, add the following dependencies, and save the file:
 
     ```XML
 
             <!-- Other existing dependencies -->
             <!-- wcm core components examples dependencies -->
-                <dependency>
+            <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.examples.ui.apps</artifactId>
                 <type>zip</type>
@@ -234,20 +255,6 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
     ```
 
-    >[!NOTE]
-    >
-    >  Replace `${appId}` with the appId of your archetype. To find the `${appId}`, in your `[AEM Repository Folder]/all/pom.xml` search the `-packages/application/install` term. The text before the `-packages/application/install` term is your `${appId}`. For example, the following code, `myheadlessform` is `${appId}`. 
-    >
-    >   ```XML
-    >        
-    >        <embedded>
-    >            <groupId>com.myheadlessform</groupId>
-    >            <artifactId>myheadlessform.ui.apps</artifactId>
-    >            <type>zip</type>
-    >           <target>/apps/myheadlessform-packages/application install</target>
-    >        </embedded>
-    >   ```
-
 1.  Open the `[AEM Repository Folder]/ui.apps/pom.xml` for editing. Add the `af-core bundle` dependency, and save the file.
     
     ```XML
@@ -280,7 +287,18 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     > `</dependency>`
 
 
-## 3. Commit the updates to your Git Repository and run pipeline to deploy the repository {#Commit-the-updates-to-your-git-repository}
+1.  Save and close the file. 
+
+## 3.  Update project to include latest version of Forms Core Components: 
+
+1.  Open the [AEM Archetype Project Folder]/pom.xml for editing. 
+1.  Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
+     
+    ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
+
+1.  Save and close the file.  
+
+## 4. Commit the updates to your Git Repository and run pipeline to deploy the repository {#Commit-the-updates-to-your-git-repository}
 
 1.  To commit code to your Git Repository:
     1.  Open the terminal or command prompt. 

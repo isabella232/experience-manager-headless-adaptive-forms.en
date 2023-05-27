@@ -1,15 +1,15 @@
 ---
 title: Enable Headless Adaptive Forms on AEM Forms as a Cloud Service
 seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM Forms as a Cloud Service
-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.   
-seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.  
+description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
+seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
 contentOwner: Khushwant Singh
 docset: CloudService
 role: Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 7c545ca6-cb2d-4d28-b9e8-b6efe3faee00
 ---
-
 # Enable Headless Adaptive Forms on AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
 Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Headless Forms using your AEM Forms Cloud Service instances to multiple channels. You require Adaptive Forms Core Components enabled environment to use Headless Adaptive Forms.
@@ -351,4 +351,3 @@ To check that Adaptive Forms Core Components are enabled for your environment:
     ![locate the core-forms-components-af-core artifact in all/pom.xml](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service-locate-core-af-artifact.png)
 
     If the dependencies exist, Adaptive Forms Core Components are enabled for your environment.
-

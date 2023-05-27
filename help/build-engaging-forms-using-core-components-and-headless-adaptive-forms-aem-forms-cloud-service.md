@@ -6,8 +6,8 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 hide: yes
 hidefromtoc: yes
+exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
 ---
-
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Lab Overview {#lab-overview}
@@ -634,5 +634,3 @@ Now that you have learned how to build adaptive forms and deliver them to multip
 *   [Headless adaptive forms](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=en)
 
 *   [Using Headless React starter kit](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=en)
-
-

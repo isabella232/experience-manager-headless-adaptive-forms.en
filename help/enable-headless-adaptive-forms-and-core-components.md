@@ -1,12 +1,12 @@
 ---
 title: Enable Headless Adaptive Forms on AEM 6.5 Forms
 seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM 6.5 Forms
-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.  
-seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.  
+description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
+seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
+exl-id: c5a7dee1-b177-4461-b9bd-af40ef59ad80
 ---
-
 # Enable Headless Adaptive Forms on AEM 6.5 Forms {#enable-headless-adaptive-forms-on-aem-65-forms}
 
 To enable Headless Adaptive Forms on your AEM 6.5 Forms environment, set up an AEM Archetype 41 or later based project and deploy it to all of your Author and Publish instances. 

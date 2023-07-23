@@ -1,6 +1,11 @@
 ---
 title: AEM Headless adaptive forms overview
 description: AEM Forms Headless Adaptive Forms provide a fast and efficient way to create forms for various platforms including Headless or Headful CMS, React applications, Single Page Applications (SPA), Web Apps, Mobile apps, Amazon Alexa, Google Assistant, WhatsApp, and more. With Headless Adaptive Forms, you can streamline the process of building forms, making it easier to collect data from your users across different devices and platforms.
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
 hide: no
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc

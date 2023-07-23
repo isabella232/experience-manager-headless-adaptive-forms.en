@@ -2,6 +2,11 @@
 title: Headless Adaptive Forms Troubleshooting
 description: Headless Adaptive Forms Troubleshooting
 keywords: headless, adaptive form, Troubleshooting
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 hide: no
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
 ---

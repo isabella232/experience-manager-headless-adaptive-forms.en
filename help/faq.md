@@ -1,6 +1,11 @@
 ---
 title: Frequently asked questions
 description: Frequently asked questions
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 keywords: headless, adaptive form, FAQ
 hide: no
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710

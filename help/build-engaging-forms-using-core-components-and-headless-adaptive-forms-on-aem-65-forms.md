@@ -3,6 +3,11 @@ title: Build Engaging Forms Using Core Components and Headless
 seo-title: Build Engaging Forms Using Core Components and Headless
 description: Build Engaging Forms Using Core Components and Headless
 seo-description: Build Engaging Forms Using Core Components and Headless
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 topic-tags: develop
 hide: yes
 exl-id: 46df943c-0622-4b3b-a802-85c39ac6a734

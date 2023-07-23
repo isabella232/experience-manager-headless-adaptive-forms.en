@@ -3,9 +3,13 @@ title: Enable Headless Adaptive Forms on AEM Forms as a Cloud Service
 seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM Forms as a Cloud Service
 description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
 seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin
+level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
-role: Admin
 hide: yes
 hidefromtoc: yes
 exl-id: 7c545ca6-cb2d-4d28-b9e8-b6efe3faee00

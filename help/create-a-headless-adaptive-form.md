@@ -1,6 +1,11 @@
 ---
 title: Create a Headless adaptive form using Adaptive Forms editor
 description: Create a Headless adaptive form using Adaptive Forms editor
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 hide: no
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 ---

@@ -1,6 +1,11 @@
 ---
 title: Create and Publish a Headless Form with Adobe Experience Manager Adaptive Forms | Step-by-Step Guide
 description: Learn how to create and publish a headless form using Adobe Experience Manager's adaptive forms in this step-by-step guide. Discover the benefits of going headless and streamline your form creation process today. Start building dynamic, responsive forms that work seamlessly across devices with Adobe Experience Manager Headless Adaptive Forms.
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
 hide: no
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---

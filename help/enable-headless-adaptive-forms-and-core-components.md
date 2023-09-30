@@ -5,7 +5,7 @@ description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with o
 seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
-exl-id: c5a7dee1-b177-4461-b9bd-af40ef59ad80
+exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
 ---
 # Enable Headless Adaptive Forms on AEM 6.5 Forms {#enable-headless-adaptive-forms-on-aem-65-forms}
 

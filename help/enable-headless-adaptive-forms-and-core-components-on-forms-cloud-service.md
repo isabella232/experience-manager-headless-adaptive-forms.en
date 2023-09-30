@@ -12,7 +12,7 @@ contentOwner: Khushwant Singh
 docset: CloudService
 hide: yes
 hidefromtoc: yes
-exl-id: 7c545ca6-cb2d-4d28-b9e8-b6efe3faee00
+exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
 ---
 # Enable Headless Adaptive Forms on AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 

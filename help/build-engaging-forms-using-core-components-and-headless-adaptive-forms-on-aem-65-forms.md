@@ -10,7 +10,7 @@ role: Admin, Developer
 level: Beginner, Intermediate
 topic-tags: develop
 hide: yes
-exl-id: 46df943c-0622-4b3b-a802-85c39ac6a734
+exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
 ---
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM 6.5 Forms {#build-engaging-forms-using-core-components-and-headless}
 

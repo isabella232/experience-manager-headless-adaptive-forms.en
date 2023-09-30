@@ -6,7 +6,7 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 hide: yes
 hidefromtoc: yes
-exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
+exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 ---
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 

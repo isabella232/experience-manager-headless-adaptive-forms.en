@@ -31,6 +31,9 @@ Any front-end developer familiar with modern JavaScript frameworks can use Headl
 
 You require no prior knowledge of Adobe Experience Manager to develop Headless adaptive forms.
 
+<!-- 
 ## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
 The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
+
+-->

@@ -28,13 +28,13 @@ How to use AEM Forms to easily create adaptive forms using the latest core compo
 
 To use this hands on lab:
 
-*   Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-*   Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-*   [Enable Headless Adaptive Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) for your AEM Forms as a Cloud Service environment.
+* [Enable Adaptive Forms Core Components](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) for your AEM Forms as a Cloud Service environment.
 
-*   Install [Microsoft Visual Studio Code](https://code.visualstudio.com/download) or any plain text editor. Examples in document make use of Microsoft Visual Studio Code. 
+* Install [Microsoft Visual Studio Code](https://code.visualstudio.com/download) or any plain text editor. Examples in document make use of Microsoft Visual Studio Code. 
 
 
 

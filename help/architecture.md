@@ -7,6 +7,7 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless, adaptive form, architecture
+Applies to: Adaptive Forms, Core Components
 hide: no
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
 ---

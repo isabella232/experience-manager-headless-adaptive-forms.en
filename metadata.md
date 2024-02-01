@@ -7,6 +7,7 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-headless-adaptive-forms.en
 feature-set: Experience Manager Forms
 hide: yes
+recommendations: noDisplay
 ---
 
 # Metadata for internal use

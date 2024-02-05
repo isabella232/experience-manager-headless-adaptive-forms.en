@@ -78,9 +78,9 @@ In this lesson, as a business user, you will author an adaptive form for multipl
 1.  Create a submission endpoint for the form:
 
     1.  Open <https://requestbin.com/> in a new browser tab.
+    1.  Click **Create a public bin** and copy the endpoint URL.
         ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-    1.  Click **Create a public bin** and copy the endpoint URL.
         ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1.  Author an adaptive form using the Wizard interface:
@@ -97,8 +97,7 @@ In this lesson, as a business user, you will author an adaptive form for multipl
     1.  Click the **Style** tab and select the **wknd-theme** theme as shown below:
     ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-    1.  Click the **Submission** tab and select the **Submit to REST end-point** card and specify the public bin in the
-    **URL for the POST request** field as shown below:
+    1.  Click the **Submission** tab and select the **Submit to REST end-point** card and specify the public bin in the **URL for the POST request** field as shown below:
     ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
     1.  Click **Create**. Specify a name and title to your form. For example, **registration**. Click **Create**.
@@ -109,10 +108,6 @@ In this lesson, as a business user, you will author an adaptive form for multipl
     1.  Drag and drop components from the Components browser to create a form, similar to the following:
 
         ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1.  Add validations to form:
 
@@ -244,7 +239,7 @@ Set up local repository of the theme:
 
     >[!NOTE]
     >
-    > * If you get a message asking to update npm via the `npm notice Run npm nstall -g npm@9.6.0`command, ignore the message.
+    > * If you get a message asking to update npm via the `npm notice Run npm nstall -g npm@9.6.0` command, ignore the message.
     > * Do not run other npm commands unless instructed in the workbook.
 
 1.  Now run the following command to preview the form.

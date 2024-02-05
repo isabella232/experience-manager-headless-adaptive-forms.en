@@ -4,8 +4,6 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Build Engaging Forms Using Core Components and Headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: yes
-hidefromtoc: yes
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 ---
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
@@ -53,11 +51,12 @@ In this lesson, you familiarize yourself with AEM Forms as a Cloud Service envir
 1.  Open your browser and enter the URL of the Cloud Service author environment. For example:
     [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1.  Log in to the Cloud Service author environment.  
+1.  Log in to the Cloud Service author environment. 
+    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1.  To navigate to the AEM Forms UI, click **Forms > Forms & Documents**.
 
-    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
     ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 

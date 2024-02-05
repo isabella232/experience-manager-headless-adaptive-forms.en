@@ -4,8 +4,6 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Build Engaging Forms Using Core Components and Headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: yes
-hidefromtoc: yes
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 ---
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
@@ -30,7 +28,7 @@ To use this hands on lab:
 
 * Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Enable Adaptive Forms Core Components](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) for your AEM Forms as a Cloud Service environment.
 
@@ -53,11 +51,12 @@ In this lesson, you familiarize yourself with AEM Forms as a Cloud Service envir
 1.  Open your browser and enter the URL of the Cloud Service author environment. For example:
     [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1.  Log in to the Cloud Service author environment.  
+1.  Log in to the Cloud Service author environment. 
+    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1.  To navigate to the AEM Forms UI, click **Forms > Forms & Documents**.
 
-    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
     ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -224,6 +223,13 @@ Set up local repository of the theme:
     *   **AEM_ADAPTIVE_FORM**: Specify the path of the form. For example, if the form path is `/content/forms/af/registration`, the value of this variable would be `registration`.
 
         ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+
+1. Create a local user in AEM environment.
+
+    >[!NOTE]
+    > To create a local user:
+    > Go to `AEM Home` > `Tools` > `Security` > `Users` 
+    > Ensure that user is a member of the forms-users group.
     
 
 1.  In the Command Prompt window, run the following command:
@@ -251,7 +257,10 @@ Set up local repository of the theme:
     
     ![](/help/assets/screenshot2028117229.png)
 
-    Once the above command is executed, wait for the `webpack compiled` message. The form is displayed in a browser tab.
+    Once the above command is executed, wait for the `webpack compiled` message and you are redirected to a AEM login page.
+    
+1. Click **Sign in Locally (Admin Tasks only)** on the AEM login page.
+1. Enter the credentials for the created local user and the form is displayed in a browser tab.
 
     >[!NOTE]
     >

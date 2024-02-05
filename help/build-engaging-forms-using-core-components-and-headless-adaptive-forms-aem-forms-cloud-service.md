@@ -30,7 +30,7 @@ To use this hands on lab:
 
 * Install the [latest release of Git](https://git-scm.com/downloads). If you are new to Git, see [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Install [Node.js 16.13.0 or later](https://nodejs.org/en/download/). If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Enable Adaptive Forms Core Components](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) for your AEM Forms as a Cloud Service environment.
 
@@ -224,6 +224,13 @@ Set up local repository of the theme:
     *   **AEM_ADAPTIVE_FORM**: Specify the path of the form. For example, if the form path is `/content/forms/af/registration`, the value of this variable would be `registration`.
 
         ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+
+1. Create a local user in AEM environment.
+
+    >[!NOTE]
+    > To create a local user:
+    > Go to `AEM Home` > `Tools` > `Security` > `Users` 
+    > Ensure that user is a member of the forms-users group.
     
 
 1.  In the Command Prompt window, run the following command:
@@ -251,7 +258,10 @@ Set up local repository of the theme:
     
     ![](/help/assets/screenshot2028117229.png)
 
-    Once the above command is executed, wait for the `webpack compiled` message. The form is displayed in a browser tab.
+    Once the above command is executed, wait for the `webpack compiled` message and you are redirected to a AEM login page.
+    
+1. Click **Sign in Locally (Admin Tasks only)** on the AEM login page.
+1. Enter the credentials for the created local user and the form is displayed in a browser tab.
 
     >[!NOTE]
     >

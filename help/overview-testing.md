@@ -29,7 +29,7 @@ In addition, you have the freedom to develop your own components to render a for
 
 <table style="width:100%;">
   <tr>
-    <td style="width:33.333%;">
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
@@ -38,7 +38,7 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:33.333%;">
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
@@ -47,7 +47,9 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:33.333%;">
+  </tr>
+  <tr>
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
@@ -56,9 +58,7 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-  </tr>
-  <tr>
-    <td style="width:33.333%;">
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
@@ -68,7 +68,9 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:33.333%;">
+  </tr>
+  <tr>
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/05-overview-analytics.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
@@ -77,7 +79,7 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:33.333%;">
+    <td style="width:50%;">
       <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/06-overview-business-process.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">

@@ -151,6 +151,29 @@ In addition, you have the freedom to develop your own components to render a for
 </div>
 
 
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Image 1" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 1</h2>
+        <p>Description 1</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Image 2" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 2</h2>
+        <p>Description 2</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Image 3" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 3</h2>
+        <p>Description 3</p>
+    </div>
+    <!-- Add more cards as needed -->
+</div>
+
+
+
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}
  
 Any front-end developer familiar with modern JavaScript frameworks can use Headless adaptive forms. Developers can leverage their existing expertise in frontend languages like React to create beautiful enterprise-class data capture experiences. 

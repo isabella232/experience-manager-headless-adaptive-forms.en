@@ -30,7 +30,7 @@ In addition, you have the freedom to develop your own components to render a for
 <table style="width:100%;">
   <tr>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px;">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px;">
         <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Responsive Forms</h2>
@@ -39,7 +39,7 @@ In addition, you have the freedom to develop your own components to render a for
       </div>
     </td>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Communication API</h2>
@@ -48,7 +48,7 @@ In addition, you have the freedom to develop your own components to render a for
       </div>
     </td>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Business Process Management</h2>
@@ -59,7 +59,7 @@ In addition, you have the freedom to develop your own components to render a for
   </tr>
   <tr>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Save and resume forms</h2>
@@ -68,7 +68,7 @@ In addition, you have the freedom to develop your own components to render a for
       </div>
     </td>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
@@ -78,7 +78,7 @@ In addition, you have the freedom to develop your own components to render a for
       </div>
     </td>
       <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
@@ -90,7 +90,7 @@ In addition, you have the freedom to develop your own components to render a for
   </tr>
   <tr>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/05-overview-analytics.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Form analytics and reporting</h2>
@@ -99,7 +99,7 @@ In addition, you have the freedom to develop your own components to render a for
       </div>
     </td>
     <td style="width:33.33%;">
-      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; ">
+      <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
         <img src="/help/assets/06-overview-business-process.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Business Process Management</h2>

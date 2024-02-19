@@ -27,11 +27,13 @@ In addition, you have the freedom to develop your own components to render a for
 
 ## Key Features
 
+<!-- 
+
 <table style="width:100%;">
   <tr>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px;">
-        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Responsive Forms</h2>
           <p>The adaptive form feature enables you to create a single source for a form that automatically sizes and re-flows on mobile devices.</p>
@@ -40,7 +42,7 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Communication API</h2>
           <p>The adaptive form feature enables you to create a single source for a form that automatically sizes and re-flows on mobile devices.</p>
@@ -49,7 +51,7 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
+        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Card Image 2" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Business Process Management</h2>
           <p>Integrate RDBMS, OData, Or Microsoft SOAP services, as well as protocols like Swagger 2.0 to connect to just about anything.</p>
@@ -60,7 +62,7 @@ In addition, you have the freedom to develop your own components to render a for
   <tr>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
+        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Card Image 3" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Save and resume forms</h2>
           <p>Allow clients to save in-progress forms and return later to complete them, even on another device.</p>
@@ -69,7 +71,7 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
           <p>Let customers easily find relevant forms based on a simple search query, tags, filters, and even geolocation — on any device through a personalized portal, with or without authentication.
@@ -79,7 +81,7 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
       <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
           <p>Let customers easily find relevant forms based on a simple search query, tags, filters, and even geolocation — on any device through a personalized portal, with or without authentication.
@@ -91,7 +93,7 @@ In addition, you have the freedom to develop your own components to render a for
   <tr>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/05-overview-analytics.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
+        <img src="/help/assets/05-overview-analytics.jpeg" alt="Card Image 2" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Form analytics and reporting</h2>
           <p>Out-of-the-box, customizable dashboards make it easy to apply analytics to forms to gain insight for actionable areas of improvement.</p>
@@ -100,7 +102,7 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
     <td style="width:33.33%;">
       <div style="width: 250px; border: 1px solid #ccc; border-radius: 8px; ">
-        <img src="/help/assets/06-overview-business-process.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
+        <img src="/help/assets/06-overview-business-process.jpeg" alt="Card Image 3" style="width:33.33; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Business Process Management</h2>
           <p>Route application submissions through customized workflows and a centralized dashboard for review, approval, and digital signatures by back-office employees — even when employees are on the go on a mobile device.
@@ -110,6 +112,43 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
   </tr>
 </table>
+
+-->
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Icon 1" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 1</h2>
+        <p>Description 1</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Icon 2" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 2</h2>
+        <p>Description 2</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Icon 3" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 3</h2>
+        <p>Description 3</p>
+    </div>
+        <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/04-overview-search.jpeg" alt="Icon 1" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 1</h2>
+        <p>Description 1</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/05-overview-analytics.jpeg" alt="Icon 2" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 2</h2>
+        <p>Description 2</p>
+    </div>
+    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+        <img src="/help/assets/06-overview-business-process.jpeg" alt="Icon 3" style="width: 50px; height: 50px;">
+        <h2 style="margin-top: 10px;">Heading 3</h2>
+        <p>Description 3</p>
+    </div>
+    <!-- Add more cards as needed -->
+</div>
 
 
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}

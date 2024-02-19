@@ -29,8 +29,8 @@ In addition, you have the freedom to develop your own components to render a for
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Responsive Forms</h2>
@@ -38,28 +38,47 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <div style="padding: 20px;">
+          <h2 style="margin-top: 0;">Communication API</h2>
+          <p>The adaptive form feature enables you to create a single source for a form that automatically sizes and re-flows on mobile devices.</p>
+        </div>
+      </div>
+    </td>
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
-          <h2 style="margin-top: 0;">Back-end systems</h2>
+          <h2 style="margin-top: 0;">Business Process Management</h2>
           <p>Integrate RDBMS, OData, Or Microsoft SOAP services, as well as protocols like Swagger 2.0 to connect to just about anything.</p>
         </div>
       </div>
     </td>
   </tr>
   <tr>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
-          <h2 style="margin-top: 0;">Save and resume across channels</h2>
+          <h2 style="margin-top: 0;">Save and resume forms</h2>
           <p>Allow clients to save in-progress forms and return later to complete them, even on another device.</p>
         </div>
       </div>
     </td>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+        <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
+        <div style="padding: 20px;">
+          <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
+          <p>Let customers easily find relevant forms based on a simple search query, tags, filters, and even geolocation — on any device through a personalized portal, with or without authentication.
+          </p>
+        </div>
+      </div>
+    </td>
+      <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/04-overview-search.jpeg" alt="Card Image 1" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Forms Search and Discovery</h2>
@@ -70,8 +89,8 @@ In addition, you have the freedom to develop your own components to render a for
     </td>
   </tr>
   <tr>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/05-overview-analytics.jpeg" alt="Card Image 2" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Form analytics and reporting</h2>
@@ -79,8 +98,8 @@ In addition, you have the freedom to develop your own components to render a for
         </div>
       </div>
     </td>
-    <td style="width:50%;">
-      <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
+    <td style="width:33.33%;">
+      <div style="width: 200px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 10px;">
         <img src="/help/assets/06-overview-business-process.jpeg" alt="Card Image 3" style="width: 100%; height: auto;">
         <div style="padding: 20px;">
           <h2 style="margin-top: 0;">Business Process Management</h2>

@@ -26,16 +26,9 @@ Headless adaptive forms help you:
 
 In addition, you have the freedom to develop your own components to render a form using any UI framework and programming language of your choice. You can also use React components available out-of-the-box to render a Headless adaptive form.
 
-## Key Features
-
-<div>
-    
-<iframe src="https://new.express.adobe.com/published/urn:aaid:sc:AP:8043685e-6c54-471a-a2ee-b8fcd357668f?promoid=Y69SGM5H&mv=other" style="width:100%; height:100vh; border:none;"></iframe>
-
-</div>
-
-
 <!-- 
+
+## Key Features
 
 <table style="width:100%;">
   <tr>
@@ -121,7 +114,7 @@ In addition, you have the freedom to develop your own components to render a for
   </tr>
 </table>
 
--->
+
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
@@ -180,7 +173,7 @@ In addition, you have the freedom to develop your own components to render a for
     <!-- Add more cards as needed -->
 </div>
 
-
+-->
 
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}
  

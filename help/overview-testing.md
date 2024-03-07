@@ -9,6 +9,7 @@ level: Beginner, Intermediate
 keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
 hide: yes
 hidefromtoc: yes
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
 ---
 # Introduction
 
